@@ -92,6 +92,14 @@
 	"buffers":
 	[
 		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 126,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "dissertation.todo",
 			"settings":
 			{
@@ -115,10 +123,86 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 137.0,
-		"last_filter": "packa insta",
+		"height": 115.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"citr",
+				"Citer: Show All"
+			],
+			[
+				"academ",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"show",
+				"Citer: Show All"
+			],
+			[
+				"search",
+				"Citer: Search"
+			],
+			[
+				"citebi",
+				"CiteBibTeX: Extract citations in current file"
+			],
+			[
+				"citer",
+				"Citer: Show All"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"prewview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
 			[
 				"packa insta",
 				"Package Control: Install Package"
@@ -126,14 +210,6 @@
 			[
 				"packag",
 				"Package Control: Upgrade Package"
-			],
-			[
-				"preview",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"markdown",
-				"Set Syntax: Markdown"
 			],
 			[
 				"prewiew",
@@ -146,10 +222,6 @@
 			[
 				"update",
 				"Package Control: Upgrade/Overwrite All Packages"
-			],
-			[
-				"prewview",
-				"Markdown Preview: Preview in Browser"
 			],
 			[
 				"bash",
@@ -192,10 +264,6 @@
 				"Set Syntax: R"
 			],
 			[
-				"pandoc",
-				"Pandoc"
-			],
-			[
 				"pan",
 				"Pandoc: Render Markdown DocX"
 			],
@@ -218,10 +286,6 @@
 			[
 				"pando",
 				"Pandoc: Render Markdown DocX"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"pand",
@@ -292,10 +356,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"pack",
-				"Preferences: Browse Packages"
-			],
-			[
 				"perl",
 				"Set Syntax: Perl"
 			]
@@ -333,7 +393,20 @@
 	],
 	"file_history":
 	[
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Citer.sublime-settings",
 		"/Users/mike/Work.bio/projects/dissertation/outline.md",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/CiteBibtex.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/AcademicMarkdown.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/AcademicMarkdown/AcademicMarkdown.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/SmartMarkdown/SmartMarkdown.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/SmartMarkdown.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/Pandoc/Pandoc.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Pandoc.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/mike/Work.bio/projects/dissertation/temp.bib",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/CiteBibtex/Default.sublime-keymap",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/CiteBibtex/CiteBibtex.sublime-settings",
 		"/Users/mike/Downloads/153L - Lab 9 Grades.mdown",
 		"/Users/mike/Work.bio/projects/gro.combination/results/150527_gmeet.md",
 		"/Users/mike/Work.bio/projects/gro.combination/readme.md",
@@ -424,9 +497,6 @@
 		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/nascent_counts/lane01_gene.counts",
 		"/Users/mike/Work.bio/projects/project_overviews.mdown",
 		"/Users/mike/Work.bio/projects/gro.combination/150107_outline.docx",
-		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Pandoc.sublime-settings",
-		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/Pandoc/Pandoc.sublime-settings",
-		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
 		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
 		"/Users/mike/Work.bio/projects/gro.combination/141211.chip_rna_nascent_integration/nascent_metadata.txt",
 		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/r_section.sublime-snippet",
@@ -450,21 +520,11 @@
 		"/Users/mike/Work.bio/projects/al.gro.chip_run1/readme.mdown",
 		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141022.macs2_output_comparison/local.sh",
 		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141022.macs2_output_comparison/local.R",
-		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141014.R_wig_bed_overlap_testing/peakCovCompare.R",
-		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/R-Box/README.md",
-		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141022.macs2_output_comparison/local.1.log",
-		"/Users/mike/Work.bio/projects/al.gro.chip_run1/140905.manorm/index14/MAnorm_result_commonPeak_merged.xls",
-		"/Users/mike/Work.bio/projects/al.gro.chip_run1/140904.macs2_no_ctrl/macs2_run.sh",
-		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141002.phantompeak/phantom.results",
-		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141014.R_wig_bed_overlap_testing/peakcovcompare_rds/spp_2_3.rds",
-		"/Users/mike/Work.bio/projects/al.gro.chip_run1/140905.manorm/index14/sample1_peaks.wig",
-		"/Users/mike/Work.bio/projects/al.gro.chip_run1/todo.mdown",
-		"/Users/mike/Work.bio/projects/mike.nascent/140930.bam_metrics/all_tophat_summary.txt",
-		"/Users/mike/Work.bio/projects/mike.nascent/140930.counts/140930.counts.R"
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141014.R_wig_bed_overlap_testing/peakCovCompare.R"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -479,6 +539,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\n	",
 			"	* -1 adh1 tetramer\n",
 			"<<",
 			"sqlite",
@@ -536,6 +597,38 @@
 			[
 				{
 					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "markdown",
+							"parser": "markdown",
+							"syntax": "Packages/AcademicMarkdown/AcademicMarkdown.tmLanguage",
+							"target": "disk"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "dissertation.todo",
 					"semi_transient": false,
 					"settings":
@@ -553,17 +646,19 @@
 						],
 						"settings":
 						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "plaintasks",
 							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "outline.md",
 					"semi_transient": false,
 					"settings":
@@ -581,7 +676,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "academicmarkdown",
+							"syntax": "Packages/AcademicMarkdown/AcademicMarkdown.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -731,7 +828,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 287.0,
+	"side_bar_width": 144.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

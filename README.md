@@ -1,10 +1,10 @@
 Doctoral Disseration
-Michael Chambers
-2015
-UCLA
+
+&copy; Michael Chambers, 2015
+
 
 Important files:
 
 * outline.md
 * dissertation.todo
-* papers2_bibtex.bib
+* papers2_bibtex.bib@TurkiJudeh:2012ekThe
