@@ -1,0 +1,739 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"base",
+				"base_x"
+			],
+			[
+				"proj",
+				"proj_scratch"
+			],
+			[
+				"my-c",
+				"my-commands-3"
+			],
+			[
+				"s_2",
+				"s_2_1_01"
+			],
+			[
+				"analys",
+				"analysis_4A_dgro_vs_intersect_all"
+			],
+			[
+				"my_",
+				"my_name"
+			],
+			[
+				"base_",
+				"base_deseq"
+			],
+			[
+				"dese",
+				"deseq2_random_refseq"
+			],
+			[
+				"all",
+				"all_timepoints_merge"
+			],
+			[
+				"log",
+				"log2FoldChange.y"
+			],
+			[
+				"log2FoldCh",
+				"log2FoldChange.x"
+			],
+			[
+				"TP3",
+				"TP3.R1"
+			],
+			[
+				"TP2",
+				"TP2.R2"
+			],
+			[
+				"Tp2",
+				"TP2.R1"
+			],
+			[
+				"TP1",
+				"TP1.R2"
+			],
+			[
+				"TP1.",
+				"TP1.R1"
+			],
+			[
+				"Inp.R",
+				"Inp.R2"
+			],
+			[
+				"DES",
+				"DESeq2"
+			],
+			[
+				"Tx.",
+				"TxDb.Dmelanogaster.UCSC.dm3.ensGene"
+			],
+			[
+				"narrow",
+				"narrowpeak.header"
+			],
+			[
+				"jacca",
+				"jaccard_pairwise"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dissertation.todo",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "outline.md",
+			"settings":
+			{
+				"buffer_size": 1363,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "packa insta",
+		"selected_items":
+		[
+			[
+				"packa insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"prewiew",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"prewview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"r ext",
+				"Set Syntax: R Extended"
+			],
+			[
+				"R ex",
+				"Set Syntax: R Extended"
+			],
+			[
+				"syntax",
+				"Set Syntax: R"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syntax r ext",
+				"Set Syntax: R Extended"
+			],
+			[
+				"syntax rext",
+				"Set Syntax: R Extended"
+			],
+			[
+				"syntax r",
+				"Set Syntax: R"
+			],
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"pan",
+				"Pandoc: Render Markdown DocX"
+			],
+			[
+				"synta",
+				"Set Syntax: R"
+			],
+			[
+				"pewview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"rop",
+				"Snippet: ropts"
+			],
+			[
+				"cheat",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"pando",
+				"Pandoc: Render Markdown DocX"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pand",
+				"Pandoc: Render Markdown DocX"
+			],
+			[
+				"mark",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"sect",
+				"Snippet: sect"
+			],
+			[
+				"Snippet: ",
+				"Snippet: sect"
+			],
+			[
+				"syntax R",
+				"Set Syntax: R"
+			],
+			[
+				"R",
+				"Set Syntax: R"
+			],
+			[
+				"readm",
+				"ReadmePlease"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"discover",
+				"Package Control: Discover Packages"
+			],
+			[
+				"orgmo",
+				"Set Syntax: orgmode"
+			],
+			[
+				"prei",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"marks",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"syntax: R",
+				"Set Syntax: R Extended"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"perl",
+				"Set Syntax: Perl"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"which ",
+			"import urllib2",
+			"import urlib2",
+			"import hashlib",
+			"import os",
+			"import urllib2",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mike/Work.bio/projects/dissertation"
+	],
+	"file_history":
+	[
+		"/Users/mike/Work.bio/projects/dissertation/outline.md",
+		"/Users/mike/Downloads/153L - Lab 9 Grades.mdown",
+		"/Users/mike/Work.bio/projects/gro.combination/results/150527_gmeet.md",
+		"/Users/mike/Work.bio/projects/gro.combination/readme.md",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/Users/mike/Work.dev/dev.todo",
+		"/Users/mike/Work.bio/projects/projects.todo",
+		"/Users/mike/OneDrive/Documents/darknetstuff.txt",
+		"/Users/mike/.profile",
+		"/Users/mike/Work.dev/homepass/nzhome_startup.sh",
+		"/private/tmp/nzone.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/results/al_outline.md",
+		"/Users/mike/Work.bio/projects/gro.combination/results/gene_reg_outline.md",
+		"/Users/mike/Work.bio/projects/gro.combination/results/outline.md",
+		"/Users/mike/Work.bio/projects/gro.combination/150310.beta/tmp/scramble.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150310.beta/annotation/dm3_ens_new.bed",
+		"/Users/mike/Work.bio/projects/gro.combination/150226.rna_vs_nascent/analysis_3_rna_vs_nasc_identify_outliers.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150310.rna_vs_nasc_outlier_go/load_data.r",
+		"/Users/mike/Work.bio/projects/gro.combination/150310.rna_vs_nasc_outlier_go/a1_outlier_identification.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150226.rna_vs_nascent/analysis_1_rna_vs_nasc_counts.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150310.beta/a3_beta.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150310.beta/a2_generate_deseq2_files.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150310.beta/a1_generate_bed_files.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150310.beta/analysis_1_generate_bed_files.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/analysis_10.r",
+		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/analysis_8.r",
+		"/Users/mike/Work.bio/projects/gro.combination/141030.chip_vs_rnaseq_intersect/analysis_2.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150302.gro_go/analysis_1.R",
+		"/Users/mike/Work.bio/projects/gro.combination/141030.chip_vs_rnaseq_intersect/local.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150223.threestate/analysis_1.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150223.threestate/ggheatmap.R",
+		"/Users/mike/Work.bio/projects/gro.combination/141211.chip_rna_nascent_integration/load_data.r",
+		"/Users/mike/Work.bio/projects/gro.combination/150226.rna_vs_nascent/analysis_2_prep.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150217.chipseeker/analysis_1_get_input.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150217.chipseeker/analysis_2_chipseeker.R",
+		"/Users/mike/Work.bio/projects/gro.rnaseq_run4/140616.R_icistarget/threestate.R",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/dgro_metagene2.txt",
+		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/dgro_metagene_sample_hoffman.txt",
+		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_1_truncate_bam.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_2_metagene.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_3_metagene_hoffman.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_5_metaseq_sample_hoffman.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_4_sample_bam.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_3_metagene_hoffman.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_6_beta_testing.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/analysis_5_count_by_chr_hoffman.sh",
+		"/Users/mike/temp.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/analysis_4_metagene_hoffman.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/analysis_3_bam_trim.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/analysis_1_metagene.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/analysis_2_bam_check.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/test.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/dgro_metagene.txt",
+		"/Users/mike/Work.bio/dev/rnaseq-scripts/samtools_wrapper",
+		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/input/dgro_metagene_hoffman.txt",
+		"/Users/mike/Work.bio/projects/gro.combination/doc/readme.md",
+		"/Users/mike/Work.bio/projects/gro.combination/doc/al_outline.md",
+		"/Users/mike/Work.bio/projects/gro.combination/141228.summary_outline/outline.md",
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_3_dgro_replicate_bed_generation.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_5.1_generate_chip_datasets.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_5.2_beta_hoffman.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_5.3_beta_hoffman.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_5.4_beta_pvalus.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/output/analysis_5.3A_pvalues2/combine.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_4_beta.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/batchline.sh",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/sh_section.sublime-snippet",
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_1_overlap_peaks_metrics.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_2_peak_overlap_percentages.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/do_beta.sh",
+		"/Users/mike/.Rprofile",
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_1_generate_beta_input.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/analysis_1_generate_beta_input.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/do_beta_hoffman.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/temp.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/beta_input/deseq2_random_refseq/dgro.1.5.deseq2",
+		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/test_data/BETA_test_data/beta_specific_expression.txt",
+		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/analysis_7.r",
+		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/analysis_9.r",
+		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/analysis_3.r",
+		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/analysis_6.r",
+		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/analysis_5.r",
+		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/analysis_4.r",
+		"/Users/mike/Work.bio/projects/gro.combination/outline.md",
+		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/load_data.r",
+		"/Users/mike/Work.bio/dev/rnaseq-scripts/overlaps_multiple.R",
+		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/nascent_counts/lane01_tx.counts",
+		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/nascent_counts/lane01_gene.counts",
+		"/Users/mike/Work.bio/projects/project_overviews.mdown",
+		"/Users/mike/Work.bio/projects/gro.combination/150107_outline.docx",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Pandoc.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/Pandoc/Pandoc.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/Users/mike/Work.bio/projects/gro.combination/141211.chip_rna_nascent_integration/nascent_metadata.txt",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/r_section.sublime-snippet",
+		"/Users/mike/Work.junk/drake_proj/workflow.d",
+		"/Users/mike/Work.bio/projects/gro.combination/141211.chip_rna_nascent_integration/analysis_1.r",
+		"/Users/mike/Work.bio/projects/gro.combination/141211.chip_rna_nascent_integration/analysis_2.r",
+		"/Users/mike/Work.bio/projects/gro.combination/141211.chip_rna_nascent_integration/local.r",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141029.diffbind/sample_info_1_2.txt",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141029.diffbind/sample_info.csv",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141029.diffbind/local.sh",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141029.diffbind/local.R",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141029.diffbind/sample_into_1_2.txt",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141029.diffbind/sample_info.txt",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141023.R_annotate/local.sh",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141023.R_annotate/local.R",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141016.R_macs2_venn/local.R",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141023.R_peak_statistics/local.sh",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141023.R_peak_statistics/local.R",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141023.R_macs2_vs_ctrl_venn/local.R",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141023.R_macs2_vs_ctrl_venn/local.sh",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/readme.mdown",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141022.macs2_output_comparison/local.sh",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141022.macs2_output_comparison/local.R",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141014.R_wig_bed_overlap_testing/peakCovCompare.R",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/R-Box/README.md",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141022.macs2_output_comparison/local.1.log",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/140905.manorm/index14/MAnorm_result_commonPeak_merged.xls",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/140904.macs2_no_ctrl/macs2_run.sh",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141002.phantompeak/phantom.results",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141014.R_wig_bed_overlap_testing/peakcovcompare_rds/spp_2_3.rds",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/140905.manorm/index14/sample1_peaks.wig",
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/todo.mdown",
+		"/Users/mike/Work.bio/projects/mike.nascent/140930.bam_metrics/all_tophat_summary.txt",
+		"/Users/mike/Work.bio/projects/mike.nascent/140930.counts/140930.counts.R"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	* -1 adh1 tetramer\n",
+			"<<",
+			"sqlite",
+			"analysis_1",
+			"tp1",
+			"analysiis",
+			"pval",
+			"pileup",
+			"row",
+			"sqlite",
+			"ensgene",
+			"ggsave",
+			"e",
+			"vs",
+			"r",
+			"mark2",
+			"ggplot(jac, aes(x=Sample, y=value, fill=Condition)) + geom_bar(stat=\"identity\") + labs(x=\"Jaccard Statistic\") + ggtitle(\"Effect of Control Sample on MACS2 Peak Calling\")\n",
+			"\n	",
+			"	index02 = \"6.5-9 R2\",\n",
+			"Directory",
+			"~/bin/tophat_wrapper -p 4 -g 1 --solexa1.3-quals -G ~/annotation/Drosophila_melanogaster/UCSC/dm3/Annotation/Genes/genes.gtf -o $top_out /u/home/m/mchamber/annotation/index_dm3_igenome/genome $fastq",
+			"makeVennDiagram",
+			"writeDualVenn",
+			"thing",
+			"print"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"output/analysis_1",
+			"tp3",
+			"tp2",
+			"analysis",
+			"qval",
+			"enrich",
+			"qval",
+			"pval",
+			"my.ggsave",
+			"no"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dissertation.todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "outline.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "dissertation.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"local.r",
+				"141022.macs2_output_comparison/local.R"
+			],
+			[
+				"local.sh",
+				"141022.macs2_output_comparison/local.sh"
+			],
+			[
+				"index",
+				"index.htm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"chip",
+				"~/Work.bio/projects/al.gro.chip_run1/al_gro_chip_run1.sublime-project"
+			],
+			[
+				"pak",
+				"~/Work.bio/projects/pak.gro.rnaseq_run2/pak.gro.rnaseq_run2.sublime-project"
+			],
+			[
+				"nascent",
+				"~/Work.bio/projects/mike.nascent/mike.nascent.sublime-project"
+			],
+			[
+				"wiam",
+				"~/Work.bio/projects/gro.rnaseq_run4/wiam-gro-4.sublime-workspace"
+			],
+			[
+				"al",
+				"~/Work.bio/projects/al.gro.chip_run1/al_gro_chip_run1.sublime-project"
+			],
+			[
+				"pack",
+				"~/Work.bio/projects/pak.gro.rnaseq_run2/pak.gro.rnaseq_run2.sublime-project"
+			],
+			[
+				"and",
+				"~/Work.dev/android/android-global.sublime-project"
+			],
+			[
+				"nasc",
+				"~/Work.bio/projects/mike.nascent/mike.nascent.sublime-project"
+			],
+			[
+				"combi",
+				"~/Work.bio/projects/gro.combination/gro.combination.sublime-project"
+			],
+			[
+				"",
+				"~/Work.bio/projects/mike.nascent/mike.nascent.sublime-project"
+			],
+			[
+				"mike",
+				"~/Work.bio/projects/mike.nascent/mike.nascent.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 287.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
