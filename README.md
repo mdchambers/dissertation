@@ -7,4 +7,4 @@ Important files:
 
 * outline.md
 * dissertation.todo
-* papers2_bibtex.bib@TurkiJudeh:2012ekThe
+* papers2_bibtex.bib
