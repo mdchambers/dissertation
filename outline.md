@@ -1,7 +1,10 @@
-DISSERTATION
-=====
+---
+title: Dissertation OUtline
+author: Michael Chambers
+---
 
-[TOC]
+DISSERTATION TITLE
+==================
 
 ### List of Figures
 ### List of Tables
@@ -34,9 +37,10 @@ DISSERTATION
 #### Introduction
 
 * Introduction to nascent-seq
-	* Transcription rate determination (importance to non-steady state transcript analysis)
+	* Transcription rate determination
+		* Importance to non-steady state transcript level analysis
 	* Fractionation methodology
-* Introduction to deep sequencing technologies
+* Very brief introduction to deep sequencing technologies
 
 #### Materials & Methods
 
@@ -46,9 +50,25 @@ DISSERTATION
 	* Collection
 * Isolation of chromatin-associated RNA
 	* Embryo fractionation
-	* 
+	* RNA isolation
+	* Validation of fractionation (anti-H3/anti-tubulin immunoblot)
+	* Depletion of rRNA
+	* Validation of mRNA quality (Bioanalyzer)
+* Library preparation/QC
+* Sequencing
+* Data processing
+	* QC/pre-processing
+	* Mapping
+	* Transcript assignment and expression level normalization
 
 #### Results
+
+* Validation of chromatin-associated RNA isolation
+* Overview of data sets
+	* Reads per sample
+	* Intra- and inter-replicate similarity analyses
+* Primary differences with total mRNA seq experiments
+
 #### Discussion
 #### Figures & Tables
 #### References

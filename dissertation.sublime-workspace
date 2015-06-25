@@ -111,7 +111,7 @@
 			"file": "outline.md",
 			"settings":
 			{
-				"buffer_size": 1363,
+				"buffer_size": 1948,
 				"line_ending": "Unix"
 			}
 		}
@@ -123,10 +123,30 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 115.0,
-		"last_filter": "",
+		"height": 247.0,
+		"last_filter": "pandoc",
 		"selected_items":
 		[
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"search",
+				"Citer: Search"
+			],
+			[
+				"citer",
+				"Citer: Insert Title"
+			],
+			[
+				"prewv",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"citerse",
+				"Citer: Search"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -160,10 +180,6 @@
 				"Set Syntax: AcademicMarkdown"
 			],
 			[
-				"pandoc",
-				"Pandoc"
-			],
-			[
 				"remove",
 				"Package Control: Remove Package"
 			],
@@ -180,16 +196,8 @@
 				"Citer: Show All"
 			],
 			[
-				"search",
-				"Citer: Search"
-			],
-			[
 				"citebi",
 				"CiteBibTeX: Extract citations in current file"
-			],
-			[
-				"citer",
-				"Citer: Show All"
 			],
 			[
 				"text",
@@ -389,10 +397,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/mike/Work.bio/projects/dissertation"
+		"/Users/mike/Work.bio/projects/dissertation",
+		"/Users/mike/Work.bio/projects/dissertation/sample-paper"
 	],
 	"file_history":
 	[
+		"/Users/mike/Work.bio/projects/dissertation/temp.md",
+		"/Users/mike/Work.bio/projects/dissertation/temp.docx",
 		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Citer.sublime-settings",
 		"/Users/mike/Work.bio/projects/dissertation/outline.md",
 		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/CiteBibtex.sublime-settings",
@@ -518,9 +529,7 @@
 		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141023.R_macs2_vs_ctrl_venn/local.R",
 		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141023.R_macs2_vs_ctrl_venn/local.sh",
 		"/Users/mike/Work.bio/projects/al.gro.chip_run1/readme.mdown",
-		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141022.macs2_output_comparison/local.sh",
-		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141022.macs2_output_comparison/local.R",
-		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141014.R_wig_bed_overlap_testing/peakCovCompare.R"
+		"/Users/mike/Work.bio/projects/al.gro.chip_run1/141022.macs2_output_comparison/local.sh"
 	],
 	"find":
 	{
@@ -592,7 +601,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -624,7 +633,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -654,7 +663,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -663,15 +672,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1363,
+						"buffer_size": 1948,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4,
+								4
 							]
 						],
 						"settings":
@@ -685,7 +694,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -761,16 +770,16 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "pak",
 		"selected_items":
 		[
 			[
-				"chip",
-				"~/Work.bio/projects/al.gro.chip_run1/al_gro_chip_run1.sublime-project"
-			],
-			[
 				"pak",
 				"~/Work.bio/projects/pak.gro.rnaseq_run2/pak.gro.rnaseq_run2.sublime-project"
+			],
+			[
+				"chip",
+				"~/Work.bio/projects/al.gro.chip_run1/al_gro_chip_run1.sublime-project"
 			],
 			[
 				"nascent",
@@ -828,7 +837,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 144.0,
+	"side_bar_width": 243.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
