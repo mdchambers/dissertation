@@ -31,7 +31,40 @@ DISSERTATION TITLE
 	* Importance to development/signal transduction
 	* Importance to disease states (developmental abnormalities and cancer)
 
-### Chapter 2: Nascent-seq
+
+### Chapter 2: RNA-seq
+
+#### Abstract
+#### Introduction
+
+* RNA-seq for transcriptome analysis
+* Short reiteration of major devleopmental events w/ Gro involvement at each of the three timepoints analyzed
+
+#### Materials & Methods
+
+* Fly strains/culturing/collection
+* RNA isolation/library generation/sequencing
+* Data analysis methodologies
+
+#### Results
+
+* Sequencing overview
+	* Table: Total reads/qc pass reads/mapped reads/reads by feature (intergenic/intronic/exon/etc)
+	* Replicate similarity
+* Differential expression by timepoint and condition
+	* Table of significantly DE genes as appendices(?)
+	* Gro OE vs LoF comparisons
+	* 2xOE vs 4xOE
+	* dSP vs 2x/4xOE
+* Differential timecourse analysis/clustering
+	* Statistical underpinnings of expression timecourse analysis
+	* Clustering output (significantly different timecourses)
+	* 
+
+
+#### Discussion
+
+### Chapter 3: Nascent-seq
 
 #### Abstract
 #### Introduction
@@ -53,6 +86,7 @@ DISSERTATION TITLE
 	* RNA isolation
 	* Validation of fractionation (anti-H3/anti-tubulin immunoblot)
 	* Depletion of rRNA
+		* Sequences of depletion oligomers
 	* Validation of mRNA quality (Bioanalyzer)
 * Library preparation/QC
 * Sequencing
@@ -64,6 +98,9 @@ DISSERTATION TITLE
 #### Results
 
 * Validation of chromatin-associated RNA isolation
+	* anti-H3/anti-tubulin immunoblot
+	* Bioanalyzer profiles/pseudogels
+	* Schematic of rRNA depletion procedure(?)
 * Overview of data sets
 	* Reads per sample
 	* Intra- and inter-replicate similarity analyses
@@ -73,7 +110,7 @@ DISSERTATION TITLE
 #### Figures & Tables
 #### References
 
-### Chapter 3: RNA-seq & Multi-omics
+### Chapter 4: RNA-seq & Multi-omics
 
 ### Appendices
 
