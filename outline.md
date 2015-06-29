@@ -5,8 +5,8 @@ bibliography: papers2_bibtex.bib
 csl: styles/cell.csl
 ---
 
-DISSERTATION TITLE
-==================
+
+## Dissertation Title
 
 ### List of Figures
 ### List of Tables
@@ -32,6 +32,7 @@ DISSERTATION TITLE
 	* Known/suspected target genes
 	* Importance to development/signal transduction
 	* Importance to disease states (developmental abnormalities and cancer)
+* DNA topological considerations
 
 
 ### Chapter 2: RNA-seq
@@ -39,6 +40,7 @@ DISSERTATION TITLE
 #### Abstract
 #### Introduction
 
+* Groucho and development (short section)
 * RNA-seq for transcriptome analysis
 * Short reiteration of major developmental events w/ Gro involvement at each of the three timepoints analyzed
 
