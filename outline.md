@@ -1,6 +1,8 @@
 ---
 title: Dissertation OUtline
 author: Michael Chambers
+bibliography: papers2_bibtex.bib
+csl: styles/cell.csl
 ---
 
 DISSERTATION TITLE
@@ -38,7 +40,7 @@ DISSERTATION TITLE
 #### Introduction
 
 * RNA-seq for transcriptome analysis
-* Short reiteration of major devleopmental events w/ Gro involvement at each of the three timepoints analyzed
+* Short reiteration of major developmental events w/ Gro involvement at each of the three timepoints analyzed
 
 #### Materials & Methods
 
