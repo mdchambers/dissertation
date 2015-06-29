@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="fimo-to-html.xsl"?>
+<!-- Begin document body -->
+<fimo version="4.10.0" release="Wed May 21 10:35:36 2014 +1000">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>/u/home/m/mchamber/bin/meme/bin/fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_24 --bgfile 1.5vsCtrl_meme-chip_2/background --motif CGACCRAC 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta</command-line>
+<settings>
+<setting name="output directory">1.5vsCtrl_meme-chip_2/fimo_out_24</setting>
+<setting name="MEME file name">1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml</setting>
+<setting name="sequence file name">1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta</setting>
+<setting name="background file name">1.5vsCtrl_meme-chip_2/background</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">true</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="max sequence length">250000000</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">1</setting>
+<setting name="selected motif">CGACCRAC</setting>
+</settings>
+<sequence-data num-sequences="2619" num-residues="261900" />
+<alphabet>nucleotide</alphabet>
+<motif name="YAGGTAR" width="7" best-possible-match="CAGGTAG"/>
+<motif name="ACRCMCAC" width="8" best-possible-match="ACACACAC"/>
+<motif name="CAGCDGS" width="7" best-possible-match="CAGCAGG"/>
+<motif name="GAGMGRGA" width="8" best-possible-match="GAGAGAGA"/>
+<motif name="CAACARCA" width="8" best-possible-match="CAACAACA"/>
+<motif name="GYCATAAA" width="8" best-possible-match="GCCATAAA"/>
+<motif name="TGGCHAA" width="7" best-possible-match="TGGCAAA"/>
+<motif name="ACARWTA" width="7" best-possible-match="ACAAATA"/>
+<motif name="KGGAAAW" width="7" best-possible-match="TGGAAAA"/>
+<motif name="ATTASSA" width="7" best-possible-match="ATTAGCA"/>
+<motif name="RTCCTGS" width="7" best-possible-match="ATCCTGC"/>
+<motif name="GABCGGC" width="7" best-possible-match="GAGCGGC"/>
+<motif name="AARGGA" width="6" best-possible-match="AAAGGA"/>
+<motif name="CGGMTTA" width="7" best-possible-match="CGGCTTA"/>
+<motif name="CCCGAWTC" width="8" best-possible-match="CCCGAATC"/>
+<motif name="GAMAGAGA" width="8" best-possible-match="GAAAGAGA"/>
+<motif name="CATMCTCG" width="8" best-possible-match="CATACTCG"/>
+<motif name="AAACAVA" width="7" best-possible-match="AAACAAA"/>
+<motif name="ATATKTAC" width="8" best-possible-match="ATATTTAC"/>
+<motif name="CGCACRCA" width="8" best-possible-match="CGCACACA"/>
+<motif name="TAGGGKCA" width="8" best-possible-match="TAGGGTCA"/>
+<motif name="GRGCCGTA" width="8" best-possible-match="GAGCCGTA"/>
+<motif name="CCBTCGA" width="7" best-possible-match="CCTTCGA"/>
+<motif name="AGKTATGA" width="8" best-possible-match="AGTTATGA"/>
+<motif name="ACCCGCGA" width="8" best-possible-match="ACCCGCGA"/>
+<motif name="CATATAKA" width="8" best-possible-match="CATATAGA"/>
+<motif name="CGACCRAC" width="8" best-possible-match="CGACCAAC"/>
+<motif name="CGAMTGCG" width="8" best-possible-match="CGACTGCG"/>
+<motif name="ACACAGTK" width="8" best-possible-match="ACACAGTG"/>
+<motif name="RCAATAAA" width="8" best-possible-match="ACAATAAA"/>
+<motif name="CACTTGW" width="7" best-possible-match="CACTTGA"/>
+<motif name="AGGGAGRA" width="8" best-possible-match="AGGGAGGA"/>
+<background source="1.5vsCtrl_meme-chip_2/background">
+<value letter="A">0.261</value>
+<value letter="C">0.239</value>
+<value letter="G">0.239</value>
+<value letter="T">0.261</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>

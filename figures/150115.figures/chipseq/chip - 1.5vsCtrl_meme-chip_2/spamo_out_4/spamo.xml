@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!DOCTYPE spamo[
+<!ELEMENT spamo (model, files, primary_motif, run_time)>
+<!ATTLIST spamo version CDATA #REQUIRED release CDATA #REQUIRED>
+<!ELEMENT model (command_line, seed, margin, bin_size,
+  bin_pvalue_calc_range, bin_pvalue_cutoff, seq_max_shared_fract,
+  seq_min_hit_score, redundant_overlap, redundant_joint,
+  motif_pseudocount, motif_trim, bin_max, host, when)>
+<!ELEMENT command_line (#PCDATA)>
+<!ELEMENT seed (#PCDATA)>
+<!ELEMENT margin (#PCDATA)>
+<!ELEMENT bin_size (#PCDATA)>
+<!ELEMENT bin_pvalue_calc_range (#PCDATA)>
+<!ELEMENT bin_pvalue_cutoff (#PCDATA)>
+<!ELEMENT seq_max_shared_fract (#PCDATA)>
+<!ELEMENT seq_min_hit_score (#PCDATA)>
+<!ELEMENT redundant_overlap (#PCDATA)>
+<!ELEMENT redundant_joint (#PCDATA)>
+<!ELEMENT motif_pseudocount (#PCDATA)>
+<!ELEMENT motif_trim (#PCDATA)>
+<!ELEMENT bin_max (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ELEMENT when (#PCDATA)>
+<!ELEMENT files (sequence_db, motif_db*)>
+<!ELEMENT sequence_db EMPTY>
+<!ATTLIST sequence_db name CDATA #REQUIRED loaded CDATA #REQUIRED
+  excluded_too_short CDATA #REQUIRED excluded_no_match CDATA #REQUIRED
+  excluded_similar CDATA #REQUIRED last_modified CDATA #REQUIRED
+  source CDATA #REQUIRED>
+<!ELEMENT motif_db EMPTY>
+<!ATTLIST motif_db id ID #REQUIRED name CDATA #REQUIRED
+  loaded CDATA #REQUIRED excluded CDATA #REQUIRED
+  last_modified CDATA #REQUIRED source CDATA #REQUIRED
+  cisml CDATA #IMPLIED>
+<!ELEMENT primary_motif (motif, secondary_motif*)>
+<!ELEMENT secondary_motif (spacing*, motif, histogram, redundant?)>
+<!ATTLIST secondary_motif evalue CDATA #REQUIRED>
+<!ELEMENT spacing EMPTY>
+<!ATTLIST spacing strand (same|opposite) #REQUIRED
+  side (left|right) #REQUIRED bin CDATA #REQUIRED num CDATA #REQUIRED
+  pvalue CDATA #REQUIRED>
+<!ELEMENT histogram (same_strand, opposite_strand)>
+<!ATTLIST histogram total CDATA #REQUIRED max CDATA #REQUIRED>
+<!ELEMENT same_strand (left_side, right_side)>
+<!ELEMENT opposite_strand (left_side, right_side)>
+<!ELEMENT left_side (bin*)>
+<!ELEMENT right_side (bin*)>
+<!ELEMENT bin EMPTY>
+<!-- i: index, n: number in bin, p: pvalue (only supplied when bin
+  is tested) -->
+<!ATTLIST bin i CDATA #REQUIRED n CDATA #REQUIRED p CDATA #IMPLIED>
+<!ELEMENT redundant (secondary_motif*)>
+<!-- motif contains the probability of each of the nucleotide bases at each
+  position; i starts at 1; A, C, G and T are probabilities that sum to 1 -->
+<!ELEMENT motif (pos*)>
+<!ATTLIST motif db IDREF #REQUIRED name CDATA #REQUIRED alt CDATA #IMPLIED 
+  length CDATA #REQUIRED nsites CDATA #IMPLIED evalue CDATA #IMPLIED
+  ltrim CDATA #IMPLIED rtrim CDATA #IMPLIED url CDATA #IMPLIED>
+<!ELEMENT pos EMPTY>
+<!ATTLIST pos i CDATA #REQUIRED A CDATA #REQUIRED C CDATA #REQUIRED
+  G CDATA #REQUIRED T CDATA #REQUIRED>
+<!-- run time is measured in real time and cpu time -->
+<!ELEMENT run_time EMPTY>
+<!ATTLIST run_time cpu CDATA #REQUIRED real CDATA #REQUIRED>
+]>
+<spamo version="4.10.0" release="Wed May 21 10:35:36 2014 +1000">
+  <model>
+    <command_line>spamo  -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_4 -bgfile 1.5vsCtrl_meme-chip_2/background -primary 3 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme</command_line>
+    <seed>1</seed>
+    <margin>150</margin>
+    <bin_size>1</bin_size>
+    <bin_pvalue_calc_range>150</bin_pvalue_calc_range>
+    <bin_pvalue_cutoff>0.05</bin_pvalue_cutoff>
+    <motif_evalue_cutoff>10</motif_evalue_cutoff>
+    <seq_max_shared_fract>0.5</seq_max_shared_fract>
+    <seq_min_hit_score>7</seq_min_hit_score>
+    <redundant_overlap>2</redundant_overlap>
+    <redundant_joint>0.5</redundant_joint>
+    <motif_pseudocount>0.1</motif_pseudocount>
+    <motif_trim>0.25</motif_trim>
+    <bin_max>0</bin_max>
+    <host>n7092</host>
+    <when>Thu Dec  4 19:23:41 2014</when>
+  </model>
+  <files>
+    <sequence_db name="1.5vsCtrl" loaded="2619" excluded_too_short="2619"
+        excluded_no_match="0" excluded_similar="0" last_modified="Thu Dec  4 17:56:33 2014"
+        source="1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta"/>
+    <motif_db id="primary_file" name="meme.xml" loaded="2" excluded="1" last_modified="Thu Dec  4 19:14:45 2014"
+        source="1.5vsCtrl_meme-chip_2/meme_out/meme.xml"/>
+    <motif_db id="db1" name="meme.xml" loaded="3" excluded="1" last_modified="Thu Dec  4 19:14:45 2014"
+        source="1.5vsCtrl_meme-chip_2/meme_out/meme.xml"/>
+    <motif_db id="db2" name="dreme.xml" loaded="32" excluded="0" last_modified="Thu Dec  4 19:23:30 2014"
+        source="1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml"/>
+    <motif_db id="db3" name="JASPAR CORE 2014 insects" loaded="131" excluded="0" last_modified="Thu Dec  4 18:23:33 2014"
+        source="motif_databases/JASPAR_CORE_2014_insects.meme"/>
+  </files>
+  <primary_motif>
+    <motif db="primary_file" name="3" alt="MEME" length="29" nsites="92" evalue="4.1e-47" ltrim="0" rtrim="0" >
+      <pos i="1" A="0.391162" C="0.000259826" G="0.554006" T="0.0545721"/>
+      <pos i="2" A="0.49974" C="0.000259826" G="0.499717" T="0.000283062"/>
+      <pos i="3" A="0.239153" C="0.173984" G="0.488859" T="0.0980028"/>
+      <pos i="4" A="0.673464" C="0.108838" G="0.217415" T="0.000283062"/>
+      <pos i="5" A="0.412878" C="0.119695" G="0.336851" T="0.130576"/>
+      <pos i="6" A="0.673464" C="0.0328334" G="0.173984" T="0.119718"/>
+      <pos i="7" A="0.293442" C="0.0219752" G="0.543148" T="0.141434"/>
+      <pos i="8" A="0.467167" C="0.000259826" G="0.369424" T="0.163149"/>
+      <pos i="9" A="0.271727" C="0.0545488" G="0.673441" T="0.000283062"/>
+      <pos i="10" A="0.510598" C="0.336851" G="0.0328334" T="0.119718"/>
+      <pos i="11" A="0.336874" C="0.000259826" G="0.521432" T="0.141434"/>
+      <pos i="12" A="0.575745" C="0.0545488" G="0.304277" T="0.0654293"/>
+      <pos i="13" A="0.184865" C="0.282562" G="0.478002" T="0.0545721"/>
+      <pos i="14" A="0.445451" C="0.130553" G="0.358566" T="0.0654293"/>
+      <pos i="15" A="0.152292" C="0.195699" G="0.58658" T="0.0654293"/>
+      <pos i="16" A="0.554029" C="0.282562" G="0.163126" T="0.000283062"/>
+      <pos i="17" A="0.380305" C="0.000259826" G="0.619152" T="0.000283062"/>
+      <pos i="18" A="0.619175" C="0.108838" G="0.23913" T="0.0328567"/>
+      <pos i="19" A="0.250012" C="0.14141" G="0.401997" T="0.206581"/>
+      <pos i="20" A="0.40202" C="0.108838" G="0.315135" T="0.174007"/>
+      <pos i="21" A="0.130576" C="0.163126" G="0.63001" T="0.0762874"/>
+      <pos i="22" A="0.630034" C="0.130553" G="0.23913" T="0.000283062"/>
+      <pos i="23" A="0.336874" C="0.14141" G="0.391139" T="0.130576"/>
+      <pos i="24" A="0.630034" C="0.0328334" G="0.282562" T="0.0545721"/>
+      <pos i="25" A="0.163149" C="0.065406" G="0.738587" T="0.0328567"/>
+      <pos i="26" A="0.326016" C="0.228273" G="0.23913" T="0.206581"/>
+      <pos i="27" A="0.000283062" C="0.304277" G="0.478002" T="0.217438"/>
+      <pos i="28" A="0.532314" C="0.347708" G="0.119695" T="0.000283062"/>
+      <pos i="29" A="0.293442" C="0.000259826" G="0.706015" T="0.000283062"/>
+    </motif>
+  </primary_motif>
+  <run_time cpu="0.2" real="0.0"/>
+</spamo>

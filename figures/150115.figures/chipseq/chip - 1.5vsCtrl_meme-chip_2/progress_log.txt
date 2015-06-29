@@ -1,0 +1,274 @@
+Invoking:
+  fasta-get-markov -nostatus -m 1 < 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1> 1.5vsCtrl_meme-chip_2/background
+Finished invoke:
+  name: bg  status: 0  time: 0.013857
+Invoking:
+  getsize 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.014112
+Invoking:
+  fasta-most -min 50 < 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.073449
+Invoking:
+  fasta-center -len 100 < 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1> 1.5vsCtrl_meme-chip_2/seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.081754
+Invoking:
+  fasta-dinucleotide-shuffle -f 1.5vsCtrl_meme-chip_2/seqs-centered -t -dinuc 1> 1.5vsCtrl_meme-chip_2/seqs-shuffled
+Finished invoke:
+  name: shuffle_seqs  status: 0  time: 2.031017
+Invoking:
+  fasta-subsample 1.5vsCtrl_meme-chip_2/seqs-centered 600 -rest 1.5vsCtrl_meme-chip_2/seqs-discarded 1> 1.5vsCtrl_meme-chip_2/seqs-sampled
+Finished invoke:
+  name: sample_seqs  status: 0  time: 0.105074
+Invoking:
+  meme 1.5vsCtrl_meme-chip_2/seqs-sampled -oc 1.5vsCtrl_meme-chip_2/meme_out -dna -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile 1.5vsCtrl_meme-chip_2/background -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 923.687649
+Invoking:
+  dreme -v 1 -oc 1.5vsCtrl_meme-chip_2/dreme_out -p 1.5vsCtrl_meme-chip_2/seqs-centered -n 1.5vsCtrl_meme-chip_2/seqs-shuffled -png
+Finished invoke:
+  name: dreme  status: 0  time: 524.406766
+Invoking:
+  centrimo -seqlen 100 -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/centrimo_out -bgfile 1.5vsCtrl_meme-chip_2/background 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: centrimo  status: 0  time: 1.985896
+Invoking:
+  tomtom -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile 1.5vsCtrl_meme-chip_2/background 1.5vsCtrl_meme-chip_2/meme_out/meme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: meme_tomtom  status: 0  time: 4.1224
+Invoking:
+  tomtom -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/dreme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile 1.5vsCtrl_meme-chip_2/background 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: dreme_tomtom  status: 0  time: 1.603965
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.1 1.5vsCtrl_meme-chip_2/combined.meme 1.5vsCtrl_meme-chip_2/combined.meme 1> 1.5vsCtrl_meme-chip_2/motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 1.669944
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_1 -bgfile 1.5vsCtrl_meme-chip_2/background -primary 1 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo1  status: 0  time: 0.434845
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_2 -bgfile 1.5vsCtrl_meme-chip_2/background -primary 2 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo2  status: 0  time: 0.257382
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_3 -bgfile 1.5vsCtrl_meme-chip_2/background -primary YAGGTAR 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo3  status: 0  time: 0.225593
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_4 -bgfile 1.5vsCtrl_meme-chip_2/background -primary 3 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo4  status: 0  time: 0.255353
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_5 -bgfile 1.5vsCtrl_meme-chip_2/background -primary CAGCDGS 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo5  status: 0  time: 0.208174
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_6 -bgfile 1.5vsCtrl_meme-chip_2/background -primary CAACARCA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo6  status: 0  time: 0.209058
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_7 -bgfile 1.5vsCtrl_meme-chip_2/background -primary GYCATAAA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo7  status: 0  time: 0.210686
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_8 -bgfile 1.5vsCtrl_meme-chip_2/background -primary KGGAAAW 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo8  status: 0  time: 0.2147
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_9 -bgfile 1.5vsCtrl_meme-chip_2/background -primary ATTASSA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo9  status: 0  time: 0.233725
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_10 -bgfile 1.5vsCtrl_meme-chip_2/background -primary RTCCTGS 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo10  status: 0  time: 0.207444
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_11 -bgfile 1.5vsCtrl_meme-chip_2/background -primary GABCGGC 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo11  status: 0  time: 0.209422
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_12 -bgfile 1.5vsCtrl_meme-chip_2/background -primary AARGGA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo12  status: 0  time: 0.212989
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_13 -bgfile 1.5vsCtrl_meme-chip_2/background -primary CGGMTTA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo13  status: 0  time: 0.208446
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_14 -bgfile 1.5vsCtrl_meme-chip_2/background -primary CCCGAWTC 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo14  status: 0  time: 0.209105
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_15 -bgfile 1.5vsCtrl_meme-chip_2/background -primary CATMCTCG 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo15  status: 0  time: 0.208289
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_16 -bgfile 1.5vsCtrl_meme-chip_2/background -primary AAACAVA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo16  status: 0  time: 0.206055
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_17 -bgfile 1.5vsCtrl_meme-chip_2/background -primary ATATKTAC 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo17  status: 0  time: 0.209013
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_18 -bgfile 1.5vsCtrl_meme-chip_2/background -primary TAGGGKCA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo18  status: 0  time: 0.210032
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_19 -bgfile 1.5vsCtrl_meme-chip_2/background -primary GRGCCGTA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo19  status: 0  time: 0.236278
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_20 -bgfile 1.5vsCtrl_meme-chip_2/background -primary CCBTCGA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo20  status: 0  time: 0.228186
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_21 -bgfile 1.5vsCtrl_meme-chip_2/background -primary AGKTATGA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo21  status: 0  time: 0.20855
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_22 -bgfile 1.5vsCtrl_meme-chip_2/background -primary ACCCGCGA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo22  status: 0  time: 0.211109
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_23 -bgfile 1.5vsCtrl_meme-chip_2/background -primary CATATAKA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo23  status: 0  time: 0.210464
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_24 -bgfile 1.5vsCtrl_meme-chip_2/background -primary CGACCRAC 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo24  status: 0  time: 0.203443
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_25 -bgfile 1.5vsCtrl_meme-chip_2/background -primary CGAMTGCG 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo25  status: 0  time: 0.193348
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_26 -bgfile 1.5vsCtrl_meme-chip_2/background -primary ACACAGTK 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo26  status: 0  time: 0.195309
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_27 -bgfile 1.5vsCtrl_meme-chip_2/background -primary CACTTGW 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo27  status: 0  time: 0.194392
+Invoking:
+  spamo -verbosity 1 -oc 1.5vsCtrl_meme-chip_2/spamo_out_28 -bgfile 1.5vsCtrl_meme-chip_2/background -primary AGGGAGRA 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml motif_databases/JASPAR_CORE_2014_insects.meme
+Finished invoke:
+  name: spamo28  status: 0  time: 0.195296
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_1 --bgfile 1.5vsCtrl_meme-chip_2/background --motif 1 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo1  status: 0  time: 0.565617
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_2 --bgfile 1.5vsCtrl_meme-chip_2/background --motif 2 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo2  status: 0  time: 0.306502
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_3 --bgfile 1.5vsCtrl_meme-chip_2/background --motif YAGGTAR 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo3  status: 0  time: 0.204195
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_4 --bgfile 1.5vsCtrl_meme-chip_2/background --motif 3 1.5vsCtrl_meme-chip_2/meme_out/meme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo4  status: 0  time: 0.454392
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_5 --bgfile 1.5vsCtrl_meme-chip_2/background --motif CAGCDGS 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo5  status: 0  time: 0.19632
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_6 --bgfile 1.5vsCtrl_meme-chip_2/background --motif CAACARCA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo6  status: 0  time: 0.217644
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_7 --bgfile 1.5vsCtrl_meme-chip_2/background --motif GYCATAAA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo7  status: 0  time: 0.178041
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_8 --bgfile 1.5vsCtrl_meme-chip_2/background --motif KGGAAAW 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo8  status: 0  time: 0.190211
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_9 --bgfile 1.5vsCtrl_meme-chip_2/background --motif ATTASSA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo9  status: 0  time: 0.191048
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_10 --bgfile 1.5vsCtrl_meme-chip_2/background --motif RTCCTGS 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo10  status: 0  time: 0.180048
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_11 --bgfile 1.5vsCtrl_meme-chip_2/background --motif GABCGGC 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo11  status: 0  time: 0.190443
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_12 --bgfile 1.5vsCtrl_meme-chip_2/background --motif AARGGA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo12  status: 0  time: 0.163158
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_13 --bgfile 1.5vsCtrl_meme-chip_2/background --motif CGGMTTA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo13  status: 0  time: 0.1721
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_14 --bgfile 1.5vsCtrl_meme-chip_2/background --motif CCCGAWTC 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo14  status: 0  time: 0.191825
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_15 --bgfile 1.5vsCtrl_meme-chip_2/background --motif CATMCTCG 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo15  status: 0  time: 0.206796
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_16 --bgfile 1.5vsCtrl_meme-chip_2/background --motif AAACAVA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo16  status: 0  time: 0.196605
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_17 --bgfile 1.5vsCtrl_meme-chip_2/background --motif ATATKTAC 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo17  status: 0  time: 0.184283
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_18 --bgfile 1.5vsCtrl_meme-chip_2/background --motif TAGGGKCA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo18  status: 0  time: 0.169667
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_19 --bgfile 1.5vsCtrl_meme-chip_2/background --motif GRGCCGTA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo19  status: 0  time: 0.202158
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_20 --bgfile 1.5vsCtrl_meme-chip_2/background --motif CCBTCGA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo20  status: 0  time: 0.170227
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_21 --bgfile 1.5vsCtrl_meme-chip_2/background --motif AGKTATGA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo21  status: 0  time: 0.203124
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_22 --bgfile 1.5vsCtrl_meme-chip_2/background --motif ACCCGCGA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo22  status: 0  time: 0.180675
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_23 --bgfile 1.5vsCtrl_meme-chip_2/background --motif CATATAKA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo23  status: 0  time: 0.176235
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_24 --bgfile 1.5vsCtrl_meme-chip_2/background --motif CGACCRAC 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo24  status: 0  time: 0.183958
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_25 --bgfile 1.5vsCtrl_meme-chip_2/background --motif CGAMTGCG 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo25  status: 0  time: 0.181223
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_26 --bgfile 1.5vsCtrl_meme-chip_2/background --motif ACACAGTK 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo26  status: 0  time: 0.175201
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_27 --bgfile 1.5vsCtrl_meme-chip_2/background --motif CACTTGW 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo27  status: 0  time: 0.18583
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc 1.5vsCtrl_meme-chip_2/fimo_out_28 --bgfile 1.5vsCtrl_meme-chip_2/background --motif AGGGAGRA 1.5vsCtrl_meme-chip_2/dreme_out/dreme.xml 1.5vsCtrl_meme-chip_2/1.5vsCtrl.fasta
+Finished invoke:
+  name: fimo28  status: 0  time: 0.187104
+Writing output
+Done

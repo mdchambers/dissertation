@@ -1,0 +1,5 @@
+# WARNING: this file is not sorted!
+# db	id                         alt	 E-value	adj_p-value	log_adj_p-value	bin_location	bin_width	total_width	sites_in_bin	total_sites	p_success	 p-value	mult_tests
+   2	GRGCCGTA                 DREME	7.4e0000	   4.4e-002	          -3.12	         0.0	        1	         93	           4	         41	  0.01075	9.9e-004	        46
+   3	MA0227.1                   hth	7.2e0000	   4.4e-002	          -3.13	         0.0	       39	         95	         168	        339	  0.41053	9.5e-004	        47
+   3	MA0460.1                   ttk	8.5e0000	   5.1e-002	          -2.97	         0.0	       76	         92	         207	        230	  0.82609	1.2e-003	        45
