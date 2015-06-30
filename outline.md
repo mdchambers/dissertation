@@ -41,14 +41,35 @@ csl: styles/cell.csl
 #### Introduction
 
 * Groucho and development (short section)
+	* Roles throughout Drosophila development
+	* Ubiquitously expressed
+	* Roles in tissue specification in response to multiple extracellular signaling pathways (RTK signaling being most prominent)
+	* Groucho as a decision node, integrating signal information combinatorially and in a context-dependent fashion, as it's activity is dependent on the presence or absence of one or more interacting partners
 * RNA-seq for transcriptome analysis
+	* Allows for the analysis of Groucho regulatory activity in a developmental context
+	* Development is a rapid and fluid process, so necessary and instructive to analyze groucho activity at multiple timepoints throughout the process
+	* Interested in looking at Groucho activity at the initiation of zygotic transcription onwards, though Grouch is maternally deposited and so ubiquitously present in the embryo before this time
 * Short reiteration of major developmental events w/ Gro involvement at each of the three timepoints analyzed
 
 #### Materials & Methods
 
 * Fly strains/culturing/collection
+	* All fly lines were grown according to established procedures (look up how exactly to cite this)
 * RNA isolation/library generation/sequencing
+	* RNA isolated with Qiagen RNA extraction kit (look up name)
+	* RNA quality assessed by Agilent Bioanalyzer
+	* Stranded RNA-seq libraries generated using Illumina TruSeq transcriptome generation kits (look up name of kit I suppose, or ask Sean)
+		* Libraries were barcoded for multiplex sequencing
+	* Sequencing performed at UCLA High-Throughput sequencing core (name) on ____ (machine? Illumina HiSeq something probably) 
 * Data analysis methodologies
+	* QC/filtering
+		* Quality assessment performed with FastQC (no available publication)
+	* Demultiplexing performed by in-house scripts (github link?)
+	* Mapping
+		* Mapping performed using Tophat2 v2.0.9 {Kim, 2013, r08998}
+		* Using Drosophila assembly BDGP?/dm3 (Illumina iGenomes)
+		* Transcript accessions (dm3) provided by FlyBase (Illumina iGenomes)
+	* Assignment of mapped fragments to genes performed by HTSeq 
 
 #### Results
 

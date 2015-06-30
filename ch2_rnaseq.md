@@ -11,6 +11,8 @@ csl: styles/cell.csl
 
 #### Introduction
 
+Groucho is a transcriptional co-repressor with a essential roles in all stages of **Drosophila** development. Due to Groucho's central
+
 #### Materials & Methods
 
 #### Results
