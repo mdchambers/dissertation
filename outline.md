@@ -5,7 +5,6 @@ bibliography: papers2_bibtex.bib
 csl: styles/cell.csl
 ---
 
-
 ## Dissertation Title
 
 ### List of Figures
@@ -69,13 +68,19 @@ csl: styles/cell.csl
 		* Mapping performed using Tophat2 v2.0.9 {Kim, 2013, r08998}
 		* Using Drosophila assembly BDGP?/dm3 (Illumina iGenomes)
 		* Transcript accessions (dm3) provided by FlyBase (Illumina iGenomes)
-	* Assignment of mapped fragments to genes performed by HTSeq 
+	* Assignment of mapped fragments to genes performed by HTSeq
+	* Differential expression analysis w/ DESeq2 {Love, 2014 #3031}
+		* Setup of model and DE paramaters (show some diagnostic plots?)
+	* Differential expression analysis w/ MaSigPro {Nueda, 2014 #3032}
 
 #### Results
 
 * Sequencing overview
 	* Table: Total reads/qc pass reads/mapped reads/reads by feature (intergenic/intronic/exon/etc)
 	* Replicate similarity
+		* Heatmap of spearman coefficients
+		* PCA analysis
+		* Example MA plot(?)
 * Differential expression by timepoint and condition
 	* Table of significantly DE genes as appendices(?)
 	* Gro OE vs LoF comparisons
@@ -84,6 +89,7 @@ csl: styles/cell.csl
 * Differential timecourse analysis/clustering
 	* Statistical underpinnings of expression timecourse analysis
 	* Clustering output (significantly different timecourses)
+		* Need a way to succinctly represent maSigPro output
 	* 
 
 
