@@ -1,0 +1,14 @@
+ Committee Meeting:
+   ☐ Review Gene Reg talk
+   ☐ Nascent-seq analysis
+     ☐ Count/remove non-polyA data
+     ☐ GO (FlyMine)
+       By timepoint, up vs down reg analysis
+     ☐ DESeq2
+       ☐ all
+       ☐ polyA only
+     ☐ Review/comparisons w/ modENCODE timeseries clustering analysis
+     ☐ MaSigPro
+       ☐ all
+       ☐ polyA only
+   ☐ Rehearse talk
