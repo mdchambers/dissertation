@@ -3,24 +3,26 @@ Doctoral Disseration
 &copy; Michael Chambers, 2015
 
 * Project structure
-    * .gitignore
-    * bibliography (.bib/.xml)
-    * ch*.md
-    * ch*.docx
-    * dissertation.todo
-    * dissertation.sublime-project
+    * committee_meeting/
+    * data/
     * figures/
-        * ch*/
-    * outline.md
-    * README.md
+    * references
     * sample-paper/
     * scripts/
-        * generate_docx.sh
-    * styles/
+
+    * .gitignore
+    * abstract.md/docx
+    * ch*.md/docx
+    * dissertation.todo
+    * dissertation_outline.docx
+    * dissertation.sublime-project
+    * paper_al_outline.md
+    * paper_outline.md
+    * README.md
 
 * Project timeline
     * Important dates
-        * Potential pre-dissertation meeting times: July 16/17/20
+        * Potential pre-dissertation meeting times: July 15th 11AM
         * Filing deadline: Sept 9th
 * Project workflow
     * Text
