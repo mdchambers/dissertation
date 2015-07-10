@@ -37,7 +37,14 @@
 
 * Title:
 * Introduction & Background
-* Outline
-* Part I
-* Part II
+	* Groucho & gene regulation
+* Talk Outline Slide
+* Part I - Establishing a timeline of Groucho activity in early embryonic development
+	* 
+* Talk Outline Slide
+* Part II - Investigating the dynamics of Groucho occupancy in the early embryo
+	* 
 * Conclusion
+
+* New things to add
+	* 

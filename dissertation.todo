@@ -1,5 +1,8 @@
  Committee Meeting:
    ☐ Review Gene Reg talk
+   ☐ Update talk w/ new data
+     Should do this before getting too deep into nascent-seq new analyses
+   ☐ Office 2016 version/usage(?)
    ☐ Nascent-seq analysis
      ☐ Count/remove non-polyA data
      ☐ GO (FlyMine)
@@ -12,3 +15,11 @@
        ☐ all
        ☐ polyA only
    ☐ Rehearse talk
+
+Dissertation data generation:
+  Nascent-seq:
+    ☐ 5'/3' bias of reads
+      ☐ Correlation of read bias w/ Groucho regulation and Adelman PolII embryo localization data
+    ☐ Filter polyA/non-polyA and do DESeq2/maSigPro
+      ☐ Hypothesize genes w/ DE are non steady-state genes, see how gro level perturbation affects these genes in particular at each timepoint
+    ☐ Genes "up" in deseq2 should be increasing in expression level by next timepoint? and vice-versa for "down" DE genes
