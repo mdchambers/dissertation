@@ -15,6 +15,41 @@
        ☐ all
        ☐ polyA only
    ☐ Rehearse talk
+   Post-rehersal:
+     By slide:
+        ☐ There is evidence for multiple
+          ☐ Courey reference
+        ☐ Perturbation of Groucho levels
+          ☐ Bolder axes labels
+          ☐ Remove dSP data
+        ☐ TLE3 is a dual-function
+          ☐ More bibliographic info
+          ☐ Include a convincing result from paper showing TLE3 is an activator
+        ☐ RNA-seq suggests Gro is a dedicated repressor in Drosophila
+          ☐ Redo heatmap w/ better coloring
+          ☐ Need some way to draw viewers to result (inset heatmap?)
+        ☐ Nascent-seq reveals differences in mRNA abundance
+          ☐ New scatter plot and PCA plot w/o non-polyA transcripts
+          ☐ Replot polyA data as % non-polyA (more informative)
+        ☐ Groucho recruitment is more dynamic during early embryonic stages
+          ☐ Larger numbers in Venn diagram
+          ☐ Larger gene names
+        ☐ Groucho localizes to both enhancer and TSS elements of multiple Capicua-regulated genes
+          ☐ Search for Hi-C and chia-pet data
+          ☐ Levine hi-c data on dorsal targets
+        ☐ Groucho enrichment at TSS supports its role as a long- and short-range repressor
+          ☐ Nicer TSS occupancy heatmaps (ref Adelman paper)
+          ☐ Make numbers bigger
+        ☐ Groucho spreading is not an obligate feature of repression
+          ☐ Look into number of binding sites being predictive of Gro regulation
+        ☐ “Active” Groucho binding regions are enriched upstream and inside of genes
+          ☐ Clarify plot -> limit to LoF data only
+        ☐ Genes with adjacent Groucho binding sites are enriched for putative Gro repression
+          ☐ Consider cutting
+          ☐ More concise and informative terminology IRT groucho activation/repression in LoF context
+        ☐ Groucho regulated genes are enriched for stalled PolII
+          ☐ Generate bar graph w/ p-values instead of including table
+
 
 Dissertation data generation:
   Nascent-seq:
