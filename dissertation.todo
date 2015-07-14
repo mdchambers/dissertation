@@ -18,22 +18,24 @@
    Post-rehersal:
      By slide:
         ☐ There is evidence for multiple
-          ☐ Courey reference
-        ☐ Perturbation of Groucho levels
-          ☐ Bolder axes labels
-          ☐ Remove dSP data
+          ✔ Courey reference @done (15-07-13 17:24)
+        ☐ Perturbation of Groucho expression
+          ✔ Bolder axes labels @done (15-07-14 00:23)
+          ☐ Remove dSP data (I think this might be unnecessary; there's something intelligent to say perhaps?)
         ☐ TLE3 is a dual-function
-          ☐ More bibliographic info
-          ☐ Include a convincing result from paper showing TLE3 is an activator
+          ✔ More bibliographic info @done (15-07-14 00:38)
+          ✔ Include a convincing result from paper showing TLE3 is an activator @done (15-07-14 00:38)
         ☐ RNA-seq suggests Gro is a dedicated repressor in Drosophila
           ☐ Redo heatmap w/ better coloring
           ☐ Need some way to draw viewers to result (inset heatmap?)
         ☐ Nascent-seq reveals differences in mRNA abundance
-          ☐ New scatter plot and PCA plot w/o non-polyA transcripts
-          ☐ Replot polyA data as % non-polyA (more informative)
+          ✔ New scatter plot and PCA plot w/o non-polyA transcripts @done (15-07-14 02:00)
+          ✔ Replot polyA data as % non-polyA (more informative) @done (15-07-14 02:00)
+          ☐ Generate plots of metagene occupancy
         ☐ Groucho recruitment is more dynamic during early embryonic stages
-          ☐ Larger numbers in Venn diagram
-          ☐ Larger gene names
+          ✔ Larger numbers in Venn diagram @done (15-07-14 02:12)
+          ✔ Larger gene names @done (15-07-14 02:12)
+          ☐ Potentially collapse replicates together
         ☐ Groucho localizes to both enhancer and TSS elements of multiple Capicua-regulated genes
           ☐ Search for Hi-C and chia-pet data
           ☐ Levine hi-c data on dorsal targets
