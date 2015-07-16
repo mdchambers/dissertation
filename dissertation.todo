@@ -41,16 +41,16 @@
           ☐ Levine hi-c data on dorsal targets
         ☐ Groucho enrichment at TSS supports its role as a long- and short-range repressor
           ☐ Nicer TSS occupancy heatmaps (ref Adelman paper)
-          ☐ Make numbers bigger
+          ✔ Make numbers bigger @done (15-07-14 18:22)
         ☐ Groucho spreading is not an obligate feature of repression
           ☐ Look into number of binding sites being predictive of Gro regulation
         ☐ “Active” Groucho binding regions are enriched upstream and inside of genes
-          ☐ Clarify plot -> limit to LoF data only
+          ✔ Clarify plot -> limit to LoF data only @done (15-07-14 03:47)
         ☐ Genes with adjacent Groucho binding sites are enriched for putative Gro repression
-          ☐ Consider cutting
-          ☐ More concise and informative terminology IRT groucho activation/repression in LoF context
+          ✔ Consider cutting @done (15-07-14 18:22)
+          ✔ More concise and informative terminology IRT groucho activation/repression in LoF context @done (15-07-14 18:22)
         ☐ Groucho regulated genes are enriched for stalled PolII
-          ☐ Generate bar graph w/ p-values instead of including table
+          ✔ Generate bar graph w/ p-values instead of including table @done (15-07-14 03:48)
 
 
 Dissertation data generation:
