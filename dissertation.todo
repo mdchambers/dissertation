@@ -54,8 +54,27 @@
 
 
 Dissertation data generation:
+  RNA-seq/ChIP-seq:
+    ☐ Small, high-confidence geneset analysis
+      ✔ Intersect Gro occupied (chip) and Gro regulated (rna-seq) genesets by timepoint @done (15-07-20 17:12)
+        ☐ Further segment genes by bidirectionality (up/down in lof and down/up in oe)
+          Input: rnaseq_deseq2.rds & chip_annotated.rds
+          Output: A dataframe with the following columns
+            Gene name
+            gro lof l2fc
+            oe1/oe2/dsp l2fc
+            NA if not significant in particular sample
+
+      ☐ Focus on specific genes known (or strongly suspected) to be Gro regulated
+        * Known targets
+          * sxl
+          * dorsal targets
+          * wiam paper targets: ftz, hkb, tll
+          * repressive: zen, dpp, tolloid, twist, snail, rhomboid, single-minded
+          * esp(l)
+          * ind
   Nascent-seq:
-    ☐ 5'/3' bias of reads
+    ☐ 5'/3' bias of reads (requires realignment w/ genome)
       ☐ Correlation of read bias w/ Groucho regulation and Adelman PolII embryo localization data
     ☐ Filter polyA/non-polyA and do DESeq2/maSigPro
       ☐ Hypothesize genes w/ DE are non steady-state genes, see how gro level perturbation affects these genes in particular at each timepoint
