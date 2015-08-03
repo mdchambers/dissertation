@@ -55,9 +55,9 @@
 
 Dissertation data generation:
   RNA-seq/ChIP-seq:
-    ☐ Small, high-confidence geneset analysis
+    Small, high-confidence geneset analysis:
       ✔ Intersect Gro occupied (chip) and Gro regulated (rna-seq) genesets by timepoint @done (15-07-20 17:12)
-        ☐ Further segment genes by bidirectionality (up/down in lof and down/up in oe)
+        ✔ Further segment genes by bidirectionality (up/down in lof and down/up in oe) @done (15-07-27 19:40)
           Input: rnaseq_deseq2.rds & chip_annotated.rds
           Output: A dataframe with the following columns
             Gene name
@@ -73,6 +73,15 @@ Dissertation data generation:
           * repressive: zen, dpp, tolloid, twist, snail, rhomboid, single-minded
           * esp(l)
           * ind
+      ☐ For interim report:
+        ✔ Generate genome views of Gro occupancy at each position @done (15-07-27 19:41)
+        ☐ Classify Gro occupancy by binding pattern
+          Possible patterns to include
+        ☐ Correlate binding pattern with what known Gro regulation of each gene (known targets only)
+        ☐ Correlate binding pattern with gene function, transcriptional events/levels
+        ☐ Overall patterns of binding:
+        ☐ How does binding upstream of the gene translate to binding within the gene body?
+        ☐ Why is there an enrichment of Gro in the first intron of genes
   Nascent-seq:
     ☐ 5'/3' bias of reads (requires realignment w/ genome)
       ☐ Correlation of read bias w/ Groucho regulation and Adelman PolII embryo localization data
