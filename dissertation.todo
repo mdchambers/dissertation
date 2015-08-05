@@ -71,7 +71,7 @@ Dissertation data generation:
           * dorsal targets
           * wiam paper targets: ftz, hkb, tll
           * repressive: zen, dpp, tolloid, twist, snail, rhomboid, single-minded
-          * esp(l)
+          * e(spl)
           * ind
       ☐ For interim report:
         ✔ Generate genome views of Gro occupancy at each position @done (15-07-27 19:41)
@@ -88,3 +88,31 @@ Dissertation data generation:
     ☐ Filter polyA/non-polyA and do DESeq2/maSigPro
       ☐ Hypothesize genes w/ DE are non steady-state genes, see how gro level perturbation affects these genes in particular at each timepoint
     ☐ Genes "up" in deseq2 should be increasing in expression level by next timepoint? and vice-versa for "down" DE genes
+
+Dissertation writing:
+ ☐ Generate outline
+   Decide on chapter structure
+     1- Introduction
+     2- Nascent-seq
+     3- Groucho activity in the embryo
+     4- ???
+     Appendices (yan, maybe)
+     Appendices (DE genes tables)
+   ☐ Integrate major points from powerpoint into outline (serves as backbone for results section)
+   ☐ Generate/sort/categorize figures/tables for integration into outline/dissertation
+
+Daily 150804:
+  ☐ Questions
+    ✔ What is the transcriptional profile of Gro compared to modencode data? @done (15-08-04 19:12)
+      Plotted; questionable utility, as scale of modENCODE data is very different from my rpkm values; managed to normalize, but still questionable
+    ✔ What percentage of Gro-regulated genes have binding within the gene body? @done (15-08-05 11:09)
+      ✔ within an intron? @done (15-08-04 19:48)
+      ✔ within the most 5' intron? @done (15-08-05 11:09)
+    ✔ Generate definitive counts of peak overlap w/ different types of genomic features (exon/intron/utr/promoter/downstream) @done (15-08-05 13:09)
+    ☐ Is there generally an additional Gro binding site upstream of genes that have intronic binding?
+      Not entirely sure how to address this problem
+        Find all genes w/ intronic gro
+        Search for gro binding within +/- 1000 bp?g
+    ☐ Are there any patterns of expression correlating with intronic binding?
+    ✔ Are there any common motifs within intron Gro sequences? @done (15-08-05 16:38)
+      Not really
