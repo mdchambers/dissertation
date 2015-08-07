@@ -119,3 +119,23 @@ Daily 150804:
     ☐ What percentage of introns also exhibit binding of dCtBP w/ Groucho
       Looking at the modencode paper, I'm not sure this is really a productive line of inquiry. These may just be HOTs. And their chip-chip/seq comparisons show very little overlap between grouch and dctbp once those areas are removed.
       Perhaps look at factors they do pick up (en, bin & bap, twi/tin/cad)
+Daily 150806:
+  ☐ To do
+    ☐ Data analysis
+      ☐ Redownload data from seq core servers
+      ☐ chip-seq/rna-seq
+      ☐ nascent-seq (should save for later)
+        ☐ 5' bias
+    ☐ Writing
+      ☐ Section on Groucho intron occupancy w/ figures
+  ☐ Questions
+    ☐ Is there generally an additional Gro binding site upstream of genes that have intronic binding?
+      Not entirely sure how to address this problem
+        Find all genes w/ intronic gro
+        Search for gro binding within +/- 1000 bp?g
+    ☐ Are there any patterns of expression correlating with intronic binding?
+    ✔ Are there any common motifs within intron Gro sequences? @done (15-08-05 16:38)
+      Not really
+    ☐ What percentage of introns also exhibit binding of dCtBP w/ Groucho
+      Looking at the modencode paper, I'm not sure this is really a productive line of inquiry. These may just be HOTs. And their chip-chip/seq comparisons show very little overlap between grouch and dctbp once those areas are removed.
+      Perhaps look at factors they do pick up (en, bin & bap, twi/tin/cad)
