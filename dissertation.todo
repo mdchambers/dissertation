@@ -116,3 +116,6 @@ Daily 150804:
     ☐ Are there any patterns of expression correlating with intronic binding?
     ✔ Are there any common motifs within intron Gro sequences? @done (15-08-05 16:38)
       Not really
+    ☐ What percentage of introns also exhibit binding of dCtBP w/ Groucho
+      Looking at the modencode paper, I'm not sure this is really a productive line of inquiry. These may just be HOTs. And their chip-chip/seq comparisons show very little overlap between grouch and dctbp once those areas are removed.
+      Perhaps look at factors they do pick up (en, bin & bap, twi/tin/cad)

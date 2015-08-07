@@ -1,6 +1,6 @@
 ---
-title: Dissertation OUtline
-author: Michael Chambers
+<!-- title: Dissertation Outline -->
+<!-- author: Michael Chambers -->
 bibliography: papers2_bibtex.bib
 csl: styles/cell.csl
 ---
@@ -32,51 +32,6 @@ csl: styles/cell.csl
 	* Importance to development/signal transduction
 	* Importance to disease states (developmental abnormalities and cancer)
 * DNA topological considerations
-
-### Chapter X: Nascent-seq
-#### Abstract
-#### Introduction
-
-* Introduction to nascent-seq
-	* Transcription rate determination
-		* Importance to non-steady state transcript level analysis
-	* Fractionation methodology
-* Very brief introduction to deep sequencing technologies
-
-#### Materials & Methods
-
-* Flies
-	* Strains
-	* Culturing
-	* Collection
-* Isolation of chromatin-associated RNA
-	* Embryo fractionation
-	* RNA isolation
-	* Validation of fractionation (anti-H3/anti-tubulin immunoblot)
-	* Depletion of rRNA
-		* Sequences of depletion oligomers
-	* Validation of mRNA quality (Bioanalyzer)
-* Library preparation/QC
-* Sequencing
-* Data processing
-	* QC/pre-processing
-	* Mapping
-	* Transcript assignment and expression level normalization
-
-#### Results
-
-* Validation of chromatin-associated RNA isolation
-	* anti-H3/anti-tubulin immunoblot
-	* Bioanalyzer profiles/pseudogels
-	* Schematic of rRNA depletion procedure(?)
-* Overview of data sets
-	* Reads per sample
-	* Intra- and inter-replicate similarity analyses
-* Primary differences with total mRNA seq experiments
-
-#### Discussion
-#### Figures & Tables
-#### References
 
 ### Chapter X: Groucho activity in the developing embryo
 #### Abstract
@@ -129,7 +84,7 @@ csl: styles/cell.csl
 		* Overexpression shows higher expression at early timepoints, and a slight recovery towards wt levels aftewards
 		* Gro LoF shows constitutively low levels of Groucho expression
 		* Is Gro zygotically expressed at all?
-		* According to modENCODE data (cite), gro transcript levels are highest at embryo deposition, and steadily decrease, reaching a low point during larval L3 stage. Gro levels are slightly elevated during late L3 and white prepupae stages, before dropping once more to approximately early/mid larval levels
+		* According to modENCODE data, gro transcript levels are highest at embryo deposition, and steadily decrease, reaching a low point during larval L3 stage. Gro levels are slightly elevated during late L3 and white prepupae stages, before dropping once more to approximately early/mid larval levels
 		* Our Gro profile is consistent with these observations	
 		* Figure: Groucho expression timecourse (wt and mut)
 	* Drosophila Gro is a dedicated repressor
@@ -147,26 +102,69 @@ csl: styles/cell.csl
 	* Groucho widths slightly increase in size at later timepoints, though whether this is the result of biological variability or slight deviations in chip-seq library fraction efficiencies is uncertain. In either case, the effect is slight.
 	* Clustering of Gro binding regions does appear to be prevalent. Over half of all Groucho-associated genes exhibit two or more distinct Groucho binding sites
 * At all timepoints, about half of Gro binding is either upstream or overlapping the start site of the nearest gene feature, consistent with Groucho's association with enhancer regions, which are typically, but certainly not always upstream of their target gene
-	* Approximately 40% of all Gro binding sites are contained with gene bodies, with 35 to 50% of those sites falling within an intron. Of those, 40% are found within the most 5' intron.
-	* In Drosophila, the first intron is typically longer, and most relevang to gene regulation.
-	* It is unkown whether Groucho is being actively recruited to these intronic regions, or if looping from an enhancer region is responsible for depositing Gro within these areas.
-	* Motif analysis of binding sequences within introns reveals few conserved sequences, possibly indicating the lack of a direct DNA binding factor recruiting Gro at these positions
+	* Approximately 40% of all Gro binding sites are contained with gene bodies, with 35 to 50% of those sites falling within an intron. Of those, 40% are found within the first intron.
+	* In Drosophila, the first intron is typically longer, and most relevant to gene regulation.
+	* It is unknown whether Groucho is being actively recruited to these intronic regions, or if looping from an enhancer region is responsible for depositing Gro within these areas.
+	* Motif analysis of binding sequences within introns reveals few conserved sequences, possibly indicating the lack of a sequence-specific DNA binding factor being responsible for recruiting Gro at these positions
+		* Despite this, recruitment of Gro to introns seems highly specific (is being directed by some factor or process), as it often occurs with 100-200 bps of the TSS, in discreet peaks or clusters of peaks
+		* Several examples of genes with alternative TSS's exhibiting Groucho peaks in introns adjacent to each start site (ex. dpp)
+* Recruitment of Groucho to intronic regions correlates with repression of those genes, but does not appear to be an obligate feature of repression
+	* Multiple known or suspected Gro targets lack introns (zen, tolloid, twist, wntD, tll, sna)
+* Some genomic areas exhibit widespread Groucho binding, especially around Gro targets in areas with low gene density
+	* Ex. snail; 21 distinct Groucho bindng sites spread over a 50kb region
+	* Ex. odd skipped; 17 distinct sites over 30kb
 * Groucho involved in active, reversible repression is enriched for upstream and within genes
 * Groucho regulated genes are enriched for paused PolII, and depleted for actively transcribing PolII
-
-* Differential expression by timepoint and condition
-	* Table of significantly DE genes as appendices(?)
-	* Gro OE vs LoF comparisons
-	* 2xOE vs 4xOE
-	* dSP vs 2x/4xOE
-* Differential timecourse analysis/clustering
-	* Statistical underpinnings of expression timecourse analysis
-	* Clustering output (significantly different timecourses)
-		* Need a way to succinctly represent maSigPro output
+	* Stronger enrichment with genes with Gro intronic binding
 
 #### Discussion
+
+### Chapter X: Nascent-seq
+#### Abstract
+#### Introduction
+
+* Introduction to nascent-seq
+	* Transcription rate determination
+		* Importance to non-steady state transcript level analysis
+	* Fractionation methodology
+* Very brief introduction to deep sequencing technologies
+
+#### Materials & Methods
+
+* Flies
+	* Strains
+	* Culturing
+	* Collection
+* Isolation of chromatin-associated RNA
+	* Embryo fractionation
+	* RNA isolation
+	* Validation of fractionation (anti-H3/anti-tubulin immunoblot)
+	* Depletion of rRNA
+		* Sequences of depletion oligomers
+	* Validation of mRNA quality (Bioanalyzer)
+* Library preparation/QC
+* Sequencing
+* Data processing
+	* QC/pre-processing
+	* Mapping
+	* Transcript assignment and expression level normalization
+
+#### Results
+
+* Validation of chromatin-associated RNA isolation
+	* anti-H3/anti-tubulin immunoblot
+	* Bioanalyzer profiles/pseudogels
+	* Schematic of rRNA depletion procedure(?)
+* Overview of data sets
+	* Reads per sample
+	* Intra- and inter-replicate similarity analyses
+* Primary differences with total mRNA seq experiments
+
+#### Discussion
+#### Figures & Tables
+#### References
+
 
 ### Appendices
 #### Appendix X: Groucho-regulated gene data
 #### Appendix X: Groucho binding regions by timepoint
-#### Appendix X: Yan (?)

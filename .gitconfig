@@ -1,0 +1,6 @@
+[diff "word"]
+    binary = true
+    textconv = docx2txt
+
+[alias]
+    wdiff = diff --color-words
