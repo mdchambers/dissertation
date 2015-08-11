@@ -1,4 +1,4 @@
-**Figure 2-a. Groucho ChIP-seq experiments show high reproducibility in read mapping and peak calling** **(A)** ChIP-seq libraries were sequenced to a depth of ~20M reads, twice the recommended library sizes for ChIP-seq experiments proposed by the moENCODE consortium.{Landt, 2012 #308} **(B)** *(left)* Overall mapping profiles of ChIP-seq sequenced reads cluster by timepoint. Timepoint 2 and 3 samples cluster more closely together than timepoint 1, which diverges significantly from both other timepoints. Dark green indicates a higher correlation by Spearman's rank correlation coefficient (a value of 1 indicates perfect correspondence). *(right)* Peak calling was performed with MACS2 and called peaks were clustered by similarity. **(C)** Replicate similarity was confirmed using principal component analysis
+**Figure 2-a. Groucho ChIP-seq experiments show high reproducibility in read mapping and peak calling** **(A)** ChIP-seq libraries were sequenced to a depth of ~20M reads, twice the recommended library sizes for ChIP-seq experiments proposed by the modENCODE consortium {Landt, 2012 #308}. **(B)** *(left)* Overall mapping profiles of ChIP-seq sequenced reads cluster by timepoint. Timepoint 2 and 3 samples cluster more closely together than timepoint 1, which diverges significantly from both other timepoints. Dark green indicates a higher correlation by Spearman's rank correlation coefficient (a value of 1 indicates perfect correspondence). *(right)* Peak calling was performed with MACS2 and called peaks were clustered by similarity. **(C)** Replicate similarity was confirmed using principal component analysis
 
 //PB
 
@@ -7,6 +7,8 @@
 //PB
 
 **Figure 2-c. A large number of Groucho binding regions are preserved throughout all stages analyzed.** **(A)** While a significant fraction of Groucho binding sites are unique to each of the three timepoints analyzed, several are preserved across two or more timepoints. No detected Groucho peak was present in only early and late timepoints, indicated that during the timepoints analyzed removeal of Groucho binding from a locus was a permanent regulatory decision. Additionally, while the middle and late timepoints have a significant fraction of binding sites in common, the early and middle timepoints have very few in common. This is indicative of Groucho genomic localization being relatively dynamic during early timepoints when compared to later times. **(B)** Approximately 1500 peaks were called in both anti-Gro and input libraries. These are most likely the result of DNA isolation, library preparation, or read mapping effects and were removed from further analyses.
+
+TODO: Remake (A) venn, removing Input overlapping peaks
 
 //PB
 

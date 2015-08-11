@@ -89,6 +89,25 @@ csl: styles/cell.csl
 		* Heatmap of spearman coefficients
 		* PCA analysis
 		* Characteristic MA plot
+* Groucho target genes are enriched for developmentally-regulated transcription factors
+* Groucho recruitment is more dynamic during early embryonic stages (consistent with highest levels of Gro at these stages)
+* Groucho spreading does not appear to be an obligate characteristic of repression
+	* Groucho peaks exhibit a mean width of approximately 500 bp
+	* Groucho widths slightly increase in size at later timepoints, though whether this is the result of biological variability or slight deviations in chip-seq library fraction efficiencies is uncertain. In either case, the effect is slight.
+	* Clustering of Gro binding regions does appear to be prevalent. Over half of all Groucho-associated genes exhibit two or more distinct Groucho binding sites
+* Groucho localizes in distinctive patterns adjacent to, and overlapping, predicted target genes
+	* Capicua-regulated genes
+	* Brinker-regulated genes
+	* Zelda interaction
+* Groucho binds at transcription start sites 
+
+* At all timepoints, about half of Gro binding is either upstream or overlapping the start site of the nearest gene feature, consistent with Groucho's association with enhancer regions, which are typically, but certainly not always upstream of their target gene
+	* Approximately 40% of all Gro binding sites are contained with gene bodies, with 35 to 50% of those sites falling within an intron. Of those, 40% are found within the first intron.
+	* In Drosophila, the first intron is typically longer, and most relevant to gene regulation.
+	* It is unknown whether Groucho is being actively recruited to these intronic regions, or if looping from an enhancer region is responsible for depositing Gro within these areas.
+	* Motif analysis of binding sequences within introns reveals few conserved sequences, possibly indicating the lack of a sequence-specific DNA binding factor being responsible for recruiting Gro at these positions
+		* Despite this, recruitment of Gro to introns seems highly specific (is being directed by some factor or process), as it often occurs with 100-200 bps of the TSS, in discreet peaks or clusters of peaks
+		* Several examples of genes with alternative TSS's exhibiting Groucho peaks in introns adjacent to each start site (ex. dpp)
 * Perturbation of Groucho levels results in the misregulation of thousands of genes
 	* Wild-type and mutant expression profile of Groucho shows ubiquitious maternal contribution in the early embryo, and steep fall-off at later timepoints
 		* Overexpression shows higher expression at early timepoints, and a slight recovery towards wt levels aftewards
@@ -100,24 +119,7 @@ csl: styles/cell.csl
 	* Drosophila Gro is a dedicated repressor
 		* Introduce concept of Gro homologs that serve primarily as activators
 		* Evidence from LoF and OE regulated genes
-* Groucho target genes are enriched for developmentally-regulated transcription factors
-* Groucho recruitment is more dynamic during early embryonic stages (consistent with highest levels of Gro at these stages)
-* Groucho localizes in distinctive patterns adjacent to, and overlapping, predicted target genes
-	* Capicua-regulated genes
-	* Brinker-regulated genes
-	* Zelda interaction
-* Groucho binds at transcription start sites 
-* Groucho spreading does not appear to be an obligate characteristic of repression
-	* Groucho peaks exhibit a mean width of approximately 500 bp
-	* Groucho widths slightly increase in size at later timepoints, though whether this is the result of biological variability or slight deviations in chip-seq library fraction efficiencies is uncertain. In either case, the effect is slight.
-	* Clustering of Gro binding regions does appear to be prevalent. Over half of all Groucho-associated genes exhibit two or more distinct Groucho binding sites
-* At all timepoints, about half of Gro binding is either upstream or overlapping the start site of the nearest gene feature, consistent with Groucho's association with enhancer regions, which are typically, but certainly not always upstream of their target gene
-	* Approximately 40% of all Gro binding sites are contained with gene bodies, with 35 to 50% of those sites falling within an intron. Of those, 40% are found within the first intron.
-	* In Drosophila, the first intron is typically longer, and most relevant to gene regulation.
-	* It is unknown whether Groucho is being actively recruited to these intronic regions, or if looping from an enhancer region is responsible for depositing Gro within these areas.
-	* Motif analysis of binding sequences within introns reveals few conserved sequences, possibly indicating the lack of a sequence-specific DNA binding factor being responsible for recruiting Gro at these positions
-		* Despite this, recruitment of Gro to introns seems highly specific (is being directed by some factor or process), as it often occurs with 100-200 bps of the TSS, in discreet peaks or clusters of peaks
-		* Several examples of genes with alternative TSS's exhibiting Groucho peaks in introns adjacent to each start site (ex. dpp)
+
 * Recruitment of Groucho to intronic regions correlates with repression of those genes, but does not appear to be an obligate feature of repression
 	* Multiple known or suspected Gro targets lack introns (zen, tolloid, twist, wntD, tll, sna)
 * Some genomic areas exhibit widespread Groucho binding, especially around Gro targets in areas with low gene density
