@@ -37,11 +37,21 @@ csl: styles/cell.csl
 #### Abstract
 #### Introduction
 
-* Groucho and development (short section)
+* Groucho and development
+	* Transcriptional corepressor
+	* Spatial and temporal restriction of gene expression
+	* Interacts with numerous sequence-specific transcription factors
+		* Generally through interactions with conserved peptide motifs
+	* Through these interactions, regulated tissue specification at multiple steps in development
+	* Groucho as a decision node, integrating signal information combinatorially and in a context-dependent fashion, as it's activity is dependent on the presence or absence of one or more interacting partners
+	* Groucho is conserved throughout metazoans
+		* Implicated in developmental abnormalities and disease in humans
+* Despite centrality, no attempt to explore Groucho's activity in the developing embryo
+	* To this goal, established multiomics approach in wild-type and Groucho mutant embryos	
 	* Roles throughout Drosophila development
 	* Ubiquitously expressed
 	* Roles in tissue specification in response to multiple extracellular signaling pathways (RTK signaling being most prominent)
-	* Groucho as a decision node, integrating signal information combinatorially and in a context-dependent fashion, as it's activity is dependent on the presence or absence of one or more interacting partners
+	* Significant points in timepoints under analysis
 * RNA-seq for transcriptome analysis
 	* Allows for the analysis of Groucho regulatory activity in a developmental context
 	* Development is a rapid and fluid process, so necessary and instructive to analyze groucho activity at multiple timepoints throughout the process
