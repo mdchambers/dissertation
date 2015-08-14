@@ -140,7 +140,7 @@ Daily 150806:
       Looking at the modencode paper, I'm not sure this is really a productive line of inquiry. These may just be HOTs. And their chip-chip/seq comparisons show very little overlap between grouch and dctbp once those areas are removed.
       Perhaps look at factors they do pick up (en, bin & bap, twi/tin/cad)
 
-Daily 150812:
+Daily 150813:
   ☐ Motif analysis of intronic binding regions (make table)
   ☐ Gene ontology of Groucho-associated and overlapping genes (from chip)
   ☐ Generate new histogram of Groucho peaks per gene
@@ -148,10 +148,22 @@ Daily 150812:
   ☐ Width of Gro peaks by feature overlap
   ☐ Contact committee
   ☐ Writing
-    ☐ Finish section on rna-seq
-    ☐ Finish section on chip-seq/rna-seq integration
-    ☐ Decide on gene-level view to include in chapter
-    ☐ Outline introduction chapter
+    ☐ Introduction
+    ☐ Ch 2
+      ☐ Abstract
+      ☐ Introduction - unanswered questions
+      ☐ Results
+        ☐ Paragraph summary of major points
+        ☐ Chip-seq
+          ☐ Correlation/overlap with previous study peaks (simple)
+          ☐ Genome browser views of particular points
+            ☐ zen locus (valentine 1998) (zen VRR -1.1 to -1.4 kb, )
+          ☐ Examples of differences in peak widths... how to represent?
+          ☐ Summary paragraph
+        ☐ RNA-seq
+        ☐ Combinatorial
+      ☐ Decide on gene-level view to include in chapter
+
 
 
 
