@@ -16,14 +16,6 @@ TODO: Remake (A) venn, removing Input overlapping peaks
 
 //PB
 
-**Figure 2-h. Average Groucho peak widths suggest spreading is an limited phenomenon.** Groucho binding regions have a median width of between 500 and 700 bp. This binding pattern is more consistent with a transcription factor localizing to a small area of chromatin than with the spreading model that has been theorized to explain the association of Groucho with chromatin. However, at all three timepoints, there are a significant number of outlier Groucho peaks exhibiting wider binding. 
-
-//PB
-
-**Figure 2-e. Groucho binding is enriched in promoters, introns, and 5' UTRs at all timepoints** **(A)** Heatmap of statistical enrichment of Groucho binding as determined by ChIP-seq over three time spans. Enrichment (yellow) or depletion (blue) of mapped reads across several feature types is show. Groucho exhibits the strongest enrichment in 5' UTRs, with slight enrichment in both promoters regions (defined as within 500 bp upstream of the TSS) and intronic regions. Average levels of reads were mapped further upstream (500 - 2000 bp), while regions further away were depleted for Groucho binding (2,000 - 20,000 bp). **(B)** Mapping the location of Groucho binding peaks versus each peak's nearest feature reveals that Groucho preferentially binds within gene bodies, with over half of all Groucho binding at the middle and late timepoints occurring within gene bodies. Groucho binding outside of genes is approximately evenly split between binding upstream and downstream of its nearest feature.
-
-//PB
-
 **Figure 2-f. Groucho is preferentially recruited to gene bodies at all timepoints.** Mapping the location of Groucho binding peaks versus each peak's nearest feature reveals that Groucho preferentially binds within gene bodies, with over half of all Groucho binding at the middle and late timepoints occurring within gene bodies. Groucho binding outside of genes is approximately evenly split between binding upstream and downstream of its nearest feature.
 
 TODO: Cut 2-f or remove 2-e//B
@@ -34,7 +26,11 @@ TODO: Cut 2-f or remove 2-e//B
 
 //PB
 
-**Figure 2-k. Perturbation of Groucho expression levels results in the mis-regulation of thousands of genes.**
+**Figure 2-h. Average Groucho peak widths suggest spreading is an limited phenomenon.** Groucho binding regions have a median width of between 500 and 700 bp. This binding pattern is more consistent with a transcription factor localizing to a small area of chromatin than with the spreading model that has been theorized to explain the association of Groucho with chromatin. However, at all three timepoints, there are a significant number of outlier Groucho peaks exhibiting wider binding. 
+
+//PB
+
+**Figure 2-i. Groucho-regulated genes are significantly enriched for Groucho binding within introns.** Genes that become differentially expressed in Groucho LoF or overexpressing embryos are specifically enriched for Groucho binding within introns. This effect is most strongly seen in the 2x and 4x overexpression lines, in which genes that become less transcribed are enriched 4- to 5-fold for Groucho binding compared to genes exhibiting no response.
 
 //PB
 
@@ -43,10 +39,27 @@ TODO: Cut 2-f or remove 2-e//B
 TODO: This should go in an other section.
 
 //PB
+//PB
 
-**Figure 2-i. Groucho-regulated genes are significantly enriched for Groucho binding within introns.** Genes that become differentially expressed in Groucho LoF or overexpressing embryos are specifically enriched for Groucho binding within introns. This effect is most strongly seen in the 2x and 4x overexpression lines, in which genes that become less transcribed are enriched 4- to 5-fold for Groucho binding compared to genes exhibiting no response.
+**Figure 2-k. Perturbation of Groucho expression levels results in the mis-regulation of thousands of genes.**
 
 //PB
+
+**Figure 2-l.**
+
+//PB
+
+**Figure 2-m.**
+
+//PB
+
+**Figure 2-n.**
+
+//PB
+
+**Figure 2-o. The Groucho binding pattern at each timepoint shows significant overlap with expanded interval ChIP-seq data.** The significant Groucho peaks were compared to publicly-available Groucho peaks obtained from 0 - 12 hour embryos(REF). Two 0 - 12 hour ChIP-seq datasets, utilizing independently-derived . The modENCODE data encompasses a timespan beginning 1.5 hours before ours begins and ending 3 hours afterwards. 
+
+**Figure 2-p.**
 
 
 
