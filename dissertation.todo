@@ -160,14 +160,40 @@ Daily 150813:
       ☐ Results
         ☐ Paragraph summary of major points
         ☐ Chip-seq
-          ☐ Correlation/overlap with previous study peaks (simple)
-          ☐ Genome browser views of particular points
-            ☐ zen locus (valentine 1998) (zen VRR -1.1 to -1.4 kb, )
-          ☐ Examples of differences in peak widths... how to represent?
+          ✔ Correlation/overlap with previous study peaks (simple) @done (15-08-18 15:19)
+          ✔ Genome browser views of particular points @done (15-08-18 15:19)
+            ✔ zen locus (valentine 1998) (zen VRR -1.1 to -1.4 kb, ) @done (15-08-18 15:19)
+          ✔ Examples of differences in peak widths... how to represent? @done (15-08-18 15:19)
           ☐ Summary paragraph
         ☐ RNA-seq
         ☐ Combinatorial
       ☐ Decide on gene-level view to include in chapter
+
+Daily 150818:
+  ☐ Ch 1 - Intersection
+  ☐ Ch 2
+    ☐ Abstract
+    ☐ Introduction
+      ☐ Add significance
+    ☐ Materials & Methods
+    ☐ Results
+      ☐ Chip
+        ☐ motif analysis
+        ☐ Dorsal-repressed
+          ✔ Figures @done (15-08-18 15:54)
+          ☐ Write-up
+        ☐ Dorsal-activated
+          ✔ Figures @done (15-08-18 15:54)
+          ☐ Write-up
+      ☐ rna-seq
+        ☐ Address number of genes
+        ☐ Differences in LoF and overexpression
+      ☐ rna-seq/chip-seq intersect
+        ☐ Intersecting genes
+          ☐ Table
+          ☐ Point out interesting
+        ☐ Known Gro targets
+      ☐ Nascent-seq
 
 
 
