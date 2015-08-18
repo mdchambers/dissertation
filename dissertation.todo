@@ -146,12 +146,17 @@ Daily 150813:
   ☐ Generate new histogram of Groucho peaks per gene
     ☐ Are Gro DE genes enriched for multiple peaks(?)
   ☐ Width of Gro peaks by feature overlap
+  ☐ Overlap with modencode data -> does score/fold-enrichment correlate with modENCODE peak overlap (probably)
   ☐ Contact committee
   ☐ Writing
     ☐ Introduction
     ☐ Ch 2
       ☐ Abstract
       ☐ Introduction - unanswered questions
+        ✔ Spreading/looping/chromatin remodeling @done (15-08-17 16:55)
+        ☐ Long vs short range repression
+        ☐ Novel interacting partners through motif discovery
+        ☐ Novel target and pathway regulatory events
       ☐ Results
         ☐ Paragraph summary of major points
         ☐ Chip-seq

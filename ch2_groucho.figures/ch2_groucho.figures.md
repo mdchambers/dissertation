@@ -57,9 +57,15 @@ TODO: This should go in an other section.
 
 //PB
 
-**Figure 2-o. The Groucho binding pattern at each timepoint shows significant overlap with expanded interval ChIP-seq data.** The significant Groucho peaks were compared to publicly-available Groucho peaks obtained from 0 - 12 hour embryos(REF). Two 0 - 12 hour ChIP-seq datasets, utilizing independently-derived . The modENCODE data encompasses a timespan beginning 1.5 hours before ours begins and ending 3 hours afterwards. 
+**Figure 2-o. The Groucho binding pattern exhibits significant overlap with Groucho ChIP-chip determined peaks utilizing an independently-derived antibody.** Significant Groucho peaks were compared to two sets of publicly-available Groucho ChIP-chip data performed on 0 - 12 hour embryos generated using a polyclonal antibody raised against a portion of the Groucho Q domain. The modENCODE data encompasses a timespan beginning 1.5 hours prior to our timepoints, and ending 3 hours afterwards. The degree of overlap is strongest at later timepoints, with the 6.5 - 9 hour data overlapping 68% of all modENCODE binding regions. 
 
-**Figure 2-p.**
+//PB
+
+**Figure 2-p. A small subset of early-embryo Groucho-bound sites are utilized later in development.** Comparison of embryonic Groucho binding with modENCODE Groucho ChIP-seq data generated from white pre-pupae reveals that a small subset of embryonic Groucho-bound regions are bound during later development. The majority of Gro bound regulatory regions are unique to each developmental stage. The role of Gro in regulating gene expression during pupal stages, especially in tissue differentiation originating from imaginal discs is well documented, specifically the intepretation of a Brinker gradient arising across the anterior-posterior axis of the wing disc {Hasson, 2001 #3033}.
+
+//PB
+
+**Figure 2-q. Groucho binds to the *zen* locus at overlapping and adjacent to Dorsal binding sites.** The region 1.1 to 1.4 kb upstream of *zen* is known as the *zen* ventral repression region (VRR) and contains three Dorsal sites that function, cooperatively with Deadringer/Retained and Cut, to recruit Gro to repress *zen* ventrally in the early embryo {Valentine, 1998 #3036}. Groucho binds within the VRR during the 1.5 - 4 hr timepoint, consistent with Groucho-mediated repression at this stage. However, the majority of binding is outside of the VRR, both immediately upstream of the VRR and downstream. The downstream region overlaps the transcriptional start site of *zen* and continues 700 bp upstream. Groucho binding is lost at later timepoints
 
 
 
