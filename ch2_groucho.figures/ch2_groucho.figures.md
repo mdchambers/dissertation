@@ -41,19 +41,19 @@ TODO: This should go in an other section.
 //PB
 //PB
 
-**Figure 2-k. Perturbation of Groucho expression levels results in the mis-regulation of thousands of genes.**
+**Figure 2-k. Perturbation of Groucho expression levels results in the mis-regulation of thousands of genes.** Maternal deficiency of Gro activity results in a large proportion (>10%) of expressed genes to become misregulated in the Drosophila embryo across all timepoints. The fraction of misregulated genes is approximately evenly split between up- and down-regulation. Overexpression of wild-type Gro at two levels (approx. 2x and 4x endogenous), or a Gro mutant lacking the SP domain (GrodSP), results in a smaller, but still significant alteration of the embryonic transcription profile.
 
 //PB
 
-**Figure 2-l.**
+**Figure 2-l. Clustering of embryonic transcriptomes across Gro levels and timepoints and between replicates.** Pair-wise Spearman correlation coeffients were used to cluster transcriptome profiles by overall similarity. Transcriptomes tend to cluster by timepoint, then by Gro expression level. The notable exception are the later Gro loss-of-function samples, which cluster together (red square), independently from other 4 - 6.5 or 6.5 - 9 hour aged embryos. This is consistent with the significant departure from a viable developmental progression these embryos have taken by this point, which has resulted in significant changes in gene expression as well as potentially stalling of any further developmental change. Abbreviations: OE1 - 2x Gro overexpression, OE2 - 4x Gro overexpression, dGro - Gro maternal loss-of-function, dSP - Gro
 
 //PB
 
-**Figure 2-m.**
+**Figure 2-m. Confirmation of changes in Groucho transcript concentration across timepoints.** **(A)** Analysis of Groucho transcript levels reveals initially high levels of Groucho transcript in early embryos, which steadily declines in Gro wild-type and overexpression embryos. Gro loss-of-function embryos exhibit barely detectable levels of transcript throughout all three developmental stages. **(B)** Our Gro wild-type expresssion pattern is consistent with modENCODE developmental timecourse transcriptome data {Graveley, 2011 #3044}, which shows a peak of Groucho transcript level during 2 to 4 hours post-fertilization, followed by a steady decrease through the remainder of embryonic development.
 
 //PB
 
-**Figure 2-n.**
+**Figure 2-n. **
 
 //PB
 
