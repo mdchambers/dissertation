@@ -154,9 +154,9 @@ Daily 150813:
       ☐ Abstract
       ☐ Introduction - unanswered questions
         ✔ Spreading/looping/chromatin remodeling @done (15-08-17 16:55)
-        ☐ Long vs short range repression
-        ☐ Novel interacting partners through motif discovery
-        ☐ Novel target and pathway regulatory events
+        ✔ Long vs short range repression @done (15-08-18 18:28)
+        ✔ Novel interacting partners through motif discovery @done (15-08-18 18:38)
+        ☐ Novel target and pathway regulatory events (probably won't mention unless I include it)
       ☐ Results
         ☐ Paragraph summary of major points
         ☐ Chip-seq
@@ -174,17 +174,17 @@ Daily 150818:
   ☐ Ch 2
     ☐ Abstract
     ☐ Introduction
-      ☐ Add significance
+      ✔ Add significance @done (15-08-18 18:39)
     ☐ Materials & Methods
     ☐ Results
       ☐ Chip
         ☐ motif analysis
         ☐ Dorsal-repressed
           ✔ Figures @done (15-08-18 15:54)
-          ☐ Write-up
+          ✔ Write-up @done (15-08-18 16:53)
         ☐ Dorsal-activated
           ✔ Figures @done (15-08-18 15:54)
-          ☐ Write-up
+          ✔ Write-up @done (15-08-18 18:12)
       ☐ rna-seq
         ☐ Address number of genes
         ☐ Differences in LoF and overexpression

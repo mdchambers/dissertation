@@ -133,6 +133,29 @@ csl: styles/cell.csl
 	* Brinker-regulated genes
 	* Zelda interaction
 
+* Data overview
+	* Sequencing depth/replicate similarity
+		* Start with Gro LoF and introduce overexpression lines later?
+* Groucho loss-of-function data
+	* Number of differentially expressed genes per dataset (**Table**)
+	* Up and down-regulated genes per timepoint (**Table**)
+		* Overlap of DE genes between timepoints (Figure: venn diagram)
+* Groucho overexpression data
+	* Plot of Groucho mRNA levels by timepoint
+	* Some evidence of a dosage response to Groucho overexpression when comparing the 2-fold and 4-fold data sets, though the majority of differentially expressed genes exhibit near-identical levels of repression
+		* Possible interpretations
+			* Groucho functions primarily as a binary regulator
+			* The limiting factor in dosage response is the concentration of the associated repressor instead of Groucho
+	* Overexpression of the deltaSP mutant results in similar changes in expression to the wild-type overexpression lines
+		* This is based on correlation data and looking at some individual genes; not sure how to best visualize this
+		* This confirms that this domain is not essential for Groucho activity
+		* Does not necessarily support the hypothesis that this domain is responsible for down-regulation of Groucho activity or in the definition of Groucho targeting
+		* There may be more subtle differences between the deltaSP and wild-type overexpression datasets (worth looking into)
+* Similarity/inverse similarity of Groucho LoF and OE lines
+	* **Figure:** venn diagram
+	* Group analyses of genes showing opposite responses to Gro LoF vs OE (GO analysis, patterns in the chip-seq data)
+	
+
 #### Discussion
 
 ### Chapter X: Nascent-seq
