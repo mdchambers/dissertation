@@ -189,14 +189,36 @@ Daily 150818:
           ✔ Figures @done (15-08-18 15:54)
           ✔ Write-up @done (15-08-18 18:12)
       ☐ rna-seq
-        ☐ Address number of genes
-        ☐ Differences in LoF and overexpression
+        ✔ Address number of genes @done (15-08-19 10:58)
+        ✔ Differences in LoF and overexpression @done (15-08-19 10:58)
       ☐ rna-seq/chip-seq intersect
         ☐ Intersecting genes
-          ☐ Table
+          ✔ Table @done (15-08-19 17:14)
           ☐ Point out interesting
         ☐ Known Gro targets
       ☐ Nascent-seq
+
+Daily 150819:
+  ☐ Ch1 - Introduction
+    ☐ Outline
+    ☐ Write
+    ☐ Figure generation
+  ☐ Ch 2
+    ☐ Materials & Methods
+    ☐ Results
+      ☐ Motif analysis figure
+      ☐ Motif analysis of intergenic regions
+      ☐ Motif analysis of intergenic regions figure
+      ☐ RNA-seq/chip-seq intersect table
+        ☐ Generate table in PDF for supplemental info
+        ☐ Expand writeup (novel, known targets)
+      ☐ Known Gro target table
+        ☐ Generate table for supplemental info
+      ☐ Nascent-seq
+    ☐ Discussion
+  ☐ Format images for inclusion
+  ☐ Format according to graduate division requirements
+  ☐ Schedule dissertation talk
 
 
 
