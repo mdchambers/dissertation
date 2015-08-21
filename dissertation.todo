@@ -198,7 +198,8 @@ Daily 150818:
         ☐ Known Gro targets
       ☐ Nascent-seq
 
-Daily 150819:
+Daily 150820:
+  ☐ Email
   ☐ Ch1 - Introduction
     ☐ Outline
     ☐ Write
@@ -206,9 +207,13 @@ Daily 150819:
   ☐ Ch 2
     ☐ Materials & Methods
     ☐ Results
-      ☐ Motif analysis figure
-      ☐ Motif analysis of intergenic regions
-      ☐ Motif analysis of intergenic regions figure
+      ☐ Gro metagene plot
+      ☐ % overlap of each factor in OregAnno database (could be interesting)
+      ☐ % overlap w/ Levine DTS sites
+      ☐ Motif of constitutive regions
+      ✔ Motif analysis figure @done (15-08-20 22:23)
+      ✔ Motif analysis of intergenic regions @done (15-08-20 17:52)
+      ✔ Motif analysis of intergenic regions figure @done (15-08-20 22:23)
       ☐ RNA-seq/chip-seq intersect table
         ☐ Generate table in PDF for supplemental info
         ☐ Expand writeup (novel, known targets)
@@ -216,6 +221,9 @@ Daily 150819:
         ☐ Generate table for supplemental info
       ☐ Nascent-seq
     ☐ Discussion
+      ☐ Read clint's for formatting
+      ☐ Outline
+      ☐ Write
   ☐ Format images for inclusion
   ☐ Format according to graduate division requirements
   ☐ Schedule dissertation talk

@@ -158,6 +158,27 @@ csl: styles/cell.csl
 
 #### Discussion
 
+* Dynamics of Developmental Groucho Genome Occupancy
+	* Large number of developmentally specific binding sites
+		* Widespread rearrangement of occupancy following early stages
+			* Indicative of specific roles for Gro in early gene regulation, that are not carried over
+	* Large number of sites that are occupied throughout development (should motif scan these?)
+	* Groucho regulation is transient and generally non-repeatable (implies high cell-type temporal specificity)
+* Preference of sites for binding within genes
+	* Significant preference for introns
+	* Significant preference for initial introns
+	* Consistent with observations of other Dmel TFs
+		* kruppel {Matyash, 2004 #3046}
+		* twist {Sandmann, 2007 #3048} {Zeitlinger, 2007 #3025}
+		* wei {Wei, 2006 #3047}
+		* First introns are longer and more conserved {Bradnam, 2008 #3034}
+	* 
+* Binding sites show large variability in 
+* Association of Groucho with Dorsal-target Genes
+* 
+
+
+
 ### Chapter X: Nascent-seq
 #### Abstract
 #### Introduction
@@ -200,6 +221,9 @@ csl: styles/cell.csl
 * Primary differences with total mRNA seq experiments
 
 #### Discussion
+
+
+
 #### Figures & Tables
 #### References
 
