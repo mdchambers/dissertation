@@ -172,9 +172,19 @@ csl: styles/cell.csl
 		* twist {Sandmann, 2007 #3048} {Zeitlinger, 2007 #3025}
 		* wei {Wei, 2006 #3047}
 		* First introns are longer and more conserved {Bradnam, 2008 #3034}
-	* 
-* Binding sites show large variability in 
-* Association of Groucho with Dorsal-target Genes
+	* Intron binding is common motif of activators and repressors
+	* Hypothesize as to why
+		* Interactions w/ polymerase at promotor only block initation of novel transcription
+		* As drosophila polymerase traverses ~ 1 kb per min, introduces significant lag in complete repression
+		* Post-transcriptional regulation common method of curtailing run-on trancription
+		* Perhaps repressor binding additionally assists to stop elongating polymerases (would be helpful to have a metagene here)
+* Breadth of peaks suggests point-source association
+	* Implications for Groucho mechanism
+	* Enrichment for genes with paused PolII 
+* Association of Groucho with Dorsal-target genes
+	* Binds within known enhancer regions of zen and dpp
+	* Additionally overlaps transcription start site
+	* Potential direct or mediated interaction with tanscriptional machinery
 * 
 
 
