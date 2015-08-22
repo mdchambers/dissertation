@@ -184,8 +184,10 @@ csl: styles/cell.csl
 * Association of Groucho with Dorsal-target genes
 	* Binds within known enhancer regions of zen and dpp
 	* Additionally overlaps transcription start site
-	* Potential direct or mediated interaction with tanscriptional machinery
-* 
+	* Potential direct or mediated interaction with transcriptional machinery
+* Enrichment of Gro targets for TFs => early regulatory factor in cascading transcriptional changes
+* Enrichment for paused PolII
+	* Developmentally regulated genes often have paused PolII
 
 
 
