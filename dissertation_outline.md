@@ -164,6 +164,10 @@ csl: styles/cell.csl
 			* Indicative of specific roles for Gro in early gene regulation, that are not carried over
 	* Large number of sites that are occupied throughout development (should motif scan these?)
 	* Groucho regulation is transient and generally non-repeatable (implies high cell-type temporal specificity)
+	* Association of Groucho with Dorsal-target genes
+	* Binds within known enhancer regions of zen and dpp
+	* Additionally overlaps transcription start site
+	* Potential direct or mediated interaction with transcriptional machinery
 * Preference of sites for binding within genes
 	* Significant preference for introns
 	* Significant preference for initial introns
@@ -181,10 +185,7 @@ csl: styles/cell.csl
 * Breadth of peaks suggests point-source association
 	* Implications for Groucho mechanism
 	* Enrichment for genes with paused PolII 
-* Association of Groucho with Dorsal-target genes
-	* Binds within known enhancer regions of zen and dpp
-	* Additionally overlaps transcription start site
-	* Potential direct or mediated interaction with transcriptional machinery
+
 * Enrichment of Gro targets for TFs => early regulatory factor in cascading transcriptional changes
 * Enrichment for paused PolII
 	* Developmentally regulated genes often have paused PolII
