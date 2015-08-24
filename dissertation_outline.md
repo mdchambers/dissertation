@@ -15,24 +15,26 @@ csl: styles/cell.csl
 ### Abstract of the Dissertation
 ### Chapter X: Introduction: Groucho and _Drosophila_ development
 
-* Drosophila development and transcriptional regulation
-	* Brief overview of early embryonic stages and patterning events
-	* Relevance of Drosophila development and gene regulation on humans
-	* Transcription factors
-		* Overview of role of major activators/repressors in early development
-		* Overview of role of major coactivators/corepressors
-* Groucho
+
+* Groucho/TLE
 	* Discovery & early characterization
 		* Context of a slight hypomorph that resulted in extra bristles (Lindsley & Grell, 1968)
 	* Domain structure
 	* Homology
 	* Pathway participation
 	* Regulation
-	* Potential regulatory mechanism(s)
 	* Known/suspected target genes
 	* Importance to development/signal transduction
 	* Importance to disease states (developmental abnormalities and cancer)
-* DNA topological considerations
+* Mechanism of repression
+	* DNA topological considerations
+* Numerous roles of Gro in development
+	* Brief overview of early embryonic stages and patterning events
+	* Relevance of Drosophila development and gene regulation on humans
+	* Transcription factors
+		* Overview of role of major activators/repressors in early development
+		* Overview of role of major coactivators/corepressors
+
 
 ### Chapter X: Groucho activity in the developing embryo
 #### Abstract
