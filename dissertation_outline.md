@@ -16,16 +16,60 @@ csl: styles/cell.csl
 ### Chapter X: Introduction: Groucho and _Drosophila_ development
 
 
-* Groucho/TLE
-	* Discovery & early characterization
-		* Context of a slight hypomorph that resulted in extra bristles (Lindsley & Grell, 1968)
+* Groucho/TLE structure and conservation
+	* Member of one of a prevalent group of corepressors conserved throughout animals
+	* Discovery
+		* Weak hypomorphic allele resulting in extra supraorbital bristles {Lindsley, 1968 #3055}
+		* Stronger mutations are lethal
 	* Domain structure
-	* Homology
-	* Pathway participation
-	* Regulation
-	* Known/suspected target genes
-	* Importance to development/signal transduction
-	* Importance to disease states (developmental abnormalities and cancer)
+		* N-terminal Q (glutamine-rich) domain highly conserved
+			* Responsible for self-association {Chen, 1998 #267} and interaction with some repressors {Chen, 2000 #83}, including the TCF/LEF family {Brantjes, 2001 #3058}
+				* Tetramerization not requisite for recruitment to chromatin in vitro, but necessary for production of aggregates {Sekiya, 2007 #1658} 
+			* Structure of TLE Q-domain recently solved {Chodaparambil, 2014 #3057}
+				* Forms a dimer of dimers
+			* Does not effect recruitment pattern in S2 cells {Kaul, 2014 #2204}
+			* Not required for all Gro-mediated repression {Jennings, 2007 #2990}, potentially due to differences in mechanism or interactions
+		* C-terminal WD domain
+			* Highly conserved
+			* Human homologue structure solved, winged propeller domain {Pickles, 2002 #3060}
+			* Binds to repressors through interactions with peptide motifs binding in central cavity {Jennings, 2006 #3059}
+			* Mouse homologue, also necessary for chromatin association {Sekiya, 2007 #1658}
+		* Central domains
+			* Protein interactions and Groucho regulation regions
+			* Three domains GP, CcN, and SP
+			* GP
+				* Binds to HDAC1/Rpd3 {Chen, 1999 #3061}
+			* CcN
+				* CK2 and Cdc2 phosphorylation sites, regulated by cell cycle {Nuthall, 2002 #3062}
+			* SP
+				* Multiple phosphorylation sites (MAPK) {Hasson, 2005 #3064}
+				* Down-regulation of Gro following EGFR signaling, with this effect lasting after EGFR signaling ceases {Hasson, 2005 #3064}
+			* Evidence that Gro central domains are intrinsically disorderd {Turki-Judeh, 2012 #2966}
+				* Also play a role in target specificity or constriction of Groucho repressive activity
+* Developmental roles of Gro
+	* Outside of Drosophila, many roles, overall poorly understood
+	* Single isoform in drosophila
+		* Humans {Stifani, 1992 #3065} and mice {Mallo, 1993 #3066} each express four non-redundant Gro homologs (TLE1-4 and Grg1-4, respectively) {Yao, 1998 #3069}
+		* Humans additionally express a truncated TLE, termed AES, which associates with full length TLE to downregulate TLE-mediated response to Wnt signaling {Itatani, 2015 #123}
+		* In humans, Gro/TLE is involved in numerous developmental processes, including organ development, neurogenesis, hematopoesis, and osteogenesis {Bajoghli, 2005 #3068} {Javed, 2000 #3070}
+	* In drosophila
+		* Diverse roles, many well-studied
+		* Integration of multiple signaling pathways and interpretation of morphogen gradients
+			* Ras/MAPK {Cinnamon, 2008 #242}
+			* Notch {Barolo, 2002 #3072}
+			* decapentapletic (dpp) {Hasson, 2001 #3033} {Upadhyai, 2013 #2339}
+			* Wingless/Wnt {Cavallo, 1998 #3071}
+		* Dorsal-ventral patterning
+			* Maternally-contributed gradient of nuclear dorsal
+			* On ventral side of embryo, nuclear dorsal initiates cellular programs designating the mesoderm
+			* On ventrolateral regions, modest dorsal concentration leads to neuroectodermal fate
+			* On dorsal side, ectoderm
+		* Anterior-posterior patterning
+			* Gene regulation at poles
+			* Specification of strips (dmel embryo split into 14 stripes which specify the segments of the adult body)
+		* Imaginal discs
+			* Wing patterning in wing discs (dpp)
+
 * Mechanism of repression
 	* DNA topological considerations
 * Numerous roles of Gro in development
