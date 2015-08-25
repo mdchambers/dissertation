@@ -20,8 +20,8 @@ csl: styles/cell.csl
 	* Member of one of a prevalent group of corepressors conserved throughout animals
 	* Discovery
 		* Weak hypomorphic allele resulting in extra supraorbital bristles {Lindsley, 1968 #3055}
-		* Stronger mutations are lethal
-	* Domain structure
+		* Stronger mutations are lethal {Paroush, 1994 #172}
+	* Domain structure {Turki-Judeh, 2012 #2385}
 		* N-terminal Q (glutamine-rich) domain highly conserved
 			* Responsible for self-association {Chen, 1998 #267} and interaction with some repressors {Chen, 2000 #83}, including the TCF/LEF family {Brantjes, 2001 #3058}
 				* Tetramerization not requisite for recruitment to chromatin in vitro, but necessary for production of aggregates {Sekiya, 2007 #1658} 
@@ -56,21 +56,35 @@ csl: styles/cell.csl
 		* Diverse roles, many well-studied
 		* Integration of multiple signaling pathways and interpretation of morphogen gradients
 			* Ras/MAPK {Cinnamon, 2008 #242}
+				* 
 			* Notch {Barolo, 2002 #3072}
-			* decapentapletic (dpp) {Hasson, 2001 #3033} {Upadhyai, 2013 #2339}
-			* Wingless/Wnt {Cavallo, 1998 #3071}
+				* Under absence of signaling, Gro represses E(spl) complex genes through interaction w/ Hairy {Delidakis, 1991 #3082}
+				* Upon signaling, E(spl) genes become activated (Notch displaces Gro binding to Su(H)) and Gro recruited to E(spl) to repress proneural genes {Preiss, 1988 #3083} {Wurmbach, 1999 #3084}
+			* decapentapletic (dpp)/TGF-beta homologue {Upadhyai, 2013 #2339}
+				* Multiple roles in appendage patterning via activity within imaginal disks later in development
+				* Morphogen expressed dorsally in embryo; crucial for specifying dorsal cellular fates {Ferguson, 1992 #3088}
+					* Expression mediated by Drosal/Groucho
+				* In the absence of dpp signaling, Brinker (brk) represses a subset of dpp target genes via interaction w/ Gro and dCtBP {Hasson, 2001 #3033}
+				* Upon signaling activation, brk becomes repressed by Schnurri in dorsal regions of the embryo; brk continues to be expressed ventrolaterally {Marty, 2000 #3089}
+			* Wingless/Wnt {Cavallo, 1998 #3071} {Roose, 1999 #3086}
+				* Tcf/Lef target genes repressed via Gro interaction in unstimulated cells {Clevers, 2006 #3085}
+				* Beta-catenin nuclear concentration increases via signalin, displacing Gro and activating target genes {Daniels, 2005 #3087} 
 		* Dorsal-ventral patterning
-			* Maternally-contributed gradient of nuclear dorsal
-			* On ventral side of embryo, nuclear dorsal initiates cellular programs designating the mesoderm
-			* On ventrolateral regions, modest dorsal concentration leads to neuroectodermal fate
-			* On dorsal side, ectoderm
+			* Maternally-contributed gradient of nuclear dorsal {Roth, 1989 #1112}
+			* On ventral side of embryo, nuclear dorsal initiates cellular programs designating the mesoderm {Gonzalez-Crespo, 1993 #3043}
+			* On ventrolateral regions, modest dorsal concentration leads to neuroectodermal fate {Ip, 1992 #3042}
+			* Strength, patterning of dorsal binding sites, and adjacent binding sites determines dorsal activity {Zeitlinger, 2007 #3025}
 		* Anterior-posterior patterning
-			* Gene regulation at poles
-			* Specification of strips (dmel embryo split into 14 stripes which specify the segments of the adult body)
+			* Terminal patterning via interaction with capicua {Ajuria, 2011 #2947}
+				* In response to Torso RTK signaling {Chen, 2009 #3073} {Paroush, 1997 #3074}
+			* Stripe definition and polarity via engrailed interaction {Jimenez, 1997 #3075} {Kobayashi, 2001 #3076}
+				* Specification of strips (dmel embryo split into 14 stripes which specify the segments of the adult body)
 		* Imaginal discs
-			* Wing patterning in wing discs (dpp)
-
+			* Wing patterning in wing discs (dpp) {Winkler, 2010 #2964}
 * Mechanism of repression
+	* Oligomerization/spreading/looping
+	* Recruitment of histone deacetylases
+	* Competition w/ activating factors
 	* DNA topological considerations
 * Numerous roles of Gro in development
 	* Brief overview of early embryonic stages and patterning events
