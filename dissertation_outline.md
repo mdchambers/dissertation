@@ -84,10 +84,28 @@ csl: styles/cell.csl
 			* Wing patterning in wing discs (dpp) {Winkler, 2010 #2964}
 * Mechanism of repression
 	* Oligomerization/spreading/looping
+		* Follows from:
+			* Groucho tetramerizes; possible evidence for higher-order structures {Chen, 1998 #267} {Song, 2004 #1161}
+			* Groucho occupancy detected far from recruitment site 	by ChIP {Martinez, 2008 #2287}
+			* Evidence from mouse homolog {Sekiya, 2007 #1658}
+				* Tetramerization not required for recruitment to chromatin, or increase in nucleosome density
+					* Or localized spreading ( ~ 500 bp)
+				* Tetramerization is required for aggregation of separate nucleosome arrays
+				* Blocks recruitment to sites, but difficult to fit with picture of Gro as short- and long-range repressor
+		* Arguments agains:
+			* Required for viability, but not necessary for all repressive activity in vivo {Jennings, 2007 #2990}
+			* Evidence in cell culture showing discrete peaks, few wide peaks {Kaul, 2014 #2204}
 	* Recruitment of histone deacetylases
+		* Preferentially associates with deacetylated histone tails {Flores-Saaib, 2000 #656}
+		* And Rpd3 {Chen, 1999 #3105}
+		* Some repressive activity dep on Rpd3, which colocalizes w/ Gro and increases nucleosome density {Winkler, 2010 #2964}
+		* Fails to completely explain repressive ability
 	* Competition w/ activating factors
+		* Pax2 etc
 	* DNA topological considerations
+		* ...
 * Groucho and disease
+	* 
 
 
 ### Chapter X: Groucho activity in the developing embryo
