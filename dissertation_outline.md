@@ -44,7 +44,7 @@ csl: styles/cell.csl
 				* CK2 and Cdc2 phosphorylation sites, regulated by cell cycle {Nuthall, 2002 #3062}
 			* SP
 				* Multiple phosphorylation sites (MAPK) {Hasson, 2005 #3064}
-				* Down-regulation of Gro following EGFR signaling, with this effect lasting after EGFR signaling ceases {Hasson, 2005 #3064}
+				* Down-regulation of Gro following EGFR signaling, with this effect lasting after EGFR signaling ceases {Helman, 2011 #2938} {Hasson, 2005 #3064}
 			* Evidence that Gro central domains are intrinsically disorderd {Turki-Judeh, 2012 #2966}
 				* Also play a role in target specificity or constriction of Groucho repressive activity
 * Developmental roles of Gro
@@ -69,7 +69,7 @@ csl: styles/cell.csl
 				* Upon signaling activation, brk becomes repressed by Schnurri in dorsal regions of the embryo; brk continues to be expressed ventrolaterally {Marty, 2000 #3089}
 			* Wingless/Wnt {Cavallo, 1998 #3071} {Roose, 1999 #3086}
 				* Tcf/Lef target genes repressed via Gro interaction in unstimulated cells {Clevers, 2006 #3085}
-				* Beta-catenin nuclear concentration increases via signalin, displacing Gro and activating target genes {Daniels, 2005 #3087} 
+				* Beta-catenin nuclear concentration increases via signaling, displacing Gro and activating target genes {Daniels, 2005 #3087} 
 		* Dorsal-ventral patterning
 			* Maternally-contributed gradient of nuclear dorsal {Roth, 1989 #1112}
 			* On ventral side of embryo, nuclear dorsal initiates cellular programs designating the mesoderm {Gonzalez-Crespo, 1993 #3043}
@@ -87,12 +87,7 @@ csl: styles/cell.csl
 	* Recruitment of histone deacetylases
 	* Competition w/ activating factors
 	* DNA topological considerations
-* Numerous roles of Gro in development
-	* Brief overview of early embryonic stages and patterning events
-	* Relevance of Drosophila development and gene regulation on humans
-	* Transcription factors
-		* Overview of role of major activators/repressors in early development
-		* Overview of role of major coactivators/corepressors
+* Groucho and disease
 
 
 ### Chapter X: Groucho activity in the developing embryo
