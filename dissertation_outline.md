@@ -39,6 +39,7 @@ csl: styles/cell.csl
 			* Three domains GP, CcN, and SP
 			* GP
 				* Binds to HDAC1/Rpd3 {Chen, 1999 #3061}
+				* Also potentially nuclear localization sequence {Turki-Judeh, 2012 #2966}
 			* CcN
 				* CK2 and Cdc2 phosphorylation sites, regulated by cell cycle {Nuthall, 2002 #3062}
 			* SP
