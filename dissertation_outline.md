@@ -31,8 +31,7 @@ csl: styles/cell.csl
 			* Not required for all Gro-mediated repression {Jennings, 2007 #2990}, potentially due to differences in mechanism or interactions
 		* C-terminal WD domain
 			* Highly conserved
-			* Human homologue structure solved, winged propeller domain {Pickles, 2002 #3060}
-			* Binds to repressors through interactions with peptide motifs binding in central cavity {Jennings, 2006 #3059}
+			* Human homologue structure solved, winged propeller domain it			* Binds to repressors through interactions with peptide motifs binding in central cavity {Jennings, 2006 #3059}
 			* Mouse homologue, also necessary for chromatin association {Sekiya, 2007 #1658}
 		* Central domains
 			* Protein interactions and Groucho regulation regions
@@ -86,7 +85,8 @@ csl: styles/cell.csl
 	* Oligomerization/spreading/looping
 		* Follows from:
 			* Groucho tetramerizes; possible evidence for higher-order structures {Chen, 1998 #267} {Song, 2004 #1161}
-			* Groucho occupancy detected far from recruitment site 	by ChIP {Martinez, 2008 #2287}
+			* Groucho occupancy detected far from recruitment site by ChIP {Martinez, 2008 #2287}
+				* Analogous to Sir family of corepressors {Pirrotta, 2005 #3106}
 			* Evidence from mouse homolog {Sekiya, 2007 #1658}
 				* Tetramerization not required for recruitment to chromatin, or increase in nucleosome density
 					* Or localized spreading ( ~ 500 bp)

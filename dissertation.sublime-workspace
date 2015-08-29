@@ -91,6 +91,47 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "dissertation.todo",
+			"settings":
+			{
+				"buffer_size": 11460,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dissertation_outline.md",
+			"settings":
+			{
+				"buffer_size": 19008,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "GLY ALA MET GLY SER GLY GLN MET PHE PRO GLN SER ARG HIS PRO THR PRO HIS GLN ALA ALA GLY GLN PRO PHE LYS PHE THR ILE PRO GLU SER LEU ASP ARG ILE LYS GLU GLU PHE GLN PHE LEU GLN ALA GLN TYR HIS SER LEU LYS LEU GLU CYS GLU LYS LEU ALA SER GLU LYS THR GLU MET GLN ARG HIS TYR VAL MET TYR TYR GLU MET SER TYR GLY LEU ASN ILE GLU MET HIS LYS GLN THR GLU ILE ALA LYS ARG LEU ASN THR ILE CYS ALA GLN VAL ILE PRO PHE LEU SER GLN GLU HIS GLN GLN GLN VAL ALA GLN ALA VAL GLU ARG ALA LYS GLN VAL THR MET ALA GLU LEU ASN ALA ILE ILE GLY GLN GLN GLN LEU GLN ALA GLN HIS LEU SER HIS GLY HIS GLY PRO PRO VAL PRO LEU THR PRO HIS PRO SER GLY LEU GLN PRO PRO GLY ILE PRO \n\nGAMGSGQMFPQSRHPTPHQAAGQPFKFTIPESLDRIKEEFQFLQAQYHSLKLECEKLASEKTEMQRHYVMYYEMSYGLNIEMHKQTEIAKRLNTICAQVIPFLSQEHQQQVAQAVERAKQVTMAELNAIIGQQQLQAQHLSHGHGPPVPLTPHPSGLQPPGIP",
+			"settings":
+			{
+				"buffer_size": 817,
+				"line_ending": "Unix",
+				"name": "GLY ALA MET GLY SER GLY GLN MET PHE PRO GLN SER AR"
+			}
+		},
+		{
+			"file": "chip_summary.md",
+			"settings":
+			{
+				"buffer_size": 563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "paper_al_outline.md",
+			"settings":
+			{
+				"buffer_size": 2730,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -106,6 +147,58 @@
 			[
 				"bash",
 				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"Rext",
+				"Set Syntax: R Extended"
+			],
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"acade",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"p",
+				"Pandoc"
+			],
+			[
+				"pando",
+				"Pandoc"
+			],
+			[
+				"pand",
+				"Pandoc"
+			],
+			[
+				"pado",
+				"Package Control: Discover Packages"
+			],
+			[
+				"andoc",
+				"Pandoc"
+			],
+			[
+				"pan",
+				"Pandoc"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git quick",
+				"Git: Quick Commit"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"gits",
+				"Git: Status"
 			],
 			[
 				"R",
@@ -130,10 +223,6 @@
 			[
 				"xml",
 				"Set Syntax: XML"
-			],
-			[
-				"pandoc",
-				"Pandoc"
 			],
 			[
 				"markdo",
@@ -162,10 +251,6 @@
 			[
 				"cite",
 				"Citer: Search"
-			],
-			[
-				"git push",
-				"Git: Push"
 			],
 			[
 				"git commit",
@@ -296,10 +381,6 @@
 				"Set Syntax: R"
 			],
 			[
-				"pan",
-				"Pandoc: Render Markdown DocX"
-			],
-			[
 				"synta",
 				"Set Syntax: R"
 			],
@@ -314,14 +395,6 @@
 			[
 				"cheat",
 				"Markdown Preview: Open Markdown Cheat sheet"
-			],
-			[
-				"pando",
-				"Pandoc: Render Markdown DocX"
-			],
-			[
-				"pand",
-				"Pandoc: Render Markdown DocX"
 			],
 			[
 				"prev",
@@ -414,18 +487,38 @@
 	"expanded_folders":
 	[
 		"/Users/mike/Work.bio/projects/dissertation",
-		"/Users/mike/Work.bio/projects/dissertation/committee_meeting"
+		"/Users/mike/Work.bio/projects/dissertation/tmp"
 	],
 	"file_history":
 	[
-		"/Users/mike/Work.bio/projects/dissertation/abstract.md",
+		"/Users/mike/Work.bio/projects/dissertation/data/gro_mod_antibody_epitopt.txt",
+		"/Users/mike/Downloads/journal.pbio.1000590.s002.TXT",
+		"/Users/mike/Downloads/4OM2.pdb",
+		"/Users/mike/.ssh/config",
+		"/Users/mike/Work.bio/projects/jennings.gro.2014/141012.macs2/a1_rename.sh",
+		"/Users/mike/Work.bio/projects/gro.combination/some_fbgn_numbers.txt",
+		"/Users/mike/bin/resetOpenWith",
+		"/Users/mike/Desktop/tmp.txt",
+		"/Users/mike/Desktop/tmp_pdf.txt",
+		"/Users/mike/Downloads/ZeitlingerSuppMat.pdf",
+		"/Users/mike/Work.bio/projects/dissertation/ch2_groucho.figures/ch2_groucho.figures.md",
+		"/Users/mike/Desktop/ame.txt",
 		"/Users/mike/Work.bio/projects/dissertation/README.md",
-		"/Users/mike/Work.bio/projects/dissertation/dissertation.todo",
-		"/Users/mike/Work.bio/projects/dissertation/dissertation_outline.md",
-		"/Users/mike/Work.bio/projects/dissertation/chip_summary.md",
-		"/Users/mike/Work.bio/projects/jennings.gro.2014/supplemental/supplemental_info.txt",
-		"/Users/mike/Work.bio/projects/gro.combination/150728.bigwig_manipulations/a1_generate_bed.sh",
+		"/Users/mike/Desktop/rsnorm.txt",
+		"/Users/mike/Desktop/rsopen.txt",
+		"/Users/mike/.Rprofile",
 		"/Users/mike/.zshrc",
+		"/Users/mike/.profile",
+		"/Users/mike/Work.bio/projects/dissertation/scripts/pdfunite.sh",
+		"/Users/mike/Work.bio/projects/dissertation/ch2_groucho.figures.md",
+		"/Users/mike/.gitconfig",
+		"/Users/mike/Work.bio/projects/dissertation/.gitconfig",
+		"/Users/mike/Work.bio/projects/dissertation/scripts/docx2txt.pl",
+		"/Users/mike/Work.bio/projects/dissertation/scripts/install.sh",
+		"/Users/mike/Work.bio/projects/dissertation/abstract.md",
+		"/Users/mike/Work.bio/projects/jennings.gro.2014/supplemental/supplemental_info.txt",
+		"/Users/mike/.zsh",
+		"/Users/mike/Work.bio/projects/gro.combination/150728.bigwig_manipulations/a1_generate_bed.sh",
 		"/Users/mike/Work.bio/projects/gro.combination/150720.hconf_set_analysis/known_gro_targets.tsv",
 		"/Users/mike/Work.bio/projects/dissertation/paper_outline.md",
 		"/Users/mike/Work.bio/projects/dissertation/paper_al_outline.md",
@@ -437,7 +530,6 @@
 		"/Users/mike/Work.bio/projects/dissertation/outline.md",
 		"/Users/mike/Work.bio/projects/dissertation/committee_meeting.md",
 		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
-		"/Users/mike/.profile",
 		"/Users/mike/.bashrc",
 		"/Users/mike/Work.dev/foo",
 		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -449,6 +541,7 @@
 		"/Users/mike/Work.bio/projects/dissertation/scripts/generate_docx.sh",
 		"/Users/mike/Work.bio/projects/dissertation/ch1_background.docx",
 		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Citer.sublime-settings",
+		"/Users/mike/Work.bio/projects/dissertation/dissertation.todo",
 		"/Users/mike/Work.bio/projects/dissertation/ch1_background.md",
 		"/Users/mike/Work.bio/projects/dissertation/ch3_nascent.md",
 		"/Users/mike/Work.bio/projects/dissertation/ch4_chip.md",
@@ -525,27 +618,7 @@
 		"/Users/mike/Work.bio/projects/gro.combination/doc/al_outline.md",
 		"/Users/mike/Work.bio/projects/gro.combination/141228.summary_outline/outline.md",
 		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_3_dgro_replicate_bed_generation.R",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_5.1_generate_chip_datasets.R",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_5.2_beta_hoffman.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_5.3_beta_hoffman.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_5.4_beta_pvalus.R",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/output/analysis_5.3A_pvalues2/combine.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_4_beta.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/batchline.sh",
-		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/sh_section.sublime-snippet",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_1_overlap_peaks_metrics.R",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_2_peak_overlap_percentages.R",
-		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/do_beta.sh",
-		"/Users/mike/.Rprofile",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_1_generate_beta_input.R",
-		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/analysis_1_generate_beta_input.R",
-		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/do_beta_hoffman.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/temp.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/beta_input/deseq2_random_refseq/dgro.1.5.deseq2",
-		"/Users/mike/Work.bio/projects/gro.combination/150122.BETA/test_data/BETA_test_data/beta_specific_expression.txt",
-		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/analysis_7.r",
-		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/analysis_9.r",
-		"/Users/mike/Work.bio/projects/gro.combination/150112.outline_part1/analysis_3.r"
+		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_5.1_generate_chip_datasets.R"
 	],
 	"find":
 	{
@@ -564,6 +637,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"^$",
+			" (C[GR])",
+			" ",
+			"(\\S+ \\S+) ",
+			"[p\\d] ",
+			" C([GR])",
+			" C",
+			" ",
+			"2L_2447933_2448476 2L_2456248_2457530 2L_8809697_8810218 2L_8832084_8832897 2L_8841307_8842609 2L_10548614_10549385 2L_12457269_12458378 2L_15471864_15476418 2L_17744588_17745109 2L_17746765_17747317 2L_18870798_18872110 2L_18877093_18877657 2L_18891098_18891898 2L_20468594_20469458 2L_20473425_20476067 2R_2891911_2894049 2R_5443138_5443816 2R_7309632_7312483 2R_8291749_8293745 2R_8295676_8296548\n",
+			"\\t",
+			"//DPB",
 			"{.*}",
 			"\n	",
 			"	* -1 adh1 tetramer\n",
@@ -595,9 +679,18 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"",
+			"\\n\\1",
+			"\\n",
+			"\\1\\n",
+			"\\n",
+			"\\nC\\1",
+			"\\nC",
+			"\\n",
+			"//PB",
 			"output/analysis_1",
 			"tp3",
 			"tp2",
@@ -618,8 +711,160 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "dissertation.todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11445,
+								11445
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "plaintasks",
+							"color_scheme": "Packages/PlainTasks/tasks-eighties-dark.hidden-tmTheme",
+							"spell_check": true,
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3913.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dissertation_outline.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1466,
+								1466
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "markdown",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								817,
+								817
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "plain text",
+							"auto_name": "GLY ALA MET GLY SER GLY GLN MET PHE PRO GLN SER AR",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "chip_summary.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								488,
+								488
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "markdown",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "paper_al_outline.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								904,
+								904
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "markdown",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -670,7 +915,7 @@
 	"project": "dissertation.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
