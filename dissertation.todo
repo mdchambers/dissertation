@@ -242,13 +242,34 @@ Daily 150827:
     ✔ ModEncode comparison venn diagram @done (15-09-01 19:41)
     ✔ Subtraction of input peaks @done (15-09-01 19:41)
     ✔ Drop 2-4 and adjust 2-5 @done (15-09-01 19:41)
-    ☐ Dorsal-repressed genes and gro
+    ☐ Compare w/ published data
+      ☐ Dorsal-twist-snail
+        Levine lab only I think
+      ☐ Mesoderm development
+        Furlong lab
+        ☐ Read paper
+        ☐ Decide which supplemental info to use
+        ☐ perform overlap of chip regions by type etc
+      ☐ Developmental network
+        Eisen lab
     ☐ Tolloid
-      Looking at paper
+      ✔ Looking at paper @done (15-09-02 18:19)
+      ✔ Generate figure @done (15-09-02 18:19)
+      ☐ Write legend
+      ☐ Write section
     ☐ Groucho and dorsal peaks
     ☐ Groucho and additional TFs (Eisner lab)
     ☐ Gro and dorsally-activated mesodermal genes (twi and sna)
-    ☐ Gro and 
-  ☐ Nascent
+    ☐ Gro DiffBind/edgeR
+      ☐ Regenerate bams
+        ☐ Demultiplex
+        ☐ Map
+        ☐ htseq over macs2 peaks(?)
+  ☐ Chapter 3 - Nascent
+    ☐ Regenerate bam/counts
+      ✔ Demultiplex @done (15-09-09 18:08)
+      ☐ Map
+        Error out (?)
+      ☐ htseq
 
 

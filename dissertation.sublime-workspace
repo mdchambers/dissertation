@@ -95,7 +95,7 @@
 			"file": "dissertation.todo",
 			"settings":
 			{
-				"buffer_size": 11460,
+				"buffer_size": 12488,
 				"line_ending": "Unix"
 			}
 		},
@@ -491,6 +491,9 @@
 	],
 	"file_history":
 	[
+		"/Users/mike/Work.bio/projects/gro.combination/150720.hconf_set_analysis/intermediate/tolloid_promoter.bed",
+		"/Users/mike/bin/do-backup",
+		"/Users/mike/rsync.log",
 		"/Users/mike/Work.bio/projects/dissertation/data/gro_mod_antibody_epitopt.txt",
 		"/Users/mike/Downloads/journal.pbio.1000590.s002.TXT",
 		"/Users/mike/Downloads/4OM2.pdb",
@@ -615,10 +618,7 @@
 		"/Users/mike/Work.bio/dev/rnaseq-scripts/samtools_wrapper",
 		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/input/dgro_metagene_hoffman.txt",
 		"/Users/mike/Work.bio/projects/gro.combination/doc/readme.md",
-		"/Users/mike/Work.bio/projects/gro.combination/doc/al_outline.md",
-		"/Users/mike/Work.bio/projects/gro.combination/141228.summary_outline/outline.md",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_3_dgro_replicate_bed_generation.R",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_5.1_generate_chip_datasets.R"
+		"/Users/mike/Work.bio/projects/gro.combination/doc/al_outline.md"
 	],
 	"find":
 	{
@@ -720,15 +720,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11460,
+						"buffer_size": 12488,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11445,
-								11445
+								12292,
+								12292
 							]
 						],
 						"settings":
@@ -737,10 +737,12 @@
 							"WordCountSyntax": "plaintasks",
 							"color_scheme": "Packages/PlainTasks/tasks-eighties-dark.hidden-tmTheme",
 							"spell_check": true,
-							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3913.0,
+						"translation.y": 4462.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -825,7 +827,8 @@
 						"settings":
 						{
 							"WordCountSyntax": "markdown",
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -942,9 +945,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "nascent",
 		"selected_items":
 		[
+			[
+				"nascent",
+				"~/Work.bio/projects/mike.nascent/mike.nascent.sublime-project"
+			],
+			[
+				"rnas",
+				"~/Work.bio/dev/rnaseq-scripts/rnaseq-scripts.sublime-project"
+			],
 			[
 				"pak",
 				"~/Work.bio/projects/pak.gro.rnaseq_run2/pak.gro.rnaseq_run2.sublime-project"
@@ -952,10 +963,6 @@
 			[
 				"chip",
 				"~/Work.bio/projects/al.gro.chip_run1/al_gro_chip_run1.sublime-project"
-			],
-			[
-				"nascent",
-				"~/Work.bio/projects/mike.nascent/mike.nascent.sublime-project"
 			],
 			[
 				"wiam",
