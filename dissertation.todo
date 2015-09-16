@@ -242,6 +242,10 @@ Daily 150827:
     ✔ ModEncode comparison venn diagram @done (15-09-01 19:41)
     ✔ Subtraction of input peaks @done (15-09-01 19:41)
     ✔ Drop 2-4 and adjust 2-5 @done (15-09-01 19:41)
+    ☐ Literature
+      ☐ Furlong paper
+      ☐ Arnosti paper
+      ☐ Furlong 4c
     ☐ Compare w/ published data
       ☐ Dorsal-twist-snail
         Levine lab only I think
@@ -257,19 +261,34 @@ Daily 150827:
       ✔ Generate figure @done (15-09-02 18:19)
       ☐ Write legend
       ☐ Write section
-    ☐ Groucho and dorsal peaks
     ☐ Groucho and additional TFs (Eisner lab)
     ☐ Gro and dorsally-activated mesodermal genes (twi and sna)
+    ☐ Other factors binding in enhancer of ventrolateral genes (rho)
+      Regulated by Dorsal and presumably not Groucho, yet Gro binds to those regions
+    ☐ Clustering vs randomized clustering
+      ✔ Figure @done (15-09-15 19:51)
+        May need to refine (somewhat confusing)
+      ☐ Legend
+      ☐ Section
+    ☐ Peak widths of other sstfs and wider marks
+      ☐ Figure (done?)
+      ☐ Legend
+      ☐ Section
+    ☐ Groucho binding inter/intragenic regions
+      ☐ Revise and shorten
+    ☐ Read through
     ☐ Gro DiffBind/edgeR
-      ☐ Regenerate bams
-        ☐ Demultiplex
-        ☐ Map
-        ☐ htseq over macs2 peaks(?)
+      ✔ Regenerate bams @done (15-09-14 17:51)
+        ✔ Demultiplex @done (15-09-11 18:04)
+        ✔ Map @done (15-09-11 18:20)
+        ✔ Convert, sort, index @done (15-09-14 17:51)
+      ☐ htseq over macs2 peaks(?)
   ☐ Chapter 3 - Nascent
-    ☐ Regenerate bam/counts
+    ✔ Regenerate bam/counts @done (15-09-11 18:04)
       ✔ Demultiplex @done (15-09-09 18:08)
-      ☐ Map
-        Error out (?)
-      ☐ htseq
+      ✔ Map @done (15-09-11 18:04)
+        Error out (?) -> Needed to use newest combination of bowtie2 and tophat2
+      ✔ htseq @done (15-09-11 18:04)
+    ☐ 
 
 
