@@ -243,15 +243,16 @@ Daily 150827:
     ✔ Subtraction of input peaks @done (15-09-01 19:41)
     ✔ Drop 2-4 and adjust 2-5 @done (15-09-01 19:41)
     ☐ Literature
-      ☐ Furlong paper
-      ☐ Arnosti paper
+      ☐ Furlong paper (mesodermal)
+      ☐ Levine paper (DTS)
+      ☐ Arnosti paper (hairy)
       ☐ Furlong 4c
     ☐ Compare w/ published data
       ☐ Dorsal-twist-snail
         Levine lab only I think
       ☐ Mesoderm development
         Furlong lab
-        ☐ Read paper
+        ✔ Read paper @done (15-09-18 15:58)
         ☐ Decide which supplemental info to use
         ☐ perform overlap of chip regions by type etc
       ☐ Developmental network
@@ -281,14 +282,45 @@ Daily 150827:
       ✔ Regenerate bams @done (15-09-14 17:51)
         ✔ Demultiplex @done (15-09-11 18:04)
         ✔ Map @done (15-09-11 18:20)
-        ✔ Convert, sort, index @done (15-09-14 17:51)
-      ☐ htseq over macs2 peaks(?)
+      ✔ Convert, sort, index @done (15-09-14 17:51)
+      ✔ bed files: @done (15-09-22 18:56)
+        tp1/2/3
+        all intersect
+        all union
+      ✔ Convert to gff file @done (15-09-22 18:57)
+      ✔ Count w/ htseq @done (15-09-22 18:57)
+      ✔ input to edger/deseq2 @done (15-09-23 17:41)
+
+    ☐ High-confidence target prediction (using Furlong method)
+      ✔ Optimal exponential decay rate @done (15-09-22 18:57)
+      ☐ Optimal score determination
+      ☐ Method of accounting for multiple chip fragments
   ☐ Chapter 3 - Nascent
     ✔ Regenerate bam/counts @done (15-09-11 18:04)
       ✔ Demultiplex @done (15-09-09 18:08)
       ✔ Map @done (15-09-11 18:04)
         Error out (?) -> Needed to use newest combination of bowtie2 and tophat2
       ✔ htseq @done (15-09-11 18:04)
-    ☐ 
+
+Daily 150923:
+  ☐ DTS/Levine
+    ✔ Fig @done (15-09-23 19:15)
+    ☐ Legend
+    ☐ Writeup
+  ☐ Mesodermal/Furlong
+    ☐ Overlap w/ snail
+  ☐ ChIP overlap/Eisen
+    ✔ Fig @done (15-09-23 19:15)
+    ☐ Legend
+    ☐ Writeup
+  ☐ Gro per gene -> writeup expected value
+  ✔ Motif @done (15-09-23 19:15)
+    ✔ Plot fold-change in enrichment of intron over non-intron, instead of paired barplot @done (15-09-23 19:15)
+    ✔ Fig @done (15-09-23 19:15)
+    ☐ Legend
+    ☐ Writeup
+  ☐ Reread/summarise
+  ☐ Read discussion
+  ☐ Format images for inclusion
 
 
