@@ -305,15 +305,17 @@ Daily 150827:
 Daily 150923:
   ☐ DTS/Levine
     ✔ Fig @done (15-09-23 19:15)
-    ☐ Legend
+      ☐ Legend
     ☐ Writeup
   ☐ Mesodermal/Furlong
     ☐ Overlap w/ snail
   ☐ ChIP overlap/Eisen
     ✔ Fig @done (15-09-23 19:15)
-    ☐ Legend
+      ☐ Legend
     ☐ Writeup
-  ☐ Gro per gene -> writeup expected value
+  ☐ Gro per gene
+    ☐ Figures
+    ☐ writeup expected value
   ✔ Motif @done (15-09-23 19:15)
     ✔ Plot fold-change in enrichment of intron over non-intron, instead of paired barplot @done (15-09-23 19:15)
     ✔ Fig @done (15-09-23 19:15)
