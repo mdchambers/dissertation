@@ -306,7 +306,9 @@ Daily 150923:
   ☐ DTS/Levine
     ✔ Fig @done (15-09-23 19:15)
       ✔ Legend @done (15-10-01 18:45)
+    ☐ Redo figure w/ "all" columns
     ☐ Writeup
+      ☐ Partially done
   ☐ Mesodermal/Furlong
     ☐ Overlap w/ snail
   ☐ ChIP overlap/Eisen
@@ -323,10 +325,17 @@ Daily 150923:
     ☐ Legend
     ☐ Writeup
   ☐ CBP/nejire chip-seq (Mannervik)
-    ☐ Calculate overlap
-    ☐ 
+    ✔ Calculate overlap (expressed as bar chart) @done (15-10-08 20:57)
+    ✔ Write legend @done (15-10-09 12:50)
+    ☐ Write section
   ☐ Reread/summarise
   ☐ Read discussion
   ☐ Format images for inclusion
 
+ ☐ Look through modENCODE paper references for sources of chip-seq data
+ ☐ Calculate quantized overlap against gro for additional factors (top 300)
+ ☐ Calculate heatmap for grouped overlaps w/ Groucho
+
+Daily 151023:
+  ☐ Gene occupancy/HOT region heatmap starting w/ Dorsal
 
