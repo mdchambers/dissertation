@@ -13,7 +13,7 @@ csl: styles/cell.csl
 ### Vita
 ### Selected Publications
 ### Abstract of the Dissertation
-### Chapter X: Introduction: Groucho and _Drosophila_ development
+### Chapter I: Introduction: Groucho and _Drosophila_ development
 
 
 * Groucho/TLE structure and conservation
@@ -108,7 +108,7 @@ csl: styles/cell.csl
 	* 
 
 
-### Chapter X: Groucho activity in the developing embryo
+### Chapter II: Groucho activity in the developing embryo
 #### Abstract
 #### Introduction
 

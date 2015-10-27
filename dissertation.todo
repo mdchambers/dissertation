@@ -1,8 +1,8 @@
  Committee Meeting:
-   ☐ Review Gene Reg talk
-   ☐ Update talk w/ new data
+   ✔ Review Gene Reg talk @done (15-10-26 15:04)
+   ✔ Update talk w/ new data @done (15-10-26 15:05)
      Should do this before getting too deep into nascent-seq new analyses
-   ☐ Office 2016 version/usage(?)
+   ✔ Office 2016 version/usage(?) @done (15-10-26 15:04)
    ☐ Nascent-seq analysis
      ☐ Count/remove non-polyA data
      ☐ GO (FlyMine)
@@ -328,14 +328,35 @@ Daily 150923:
     ✔ Calculate overlap (expressed as bar chart) @done (15-10-08 20:57)
     ✔ Write legend @done (15-10-09 12:50)
     ☐ Write section
-  ☐ Reread/summarise
-  ☐ Read discussion
-  ☐ Format images for inclusion
+  ✔ Reread/summarise @done (15-10-26 17:12)
+  ✔ Read discussion @done (15-10-26 17:12)
+  ✔ Format images for inclusion @done (15-10-26 17:12)
 
- ☐ Look through modENCODE paper references for sources of chip-seq data
- ☐ Calculate quantized overlap against gro for additional factors (top 300)
- ☐ Calculate heatmap for grouped overlaps w/ Groucho
+ ✔ Look through modENCODE paper references for sources of chip-seq data @done (15-10-26 17:12)
+ ✔ Calculate quantized overlap against gro for additional factors (top 300) @done (15-10-26 17:12)
+ ✔ Calculate heatmap for grouped overlaps w/ Groucho @done (15-10-26 17:12)
 
 Daily 151023:
   ☐ Gene occupancy/HOT region heatmap starting w/ Dorsal
+
+Daily 151026:
+  ☐ Overhaul/update outline
+  ☐ Sections
+    ☐ Dorsal
+    ☐ CBP/nejire
+    ☐ HOT regions
+    ☐ Other modencode factors
+    ☐ Gro scores/high-conf targets
+  ☐ Figures
+    ☐ Number/references
+  ☐ Legends
+
+
+
+
+
+
+
+
+
 
