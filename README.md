@@ -22,26 +22,25 @@ Doctoral Disseration
 
 * Project timeline
     * Important dates
-        * Potential pre-dissertation meeting times: July 15th 11AM
-        * Filing deadline: Sept 9th
+        * Thesis due: Nov 17th
+        * Defense: Nov 24th, 10am
+        * Filing deadline: Dec 1st
 * Project workflow
     * Text
-        * Draft in markdown (ST) 
-        * pandoc to convert to .docx
-            * pandoc -S -o $output --filter pandoc-citeproc $input
-            * Or use scripts/generate_docx.sh to convert in batch
+        * Draft in Word 2016
     * Citations
         * Style: Cell
-        * Cite in .md files by copying item keys from EndNote (Cmd+C on item in library)
-        * Once in Word, convert citations w/ EndNote toolbar
+        * Cite in .docx files by copying item keys from EndNote (Cmd+C on item in library) to Word 2016
+        * Open document in Word 2011 and format citations
+            * Save as {filename}_cite.docx
     * Multimedia
         * Should be refered to as Fig. N-NA/B/C/etc until order and number is definitive
             * Ex. Refer to blue bars of first fig of Chap 2, part A would be (Fig. 2-1A, blue bars)
-        * Store legends in chX_legends.md in figures/
-            * Entries should be titled figX-X_description.whatever, where description is a unique identifier per chapter
-        * Rename all figures to figX-X_description.whatever
-        * Tables
-            * Export from Excel (formatted) as tiff files
-        * Figures
-            * Preferably tiff files, gathered in PDF
-            * Organize image files by chapters
+        * Store figures in chX_{topic}.figures/chX_{topic}.figures.pptx
+        * Output as PDF
+        * Use pdfseparate to split to individual pdf files
+            * Wrapped into script `do-separate`
+        * Import into chX_{topic}.figures/chX_{topic}.figures.formatted_numbered.docx
+    * Data
+        * Mostly stored out-of-project and imported as images
+        * Some dissertation specific data in data/ and literature_data/
