@@ -1,4 +1,4 @@
-An Integrative Anlysis of Groucho Activity In Early Fly Devlopment
+An Integrative Analysis of Groucho Activity In Early Fly Devlopment
 ==================================================================
 
 [TOC]
