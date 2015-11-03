@@ -266,7 +266,7 @@ csl: styles/cell.csl
 
 
 
-### Chapter X: Nascent-seq
+### Chapter III: Nascent-seq
 #### Abstract
 #### Introduction
 
@@ -309,11 +309,10 @@ csl: styles/cell.csl
 
 #### Discussion
 
-
+* 
 
 #### Figures & Tables
 #### References
-
 
 ### Appendices
 #### Appendix X: Groucho-regulated gene data
