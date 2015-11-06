@@ -112,6 +112,11 @@ csl: styles/cell.csl
 #### Abstract
 #### Introduction
 
+* General Gro overview
+	* Transcriptional corepressor
+	* Involved in multiple developmental patterning systems, including axial and terminal patterning
+	* Project overview
+		* Deep-sequencing technologies to probe Groucho localization, targets, and obtain functional insights
 * Groucho and development
 	* Transcriptional corepressor
 	* Spatial and temporal restriction of gene expression
@@ -158,12 +163,19 @@ csl: styles/cell.csl
 
 #### Results
 
-* Sequencing overview
-	* Table: Total reads/qc pass reads/mapped reads/reads by feature (intergenic/intronic/exon/etc)
-	* Replicate similarity
-		* Heatmap of spearman coefficients
-		* PCA analysis
-		* Characteristic MA plot
+* Groucho is recruited ubiquitously and dynamically throghout the genome
+	* Sequencing overview
+		* Table: Total reads/qc pass reads/mapped reads/reads by feature (intergenic/intronic/exon/etc)
+		* Replicate similarity
+			* Heatmap of spearman coefficients
+			* PCA analysis
+			* Characteristic MA plot
+	* Comparisons to modENCODE consortium data
+		* Overlap with 0 - 12 hour embryo data
+		* Overlap with white pre-pupae data
+			* Indicative of some common regulatory roles throughout all (potentially) stages of development
+	* Gro recruitment dynamic and reversible
+		* 50% of sites unique to single timepoint
 * Groucho recruitment is more dynamic during early embryonic stages (consistent with highest levels of Gro at these stages)
 * Groucho spreading does not appear to be an obligate characteristic of repression
 	* Groucho peaks exhibit a mean width of approximately 500 bp
