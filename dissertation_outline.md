@@ -163,7 +163,7 @@ csl: styles/cell.csl
 
 #### Results
 
-* Groucho is recruited ubiquitously and dynamically throghout the genome
+* Groucho is recruited ubiquitously and dynamically throughout the genome
 	* Sequencing overview
 		* Table: Total reads/qc pass reads/mapped reads/reads by feature (intergenic/intronic/exon/etc)
 		* Replicate similarity
@@ -176,6 +176,8 @@ csl: styles/cell.csl
 			* Indicative of some common regulatory roles throughout all (potentially) stages of development
 	* Gro recruitment dynamic and reversible
 		* 50% of sites unique to single timepoint
+* Groucho associates with multiple ventrally-repressed genes in patterns unique to early embryonic stages
+
 * Groucho recruitment is more dynamic during early embryonic stages (consistent with highest levels of Gro at these stages)
 * Groucho spreading does not appear to be an obligate characteristic of repression
 	* Groucho peaks exhibit a mean width of approximately 500 bp
