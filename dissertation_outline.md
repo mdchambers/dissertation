@@ -177,6 +177,11 @@ csl: styles/cell.csl
 	* Gro recruitment dynamic and reversible
 		* 50% of sites unique to single timepoint
 * Groucho associates with multiple ventrally-repressed genes in patterns unique to early embryonic stages
+* Groucho associates with 
+* Groucho and Dorsal sites
+	* Classes of Dorsal site
+	* Alternative targets of Dorsal repression (segmentation and homeotic patterning)
+		*
 
 * Groucho recruitment is more dynamic during early embryonic stages (consistent with highest levels of Gro at these stages)
 * Groucho spreading does not appear to be an obligate characteristic of repression
