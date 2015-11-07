@@ -396,6 +396,7 @@ Daily 151102:
         (approximately 2000 binding sites, fig. 2.2)
     ☐ Generate probability to obtain the level of gro-per-gene (selecting a value at a certain level or greater from a distribution)
     ☐ Average size of other embryonic TF chip-seq peaks from modENCODE
+    ☐ Analysis of the two classes of Groucho binding site revealed via combinatorial binding
 
 
 
