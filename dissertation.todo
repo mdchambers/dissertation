@@ -395,6 +395,7 @@ Daily 151102:
     ☐ Characterize Gro binding sites that are common between embryonic and larval development
         (approximately 2000 binding sites, fig. 2.2)
     ☐ Generate probability to obtain the level of gro-per-gene (selecting a value at a certain level or greater from a distribution)
+    ☐ Average size of other embryonic TF chip-seq peaks from modENCODE
 
 
 

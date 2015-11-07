@@ -181,7 +181,9 @@ csl: styles/cell.csl
 * Groucho and Dorsal sites
 	* Classes of Dorsal site
 	* Alternative targets of Dorsal repression (segmentation and homeotic patterning)
-		*
+		* Groucho known to regulate these genes
+			* Engrailed and Hairy family proteins
+* Groucho binds in small and clustered peaks 
 
 * Groucho recruitment is more dynamic during early embryonic stages (consistent with highest levels of Gro at these stages)
 * Groucho spreading does not appear to be an obligate characteristic of repression

@@ -1,0 +1,5 @@
+though it has also been shown to be capable of short-range repression through recruitment by additional transcription factors, such as knirps {Payankaulam, 2009 #2955}. 
+
+
+
+It is not known whether Groucho peaks arising inside genes are the result of direct recruitment of Groucho to those sites by interaction with sequence-specific transcription factors, or if Groucho is recruited to intergenic regulatory regions which are brought into contact with these introns through looping or a similar rearrangement of the local topology, resulting in immunoprecipation of these regions during ChIP-seq. However, it does appear that the interaction of Groucho with these introns is specific due to the restricted size of the intronic binding sites. Therefore, some property of the intron is directing Groucho to associate with specific points within. Whether that property is a protein interaction with another intron-associated factor, or a topological property of the surround chromatin, is unknown.
