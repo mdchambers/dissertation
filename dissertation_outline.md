@@ -22,13 +22,22 @@ csl: styles/cell.csl
 		* Weak hypomorphic allele resulting in extra supraorbital bristles {Lindsley, 1968 #3055}
 		* Stronger mutations are lethal {Paroush, 1994 #172}
 	* Prevalent in higher eukaryotes
-		* Xenopus {Choudhury, 1997 #3121}
-		* Mouse {Mallo, 1993 #3123}
+		* Model organisms
+			* Xenopus {Choudhury, 1997 #3121}
+			* Mouse {Mallo, 1993 #3123}
+			* Nematode {Pflugrad, 1997 #3125}
+			* Rat {Schmidt, 1993 #3126}
+			* Zebrafish {Wulbeck, 1997 #3127}
 		* Human {Miyasaka, 1993 #3124}
-		* Nematode {Pflugrad, 1997 #3125}
-		* Rat {Schmidt, 1993 #3126}
-	* Four isoforms in human {Stifani, 1992 #3065}
-		* Non-redundant roles in development {Yao, 1998 #3069}
+		* One copy in fly and nematode, multiple in higher organisms {Li, 2000 #3128}
+			* Four members TLE1-4
+			* Four isoforms in human {Stifani, 1992 #3065}
+				* Non-redundant roles in development {Yao, 1998 #3069}
+			* Two truncated forms in mammals
+				* AES {Gasperowicz, 2005 #3129}
+					* Disrupt oligomer {Brantjes, 2001 #3058}
+					* Preferentially interact with repressors {Brantjes, 2001 #3058} {Muhr, 2001 #3132}
+				* Tle6 {Marcal, 2005 #3131}
 	* Domain structure {Turki-Judeh, 2012 #2385}
 		* N-terminal Q (glutamine-rich) domain highly conserved
 			* Responsible for self-association {Chen, 1998 #267} and interaction with some repressors {Chen, 2000 #83}, including the TCF/LEF family {Brantjes, 2001 #3058}
