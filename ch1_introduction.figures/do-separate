@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# do-separate
+# Separates ch2_groucho.figures.pdf into individual pages
+# Michael Chambers, 2015
+
+pdfseparate ch1_introduction.figures.pdf ch1_introduction.figures.split.%d.pdf
