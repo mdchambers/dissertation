@@ -16,11 +16,19 @@ csl: styles/cell.csl
 ### Chapter I: Introduction: Groucho and _Drosophila_ development
 
 
-* Groucho/TLE structure and conservation
+* Groucho/TLE family: structure and conservation
 	* Member of one of a prevalent group of corepressors conserved throughout animals
 	* Discovery
 		* Weak hypomorphic allele resulting in extra supraorbital bristles {Lindsley, 1968 #3055}
 		* Stronger mutations are lethal {Paroush, 1994 #172}
+	* Prevalent in higher eukaryotes
+		* Xenopus {Choudhury, 1997 #3121}
+		* Mouse {Mallo, 1993 #3123}
+		* Human {Miyasaka, 1993 #3124}
+		* Nematode {Pflugrad, 1997 #3125}
+		* Rat {Schmidt, 1993 #3126}
+	* Four isoforms in human {Stifani, 1992 #3065}
+		* Non-redundant roles in development {Yao, 1998 #3069}
 	* Domain structure {Turki-Judeh, 2012 #2385}
 		* N-terminal Q (glutamine-rich) domain highly conserved
 			* Responsible for self-association {Chen, 1998 #267} and interaction with some repressors {Chen, 2000 #83}, including the TCF/LEF family {Brantjes, 2001 #3058}
@@ -31,7 +39,8 @@ csl: styles/cell.csl
 			* Not required for all Gro-mediated repression {Jennings, 2007 #2990}, potentially due to differences in mechanism or interactions
 		* C-terminal WD domain
 			* Highly conserved
-			* Human homologue structure solved, winged propeller domain it			* Binds to repressors through interactions with peptide motifs binding in central cavity {Jennings, 2006 #3059}
+			* Human homologue structure solved, winged propeller domain it
+			* Binds to repressors through interactions with peptide motifs binding in central cavity {Jennings, 2006 #3059}
 			* Mouse homologue, also necessary for chromatin association {Sekiya, 2007 #1658}
 		* Central domains
 			* Protein interactions and Groucho regulation regions
@@ -183,10 +192,7 @@ csl: styles/cell.csl
 	* Alternative targets of Dorsal repression (segmentation and homeotic patterning)
 		* Groucho known to regulate these genes
 			* Engrailed and Hairy family proteins
-* Groucho binds in small and clustered peaks 
-
-* Groucho recruitment is more dynamic during early embryonic stages (consistent with highest levels of Gro at these stages)
-* Groucho spreading does not appear to be an obligate characteristic of repression
+* Groucho binds in small and clustered peaks* Groucho recruitment is more dynamic during early embryonic stages (consistent with highest levels of Gro at these stages) * Groucho spreading does not appear to be an obligate characteristic of repression
 	* Groucho peaks exhibit a mean width of approximately 500 bp
 	* Groucho widths slightly increase in size at later timepoints, though whether this is the result of biological variability or slight deviations in chip-seq library fraction efficiencies is uncertain. In either case, the effect is slight.
 	* Clustering of Gro binding regions does appear to be prevalent. Over half of all Groucho-associated genes exhibit two or more distinct Groucho binding sites
