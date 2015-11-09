@@ -306,11 +306,34 @@ csl: styles/cell.csl
 #### Abstract
 #### Introduction
 
+* Drosophila development and transcriptome {Brown, 2014 #3144}
+	* Highly dynamic
+	* Tightly controlled spatially and temporally
+	* ~7000 distinct transcripts present from the onset of development {Graveley, 2011 #3044}
+		* Nearly ~12,000 in adults males / ~9000 in adult females 
+			* Due to testis complexity {Parisi, 2004 #3145}
+		* Arising from ~3000 genes, ~1000 of which are spatially restricted {De Renzis, 2007 #3149} {Tomancak, 2002 #1150}
+	* Embryos go to great lengths to limit stochastic fluctuations in expression level {Perry, 2010 #385}
+	* Ideally measure protein levels {Fu, 2009 #3150}
+* Additional complexity arising from maternally contributed genes
+	* Prevalent in animals {Tadros, 2009 #3146}
+	* In flies, two stages {Pritchard, 1996 #3147}
+		* Low levels very early transcription
+			* Small number of genes, including Engrailed, a gro interactor {Ali-Murthy, 2013 #3148}
+		* "Minor wave" ~ 1.5 hr
+		* "Major wave" ~ 2.5 hr
+* Investigate the dynamics of transcript expression
+	* mRNA levels as measured a function of multiple processes
+		* Transcription rate/level (accumulation)
+		* Processing
+		* Degradation {Thomsen, 2010 #1350}
+
+
+
 * Introduction to nascent-seq
 	* Transcription rate determination
 		* Importance to non-steady state transcript level analysis
 	* Fractionation methodology
-* Very brief introduction to deep sequencing technologies
 
 #### Materials & Methods
 
