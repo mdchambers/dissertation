@@ -396,6 +396,8 @@ Daily 151102:
     ☐ Generate probability to obtain the level of gro-per-gene (selecting a value at a certain level or greater from a distribution)
     ☐ Average size of other embryonic TF chip-seq peaks from modENCODE
     ☐ Analysis of the two classes of Groucho binding site revealed via combinatorial binding
+    ☐ Correlate nascent-seq 5' bias w/ adelman embryo data
+      ☐ Score genes by 5' bias (replicate pausing data(?))
 
 Daily 110615:
   ☐ Int fig 2.2
