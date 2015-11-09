@@ -327,9 +327,6 @@ csl: styles/cell.csl
 		* Transcription rate/level (accumulation)
 		* Processing
 		* Degradation {Thomsen, 2010 #1350}
-
-
-
 * Introduction to nascent-seq
 	* Transcription rate determination
 		* Importance to non-steady state transcript level analysis
@@ -356,6 +353,9 @@ csl: styles/cell.csl
 	* Transcript assignment and expression level normalization
 
 #### Results
+
+* 
+
 
 * Validation of chromatin-associated RNA isolation
 	* anti-H3/anti-tubulin immunoblot
