@@ -376,10 +376,10 @@ Daily 151102:
       ✔ Integrate gro score per gene @done (15-11-07 17:02)
     ✔ Write figure legends @done (15-11-07 17:02)
   ☐ ch3
-    ☐ Update outline
-    ☐ Browse figures
-    ☐ Decide if maybe an appendix?
-    ☐ What are my main points?
+    ✔ Update outline @done (15-11-09 12:33)
+    ✔ Browse figures @done (15-11-09 12:33)
+    ✔ Decide if maybe an appendix? @done (15-11-09 12:33)
+    ✔ What are my main points? @done (15-11-09 12:33)
   ☐ Appendices
   ☐ Timeline
     ☐ Tues
@@ -394,10 +394,28 @@ Daily 151102:
     ☐ Characterize Gro binding sites that are common between embryonic and larval development
         (approximately 2000 binding sites, fig. 2.2)
     ☐ Generate probability to obtain the level of gro-per-gene (selecting a value at a certain level or greater from a distribution)
+      ☐ Done I think? Possibly not incorporated -> check
     ☐ Average size of other embryonic TF chip-seq peaks from modENCODE
     ☐ Analysis of the two classes of Groucho binding site revealed via combinatorial binding
     ☐ Correlate nascent-seq 5' bias w/ adelman embryo data
       ☐ Score genes by 5' bias (replicate pausing data(?))
+      ✔ Investigate Adelamn procedure @done (15-11-09 17:38)
+      ☐ Generate prom and downstream overlap counts for each rep
+      ☐ Average(?)
+      ☐ Look at ratios (distribution, etc.)
+      ☐ Manual investigation of top ratios?
+      ☐ GO analysis of top ratio
+      ☐ Correlation of ratio with logFPKM
+    ☐ Abstract
+    ☐ Ch 1
+    ☐ Ch 2
+      ☐ Materials and methods
+    ☐ Ch 3
+      ☐ Abstract
+      ✔ Materials & methods @done (15-11-09 16:31)
+      ☐ Discussion
+      ☐ Move PolII data into this chapter?
+    ☐ Appendices
 
 Daily 110615:
   ☐ Int fig 2.2
