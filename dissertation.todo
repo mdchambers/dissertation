@@ -397,25 +397,38 @@ Daily 151102:
       ☐ Done I think? Possibly not incorporated -> check
     ☐ Average size of other embryonic TF chip-seq peaks from modENCODE
     ☐ Analysis of the two classes of Groucho binding site revealed via combinatorial binding
+    ☐ High-confidence Gro targets (GO? something else?)
     ☐ Correlate nascent-seq 5' bias w/ adelman embryo data
       ☐ Score genes by 5' bias (replicate pausing data(?))
       ✔ Investigate Adelamn procedure @done (15-11-09 17:38)
-      ☐ Generate prom and downstream overlap counts for each rep
-      ☐ Average(?)
-      ☐ Look at ratios (distribution, etc.)
-      ☐ Manual investigation of top ratios?
-      ☐ GO analysis of top ratio
+      ✔ Generate prom and downstream overlap counts for each rep @done (15-11-09 19:45)
+      ✔ Average(?) @done (15-11-09 19:45)
+      ✔ Look at ratios (distribution, etc.) @done (15-11-09 19:45)
+        Shows a norm distirbution
+      ✔ Manual investigation of top ratios? @done (15-11-09 19:45)
+      ✔ GO analysis of top ratio @done (15-11-09 19:45)
+        No enrichment in top 50
       ☐ Correlation of ratio with logFPKM
+        Should be doable, but what would this tell me?
     ☐ Abstract
     ☐ Ch 1
+      ☐ Signaling pathways
+      ☐ Regulation of Groucho
+      ☐ Mechanism figure
     ☐ Ch 2
-      ☐ Materials and methods
+      ☐ Revise abstract
+      ☐ Materials and methods        
+      ☐ Discussion more relevant to points of chapter
+      ☐ Results of binding across multiple histones
     ☐ Ch 3
+      ☐ Deep dive into Adelman papers, need to justify the 5' bias conclusion (additional data doesn't appear to be easily forthcoming)
       ☐ Abstract
       ✔ Materials & methods @done (15-11-09 16:31)
+        ☐ More bioinformatics info 
       ☐ Discussion
       ☐ Move PolII data into this chapter?
     ☐ Appendices
+      ☐ Table of high-confidence groucho targets
 
 Daily 110615:
   ☐ Int fig 2.2

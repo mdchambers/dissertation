@@ -76,6 +76,11 @@ csl: styles/cell.csl
 			* Ras/MAPK {Cinnamon, 2008 #242}
 				* 
 			* Notch {Barolo, 2002 #3072}
+				* Canonical notch signaling involves a relatively simple cascade of events (at least biochemically)
+					* Notch receptors interact with one of a number of intracelullar activating ligands
+					* Results in cleavage of the receptor, releasing Notch^ICD (Notch intercellular domain)
+					* Rapidly diffuses to nucleus
+					* Staggered gene activation through feed-forward loop (initially activated E(spl) genes contribute to additional, dramatic changes in gene expression)
 				* Under absence of signaling, Gro represses E(spl) complex genes through interaction w/ Hairy {Delidakis, 1991 #3082}
 				* Upon signaling, E(spl) genes become activated (Notch displaces Gro binding to Su(H)) and Gro recruited to E(spl) to repress proneural genes {Preiss, 1988 #3083} {Wurmbach, 1999 #3084}
 			* decapentapletic (dpp)/TGF-beta homologue {Upadhyai, 2013 #2339}
