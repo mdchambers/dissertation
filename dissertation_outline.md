@@ -13,8 +13,8 @@ csl: styles/cell.csl
 ### Vita
 ### Selected Publications
 ### Abstract of the Dissertation
-### Chapter I: Introduction: Groucho and _Drosophila_ development
 
+### Chapter I: Introduction: Groucho and _Drosophila_ development
 
 * Groucho/TLE family: structure and conservation
 	* Member of one of a prevalent group of corepressors conserved throughout animals
@@ -95,11 +95,12 @@ csl: styles/cell.csl
 		* Post-translational modifications of Groucho
 			* Extensively PTM'd, primarily in central, intrinsically disordered domain {Turki-Judeh, 2012 #2385}
 			* Phosphorylation
-				* Activated by MAPK signaling, as mentioned in the previous section, to down-reg Gro activity
+				* (derepression) MAPK signaling, as mentioned in the previous section, to down-reg Gro activity
 					* Phosphorylated in termini and seven transverse stripes in early (cellular blastoderm) embryos
 					* Terminal patterning Torso {Helman, 2012 #2991}
 					* Expression of genes in the ventral neuroectoderm EGFR (ind) {Cinnamon, 2008 #3077}
-					* 
+					* Phosphorylation of Gro inactivates repression, but does not result in nuclear export or degradation {Cinnamon, 2008 #3077}
+				* (inc repression) 
 		* Dorsal-ventral patterning
 			* Maternally-contributed gradient of nuclear dorsal {Roth, 1989 #1112}
 			* On ventral side of embryo, nuclear dorsal initiates cellular programs designating the mesoderm {Gonzalez-Crespo, 1993 #3043}
@@ -136,7 +137,6 @@ csl: styles/cell.csl
 	* DNA topological considerations
 		* ...
 * Groucho and disease
-	* 
 
 
 ### Chapter II: Groucho activity in the developing embryo
@@ -195,6 +195,7 @@ csl: styles/cell.csl
 #### Results
 
 * Groucho is recruited ubiquitously and dynamically throughout the genome
+	* Major events in development occuring during the three time windows
 	* Sequencing overview
 		* Table: Total reads/qc pass reads/mapped reads/reads by feature (intergenic/intronic/exon/etc)
 		* Replicate similarity
@@ -208,13 +209,31 @@ csl: styles/cell.csl
 	* Gro recruitment dynamic and reversible
 		* 50% of sites unique to single timepoint
 * Groucho associates with multiple ventrally-repressed genes in patterns unique to early embryonic stages
-* Groucho associates with 
-* Groucho and Dorsal sites
-	* Classes of Dorsal site
-	* Alternative targets of Dorsal repression (segmentation and homeotic patterning)
-		* Groucho known to regulate these genes
-			* Engrailed and Hairy family proteins
-* Groucho binds in small and clustered peaks* Groucho recruitment is more dynamic during early embryonic stages (consistent with highest levels of Gro at these stages) * Groucho spreading does not appear to be an obligate characteristic of repression
+	* zen
+	* dpp
+	* tld
+* Groucho localizes extensively to the Dorsal-binding sites of both Dorsal-activated and –repressed genes
+	* Reliance on additional factors to facilitate Dorsal binding
+	* snail
+	* twist
+	* rho
+	* simple minded
+	* short gastrulation
+	* Groucho and Dorsal sites
+		* Classes of Dorsal site
+		* Alternative targets of Dorsal repression (segmentation and homeotic patterning)
+			* Groucho known to regulate these genes
+				* Engrailed and Hairy family proteins
+* Groucho-associated genes tend to be associated with multiple, small, clustered peaks
+	* RENAME: Groucho tends to bind in spatially-restricted clusters at promoters and inside genes
+* Groucho binding is enriched in promoters, UTRs, and introns
+* Groucho colocalizes with Dorsal to areas of high transcription factor density in the very early embryo
+* Identification of Groucho Targets by Developmental Stage
+* Groucho-regulated genes are enriched for stalled RNA polymerase
+
+
+* Groucho recruitment is more dynamic during early embryonic stages (consistent with highest levels of Gro at these stages)
+* Groucho spreading does not appear to be an obligate characteristic of repression
 	* Groucho peaks exhibit a mean width of approximately 500 bp
 	* Groucho widths slightly increase in size at later timepoints, though whether this is the result of biological variability or slight deviations in chip-seq library fraction efficiencies is uncertain. In either case, the effect is slight.
 	* Clustering of Gro binding regions does appear to be prevalent. Over half of all Groucho-associated genes exhibit two or more distinct Groucho binding sites
