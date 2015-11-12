@@ -92,6 +92,14 @@ csl: styles/cell.csl
 			* Wingless/Wnt {Cavallo, 1998 #3071} {Roose, 1999 #3086}
 				* Tcf/Lef target genes repressed via Gro interaction in unstimulated cells {Clevers, 2006 #3085}
 				* Beta-catenin nuclear concentration increases via signaling, displacing Gro and activating target genes {Daniels, 2005 #3087} 
+		* Post-translational modifications of Groucho
+			* Extensively PTM'd, primarily in central, intrinsically disordered domain {Turki-Judeh, 2012 #2385}
+			* Phosphorylation
+				* Activated by MAPK signaling, as mentioned in the previous section, to down-reg Gro activity
+					* Phosphorylated in termini and seven transverse stripes in early (cellular blastoderm) embryos
+					* Terminal patterning Torso {Helman, 2012 #2991}
+					* Expression of genes in the ventral neuroectoderm EGFR (ind) {Cinnamon, 2008 #3077}
+					* 
 		* Dorsal-ventral patterning
 			* Maternally-contributed gradient of nuclear dorsal {Roth, 1989 #1112}
 			* On ventral side of embryo, nuclear dorsal initiates cellular programs designating the mesoderm {Gonzalez-Crespo, 1993 #3043}
