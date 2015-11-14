@@ -421,18 +421,18 @@ Daily 151102:
     ☐ Ch 2
       ☐ Revise abstract
       ☐ Materials and methods
-      ☐ Shift focus of Dorsal regions to Gro binds Dorsal sites ubiquitously 
-        ☐ Snail is most fleshed out
-        ☐ Groucho is potentially recruited to Dorsal but inactive (gro lof embryos lack expansion of rho etc.)
+      ✔ Shift focus of Dorsal regions to Gro binds Dorsal sites ubiquitously  @done (15-11-13 17:18)
+        ✔ Snail is most fleshed out @done (15-11-13 17:18)
+        ✔ Groucho is potentially recruited to Dorsal but inactive (gro lof embryos lack expansion of rho etc.) @done (15-11-13 17:18)
       ☐ Discussion more relevant to points of chapter
-      ☐ Results of binding across multiple histones
-      ☐ Reorder sections (significantly)
+      ✔ Results of binding across multiple histones @done (15-11-13 17:18)
+      ✔ Reorder sections (significantly) @done (15-11-13 17:18)
           Peak occupancy/characteristics
             Hotness
           Dorsal/ventral patterning genes
           High-confidence set
           PolII pausing
-      ☐ Chip-seq data and dnase-seq: what is the probability of false-positives?
+      ✔ Chip-seq data and dnase-seq: what is the probability of false-positives? @done (15-11-13 17:18)
     ☐ Ch 3
       ☐ Deep dive into Adelman papers, need to justify the 5' bias conclusion (additional data doesn't appear to be easily forthcoming)
       ☐ Abstract
@@ -443,8 +443,39 @@ Daily 151102:
     ☐ Appendices
       ☐ Table of high-confidence groucho targets
 
-Daily 110615:
-  ☐ Int fig 2.2
+Weekend:
+  ☐ Abstract @long
+  ☐ Ch 1
+    ☐ Incorporate figures by ref @quick
+    ☐ PTM @long
+    ☐ Decide on new figure @long
+      ☐ Mechanism
+      ☐ Pathway interactions
+      ☐ Embryonic germ layers and D/V patterning 
+  ☐ Ch 2
+    ☐ Abstract revision @long
+    ☐ Materials & methods @quick
+    ☐ Potentially remove data on Gro lof-of-f type @quick
+    ☐ Fig 2-18 axes confusing @comp @quick
+      ☐ Find heatmap w/ replicates @quick
+    ☐ High-confidence gene sets
+      ☐ Emphasize rational for presuming Groucho repressor @quick
+        ☐ Clear inflection point 
+        ☐ Discrimation between response power of up/down reg (differ by lof and oe)
+      ☐ Comparison of two gene sets and how they differ @comp @long
+      ☐ Intersection size @comp @quick
+      ☐ Clearer GO analysis (on multiple groups or by timepoint?) @comp @long
+    ☐ PolII figure
+      ☐ Search for better figure (up vs down) @quick
+      ☐ Add NS when appropriate @quick
+    ☐ Discussion rewrite @long
+  ☐ Ch 3
+    ☐ Insert Ch 2 PolII data @quick
+    ☐ Discussion rewrite @long
+    ☐ Scale on metagene plot @quick
+    ☐ Eliminate non-polyA from top nascent:polyA genes and do GO @comp @long
+  ☐ Appendix: pak paper 
+    ☐ Paragraph explaining contributions @long
 
 
 
