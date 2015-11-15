@@ -200,7 +200,7 @@ csl: styles/cell.csl
 	* Stranded RNA-seq libraries generated using Illumina TruSeq transcriptome generation kits (look up name of kit I suppose, or ask Sean)
 		* Libraries were barcoded for multiplex sequencing
 	* Sequencing performed at UCLA High-Throughput sequencing core (name) on ____ (machine? Illumina HiSeq something probably) 
-* Data analysis methodologies
+* Transcriptome (RNA-seq) data preparation and genomic alignment
 	* QC/filtering
 		* Quality assessment performed with FastQC (no available publication)
 	* Demultiplexing performed by in-house scripts (github link?)
@@ -209,9 +209,10 @@ csl: styles/cell.csl
 		* Using Drosophila assembly BDGP?/dm3 (Illumina iGenomes)
 		* Transcript accessions (dm3) provided by FlyBase (Illumina iGenomes)
 	* Assignment of mapped fragments to genes performed by HTSeq
+* Bioinformatics
 	* Differential expression analysis w/ DESeq2 {Love, 2014 #3031}
-		* Setup of model and DE paramaters (show some diagnostic plots?)
-	* Differential expression analysis w/ MaSigPro {Nueda, 2014 #3032}
+	* SKIP: Differential expression analysis w/ MaSigPro {Nueda, 2014 #3032}
+	* 
 
 #### Results
 
