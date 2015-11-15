@@ -16,6 +16,15 @@ csl: styles/cell.csl
 
 ### Chapter I: Introduction: Groucho and _Drosophila_ development
 
+* Sections:
+	* The Groucho/TLE family of corepressors are ubiquitous regulators of animal development
+	* The domain architecture of Groucho/TLE family proteins
+	* Groucho integrates multiple signaling pathways to generate specific cellular responses and fates 
+	* Post-translational modifications of Groucho (WIP)
+	* Groucho is an essential component of the embryonic axial patterning network
+	* Groucho is capable of both short- and long-range repression
+	* The mechanism of Groucho-mediated repression
+
 * Groucho/TLE family: structure and conservation
 	* Member of one of a prevalent group of corepressors conserved throughout animals
 	* Discovery
@@ -91,7 +100,19 @@ csl: styles/cell.csl
 				* Upon signaling activation, brk becomes repressed by Schnurri in dorsal regions of the embryo; brk continues to be expressed ventrolaterally {Marty, 2000 #3089}
 			* Wingless/Wnt {Cavallo, 1998 #3071} {Roose, 1999 #3086}
 				* Tcf/Lef target genes repressed via Gro interaction in unstimulated cells {Clevers, 2006 #3085}
-				* Beta-catenin nuclear concentration increases via signaling, displacing Gro and activating target genes {Daniels, 2005 #3087} 
+				* Beta-catenin nuclear concentration increases via signaling, displacing Gro and activating target genes {Daniels, 2005 #3087}
+			* Groucho is a critical component of a diverse array of signaling pathways
+				* Hundreds of cell types in adult fly, yet far fewer signaling pathways {Perrimon, 2012 #3175}
+				* Informational content of signal not binary but is always interpreted in context of additional pathways
+					* Necessitates that the logic of such a system is non-additive
+					* Communal utility of and competition for repressive elements is one way to address this need
+				* Allowing the integration of multiple inputs to determine a much larger number of outputs, these outputs then determining a smaller set of cellular fates
+				* Control on multiple levels
+					* Availability of interacting partners
+						* Partner availability, distribution, and affinity
+					* Repressive power through PTM
+				* Not just a passive component of repression
+				* By understanding Groucho's role in these pathways, we gain insight into the pathways themselves
 		* Post-translational modifications of Groucho
 			* Extensively PTM'd, primarily in central, intrinsically disordered domain {Turki-Judeh, 2012 #2385}
 			* Phosphorylation

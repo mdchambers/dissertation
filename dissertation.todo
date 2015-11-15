@@ -446,15 +446,22 @@ Daily 151102:
 Weekend:
   ☐ Abstract @long
   ☐ Ch 1
-    ☐ Incorporate figures by ref @quick
-    ☐ PTM @long
-    ☐ Decide on new figure @long
-      ☐ Mechanism
-      ☐ Pathway interactions
-      ☐ Embryonic germ layers and D/V patterning 
+    ✔ Incorporate figures by ref @quick @done (15-11-13 17:51)
+    ✔ Runt reference @done (15-11-13 18:04)
+    ✔ Concluding paragraph in signaling pathway section @quick @done (15-11-13 21:28)
+      ☐ Touch up
+    ✔ Summary paragraph @long @done (15-11-13 21:37)
+      ☐ Touch up
+    ☐ PTM @long @low
+    ☐ Additional figures
+      ☐ Mechanism @long
+        ☐ Additional paragraph at end of section
+      ☐ Pathway interactions @long
+      ☐ Embryonic germ layers and D/V patterning @long @low
   ☐ Ch 2
     ☐ Abstract revision @long
     ☐ Materials & methods @quick
+      ☐ Fly lines
     ☐ Potentially remove data on Gro lof-of-f type @quick
     ☐ Fig 2-18 axes confusing @comp @quick
       ☐ Find heatmap w/ replicates @quick
