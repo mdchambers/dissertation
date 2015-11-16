@@ -3,4 +3,15 @@
 # Separates ch2_groucho.figures.pdf into individual pages
 # Michael Chambers, 2015
 
+
+for x in *split*; do
+	echo "Moving $x to last-pdf-sep-set" >&2
+	echo "$(date) Moving $x to last-pdf-sep-set" >> do-separate.log
+	mv $x last-pdf-sep-set/
+done
+
 pdfseparate ch2_groucho.figures.pdf ch2_groucho.figures.split.%d.pdf
+
+my_split=$(ls -1 *split* | wc -l | chomp)
+echo "Split ch2_groucho.figures.pdf into $my_split files" >&2
+echo "$(date) Split ch2_groucho.figures.pdf into $my_split files" >> do-separate.log

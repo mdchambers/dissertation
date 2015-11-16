@@ -468,6 +468,7 @@ Weekend:
     ✔ Fig 2-18 axes confusing @comp @quick @done (15-11-14 17:52)
       ✔ Find heatmap w/ replicates @quick @done (15-11-14 17:52)
     ☐ High-confidence gene sets
+      ✔ Fig 2-22 legend @done (15-11-15 18:31)
       ☐ Emphasize rational for presuming Groucho repressor @quick
         ☐ Clear inflection point 
         ☐ Discrimation between response power of up/down reg (differ by lof and oe)
@@ -475,7 +476,7 @@ Weekend:
       ✔ Intersection size @comp @quick @done (15-11-14 23:47)
       ✔ Clearer GO analysis (on multiple groups or by timepoint?) @comp @long @done (15-11-14 23:47)
       ☐ New figure integration
-      ☐ New figure legends
+      ✔ New figure legends @done (15-11-15 18:31)
     ☐ Discussion rewrite @long
   ☐ Ch 3
     ✔ Merge 151113 review into working copy @quick @done (15-11-14 16:12)
