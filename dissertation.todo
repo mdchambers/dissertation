@@ -459,7 +459,8 @@ Weekend:
       ☐ Pathway interactions @long
       ☐ Embryonic germ layers and D/V patterning @long @low
   ☐ Ch 2
-    ☐ Abstract revision @long
+    ✔ Abstract revision @long @done (15-11-15 21:46)
+    ☐ Reread
     ☐ Materials & methods @quick
       ✔ Fly lines @done (15-11-14 16:17)
       ☐ Bioinformatics 
@@ -477,7 +478,7 @@ Weekend:
       ✔ Clearer GO analysis (on multiple groups or by timepoint?) @comp @long @done (15-11-14 23:47)
       ✔ New figure integration @done (15-11-15 19:30)
       ✔ New figure legends @done (15-11-15 18:31)
-      ☐ GO for activated genes only
+      ☐ GO for activated genes only @long @low
     ☐ Discussion rewrite @long
   ☐ Ch 3
     ✔ Merge 151113 review into working copy @quick @done (15-11-14 16:12)
