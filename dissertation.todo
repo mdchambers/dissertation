@@ -439,10 +439,8 @@ Daily 151102:
       ✔ Materials & methods @done (15-11-09 16:31)
         ☐ More bioinformatics info 
       ☐ Discussion
-      ☐ Move PolII data into this chapter?
-    ☐ Appendices
-      ☐ Table of high-confidence groucho targets
-
+      ✔ Move PolII data into this chapter? @done (15-11-16 11:30)
+    
 Weekend:
   ☐ Abstract @long
   ☐ Ch 1
@@ -494,9 +492,11 @@ Weekend:
     ☐ Discussion rewrite @long
     ✔ Scale on metagene plot @quick @done (15-11-16 01:39)
     ✔ Eliminate non-polyA from top nascent:polyA genes and do GO @comp @long @done (15-11-16 01:39)
-  ☐ Appendix: pak paper 
+  ☐ Ch 4
     ✔ Paragraph explaining contributions @long @done (15-11-16 01:54)
     ☐ Which manuscript to include(?)
+  ☐ Appendices
+    ☐ Table(s) of high-confidence groucho targets
 
 
 Figs to reimport
