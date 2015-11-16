@@ -467,16 +467,17 @@ Weekend:
     ✔ Potentially remove data on Gro lof-of-f type @quick @done (15-11-14 23:48)
     ✔ Fig 2-18 axes confusing @comp @quick @done (15-11-14 17:52)
       ✔ Find heatmap w/ replicates @quick @done (15-11-14 17:52)
-    ☐ High-confidence gene sets
+    ✔ High-confidence gene sets @done (15-11-15 20:41)
       ✔ Fig 2-22 legend @done (15-11-15 18:31)
-      ☐ Emphasize rational for presuming Groucho repressor @quick
-        ☐ Clear inflection point 
-        ☐ Discrimation between response power of up/down reg (differ by lof and oe)
+      ✔ Emphasize rational for presuming Groucho repressor @quick @done (15-11-15 19:30)
+        ✔ Clear inflection point  @done (15-11-15 19:30)
+        ✔ Discrimation between response power of up/down reg (differ by lof and oe) @done (15-11-15 19:30)
       ✔ Comparison of two gene sets and how they differ @comp @long @done (15-11-14 23:47)
       ✔ Intersection size @comp @quick @done (15-11-14 23:47)
       ✔ Clearer GO analysis (on multiple groups or by timepoint?) @comp @long @done (15-11-14 23:47)
-      ☐ New figure integration
+      ✔ New figure integration @done (15-11-15 19:30)
       ✔ New figure legends @done (15-11-15 18:31)
+      ☐ GO for activated genes only
     ☐ Discussion rewrite @long
   ☐ Ch 3
     ✔ Merge 151113 review into working copy @quick @done (15-11-14 16:12)
@@ -495,6 +496,8 @@ Weekend:
     ☐ Paragraph explaining contributions @long
 
 
+Figs to reimport
+  ☐ Go figure (ch2)
 
 
 
