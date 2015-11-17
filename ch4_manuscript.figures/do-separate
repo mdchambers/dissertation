@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# do-separate
+# Separates ch3_nascent.figures.pdf into individual pages
+# Michael Chambers, 2015
+
+pdfseparate "J. Biol. Chem.-2015-Kwong-jbc.M115.681171.pdf" jbc_manuscript.split.%d.pdf
