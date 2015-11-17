@@ -499,31 +499,33 @@ Weekend:
     ☐ Table(s) of high-confidence groucho targets
 
 Monday:
-  ☐ Abstract
-    ☐ Proof
+  ✔ Abstract @done (15-11-17 01:41)
+    ✔ Proof @done (15-11-17 01:41)
   ☐ Ch 1
     ☐ mechanism figure
-    ☐ Proof
+    ✔ Proof @done (15-11-17 01:41)
   ☐ Ch 2
     ✔ M&M @done (15-11-16 14:47)
     ✔ Discussion @done (15-11-16 20:23)
       Need to think about this...
       ✔ Outline @done (15-11-16 21:59)
-    ☐ Proof
+    ✔ Proof @done (15-11-17 01:41)
   ☐ Ch 3
     ✔ Discussion @done (15-11-16 21:58)
       ✔ Outline @done (15-11-16 21:58)
     ☐ Proof
   ☐ Figures
-    ☐ Re-import Ch2 go fig
-    ☐ Clean-up & larger text
-  ☐ Assemble text w/ figures
+    ✔ Re-import Ch2 go fig @done (15-11-17 01:41)
+    ✔ Clean-up & larger text @done (15-11-17 01:41)
+  ✔ Assemble text w/ figures @done (15-11-17 01:41)
   ☐ Citation format
   ☐ Combine into single document
   ☐ Convert to PDF
 
-
-
+todo:
+   ☐ 
+   ☐ 2-9 remove all/input
+   ☐ 2-14 legend
 
 
 
