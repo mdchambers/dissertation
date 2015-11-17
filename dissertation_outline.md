@@ -258,7 +258,6 @@ csl: styles/cell.csl
 		* OE data strongly enriched for repressed genes
 		* Asymmetric response -> potentially indicative of primary role as repressor
 		* 
-* Groucho-regulated genes are enriched for stalled RNA polymerase
 
 * Previous outline fragments
 	* Groucho recruitment is more dynamic during early embryonic stages (consistent with highest levels of Gro at these stages)
@@ -328,6 +327,9 @@ csl: styles/cell.csl
 		
 
 #### Discussion
+
+* 
+
 
 * Dynamics of Developmental Groucho Genome Occupancy
 	* Large number of developmentally specific binding sites
