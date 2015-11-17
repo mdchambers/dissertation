@@ -328,7 +328,11 @@ csl: styles/cell.csl
 
 #### Discussion
 
-* 
+* Gro recruited dynamically and transiently
+* Dorsal targets
+	* Recruitment within and outside regulatory regions
+	* Multiple peaks per gene
+	* 
 
 
 * Dynamics of Developmental Groucho Genome Occupancy

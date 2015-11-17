@@ -7,7 +7,7 @@
 for x in *split*; do
 	echo "Moving $x to last-pdf-sep-set" >&2
 	echo "$(date) Moving $x to last-pdf-sep-set" >> do-separate.log
-	mv $x last-pdf-sep-set/
+	mv $x last-pdf-sep-set/ 2> /dev/null
 done
 
 pdfseparate ch2_groucho.figures.pdf ch2_groucho.figures.split.%d.pdf
