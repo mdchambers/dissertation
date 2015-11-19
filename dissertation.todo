@@ -51,8 +51,6 @@
           ✔ More concise and informative terminology IRT groucho activation/repression in LoF context @done (15-07-14 18:22)
         ☐ Groucho regulated genes are enriched for stalled PolII
           ✔ Generate bar graph w/ p-values instead of including table @done (15-07-14 03:48)
-
-
 Dissertation data generation:
   RNA-seq/ChIP-seq:
     Small, high-confidence geneset analysis:
@@ -88,7 +86,6 @@ Dissertation data generation:
     ☐ Filter polyA/non-polyA and do DESeq2/maSigPro
       ☐ Hypothesize genes w/ DE are non steady-state genes, see how gro level perturbation affects these genes in particular at each timepoint
     ☐ Genes "up" in deseq2 should be increasing in expression level by next timepoint? and vice-versa for "down" DE genes
-
 Dissertation writing:
  ☐ Generate outline
    Decide on chapter structure
@@ -100,7 +97,6 @@ Dissertation writing:
      Appendices (DE genes tables)
    ☐ Integrate major points from powerpoint into outline (serves as backbone for results section)
    ☐ Generate/sort/categorize figures/tables for integration into outline/dissertation
-
 Daily 150804:
   ☐ Questions
     ✔ What is the transcriptional profile of Gro compared to modencode data? @done (15-08-04 19:12)
@@ -139,7 +135,6 @@ Daily 150806:
     ☐ What percentage of introns also exhibit binding of dCtBP w/ Groucho
       Looking at the modencode paper, I'm not sure this is really a productive line of inquiry. These may just be HOTs. And their chip-chip/seq comparisons show very little overlap between grouch and dctbp once those areas are removed.
       Perhaps look at factors they do pick up (en, bin & bap, twi/tin/cad)
-
 Daily 150813:
   ☐ Motif analysis of intronic binding regions (make table)
   ☐ Gene ontology of Groucho-associated and overlapping genes (from chip)
@@ -168,7 +163,6 @@ Daily 150813:
         ☐ RNA-seq
         ☐ Combinatorial
       ☐ Decide on gene-level view to include in chapter
-
 Daily 150818:
   ☐ Ch 1 - Intersection
   ☐ Ch 2
@@ -197,7 +191,6 @@ Daily 150818:
           ☐ Point out interesting
         ☐ Known Gro targets
       ☐ Nascent-seq
-
 Daily 150820:
   ☐ Email
   ☐ Ch1 - Introduction
@@ -234,8 +227,6 @@ Daily 150820:
   ☐ Format images for inclusion
   ☐ Format according to graduate division requirements
   ☐ Schedule dissertation talk
-
-
 Daily 150827:
   ☐ Chapter 1
   ☐ Chapter 2
@@ -301,7 +292,6 @@ Daily 150827:
       ✔ Map @done (15-09-11 18:04)
         Error out (?) -> Needed to use newest combination of bowtie2 and tophat2
       ✔ htseq @done (15-09-11 18:04)
-
 Daily 150923:
   ☐ DTS/Levine
     ✔ Fig @done (15-09-23 19:15)
@@ -335,10 +325,8 @@ Daily 150923:
  ✔ Look through modENCODE paper references for sources of chip-seq data @done (15-10-26 17:12)
  ✔ Calculate quantized overlap against gro for additional factors (top 300) @done (15-10-26 17:12)
  ✔ Calculate heatmap for grouped overlaps w/ Groucho @done (15-10-26 17:12)
-
 Daily 151023:
   ☐ Gene occupancy/HOT region heatmap starting w/ Dorsal
-
 Daily 151026:
   ☐ Overhaul/update outline
   ☐ Sections
@@ -353,7 +341,6 @@ Daily 151026:
     ☐ 
     ☐ Number/references
   ☐ Legends
-
 Daily 151102:
   ☐ Abstract
     ☐ Check outline
@@ -390,78 +377,77 @@ Daily 151102:
       Nascent chapter expansion
     ☐ Fri
       Submit
-  Long term:
-    ☐ Characterize Gro binding sites that are common between embryonic and larval development
-        (approximately 2000 binding sites, fig. 2.2)
-    ☐ Generate probability to obtain the level of gro-per-gene (selecting a value at a certain level or greater from a distribution)
-      ☐ Done I think? Possibly not incorporated -> check
-    ☐ Average size of other embryonic TF chip-seq peaks from modENCODE
-    ☐ Analysis of the two classes of Groucho binding site revealed via combinatorial binding
-    ☐ High-confidence Gro targets (GO? something else?)
-    ☐ Correlate nascent-seq 5' bias w/ adelman embryo data
-      ☐ Score genes by 5' bias (replicate pausing data(?))
-      ✔ Investigate Adelamn procedure @done (15-11-09 17:38)
-      ✔ Generate prom and downstream overlap counts for each rep @done (15-11-09 19:45)
-      ✔ Average(?) @done (15-11-09 19:45)
-      ✔ Look at ratios (distribution, etc.) @done (15-11-09 19:45)
-        Shows a norm distirbution
-      ✔ Manual investigation of top ratios? @done (15-11-09 19:45)
-      ✔ GO analysis of top ratio @done (15-11-09 19:45)
-        No enrichment in top 50
-      ☐ Correlation of ratio with logFPKM
-        Should be doable, but what would this tell me?
+Long term:
+  ☐ Characterize Gro binding sites that are common between embryonic and larval development
+      (approximately 2000 binding sites, fig. 2.2)
+  ☐ Generate probability to obtain the level of gro-per-gene (selecting a value at a certain level or greater from a distribution)
+    ☐ Done I think? Possibly not incorporated -> check
+  ☐ Average size of other embryonic TF chip-seq peaks from modENCODE
+  ☐ Analysis of the two classes of Groucho binding site revealed via combinatorial binding
+  ☐ High-confidence Gro targets (GO? something else?)
+  ☐ Correlate nascent-seq 5' bias w/ adelman embryo data
+    ☐ Score genes by 5' bias (replicate pausing data(?))
+    ✔ Investigate Adelamn procedure @done (15-11-09 17:38)
+    ✔ Generate prom and downstream overlap counts for each rep @done (15-11-09 19:45)
+    ✔ Average(?) @done (15-11-09 19:45)
+    ✔ Look at ratios (distribution, etc.) @done (15-11-09 19:45)
+      Shows a norm distirbution
+    ✔ Manual investigation of top ratios? @done (15-11-09 19:45)
+    ✔ GO analysis of top ratio @done (15-11-09 19:45)
+      No enrichment in top 50
+    ☐ Correlation of ratio with logFPKM
+      Should be doable, but what would this tell me?
+  ☐ Abstract
+  ☐ Ch 1
+    ✔ Plant/yeast homologs @done (15-11-11 16:43)
+    ☐ Signaling pathways
+      ✔ Emphasize crosstalk between pathways (Hasson etc) @done (15-11-10 18:08)
+      ✔ Notch expansion @done (15-11-10 16:16)
+    ☐ Regulation/PTM of Groucho
+    ☐ Mechanism figure
+  ☐ Ch 2
+    ☐ Revise abstract
+    ☐ Materials and methods
+    ✔ Shift focus of Dorsal regions to Gro binds Dorsal sites ubiquitously  @done (15-11-13 17:18)
+      ✔ Snail is most fleshed out @done (15-11-13 17:18)
+      ✔ Groucho is potentially recruited to Dorsal but inactive (gro lof embryos lack expansion of rho etc.) @done (15-11-13 17:18)
+    ☐ Discussion more relevant to points of chapter
+    ✔ Results of binding across multiple histones @done (15-11-13 17:18)
+    ✔ Reorder sections (significantly) @done (15-11-13 17:18)
+        Peak occupancy/characteristics
+          Hotness
+        Dorsal/ventral patterning genes
+        High-confidence set
+        PolII pausing
+    ✔ Chip-seq data and dnase-seq: what is the probability of false-positives? @done (15-11-13 17:18)
+  ☐ Ch 3
+    ✔ Deep dive into Adelman papers, need to justify the 5' bias conclusion (additional data doesn't appear to be easily forthcoming) @done (15-11-18 15:27)
     ☐ Abstract
-    ☐ Ch 1
-      ✔ Plant/yeast homologs @done (15-11-11 16:43)
-      ☐ Signaling pathways
-        ✔ Emphasize crosstalk between pathways (Hasson etc) @done (15-11-10 18:08)
-        ✔ Notch expansion @done (15-11-10 16:16)
-      ☐ Regulation/PTM of Groucho
-      ☐ Mechanism figure
-    ☐ Ch 2
-      ☐ Revise abstract
-      ☐ Materials and methods
-      ✔ Shift focus of Dorsal regions to Gro binds Dorsal sites ubiquitously  @done (15-11-13 17:18)
-        ✔ Snail is most fleshed out @done (15-11-13 17:18)
-        ✔ Groucho is potentially recruited to Dorsal but inactive (gro lof embryos lack expansion of rho etc.) @done (15-11-13 17:18)
-      ☐ Discussion more relevant to points of chapter
-      ✔ Results of binding across multiple histones @done (15-11-13 17:18)
-      ✔ Reorder sections (significantly) @done (15-11-13 17:18)
-          Peak occupancy/characteristics
-            Hotness
-          Dorsal/ventral patterning genes
-          High-confidence set
-          PolII pausing
-      ✔ Chip-seq data and dnase-seq: what is the probability of false-positives? @done (15-11-13 17:18)
-    ☐ Ch 3
-      ☐ Deep dive into Adelman papers, need to justify the 5' bias conclusion (additional data doesn't appear to be easily forthcoming)
-      ☐ Abstract
-      ✔ Materials & methods @done (15-11-09 16:31)
-        ☐ More bioinformatics info 
-      ☐ Discussion
-      ✔ Move PolII data into this chapter? @done (15-11-16 11:30)
-    
+    ✔ Materials & methods @done (15-11-09 16:31)
+      ☐ More bioinformatics info 
+    ☐ Discussion
+    ✔ Move PolII data into this chapter? @done (15-11-16 11:30)  
 Weekend:
   ☐ Abstract @long
   ☐ Ch 1
     ✔ Incorporate figures by ref @quick @done (15-11-13 17:51)
     ✔ Runt reference @done (15-11-13 18:04)
     ✔ Concluding paragraph in signaling pathway section @quick @done (15-11-13 21:28)
-      ☐ Touch up
+      ✔ Touch up @done (15-11-18 15:26)
     ✔ Summary paragraph @long @done (15-11-13 21:37)
-      ☐ Touch up
+      ✔ Touch up @done (15-11-18 15:26)
     ☐ PTM @long @low
     ☐ Additional figures
       ☐ Mechanism @long
         ☐ Additional paragraph at end of section
       ☐ Pathway interactions @long
       ☐ Embryonic germ layers and D/V patterning @long @low
-  ☐ Ch 2
+  ✔ Ch 2 @done (15-11-18 15:26)
     ✔ Abstract revision @long @done (15-11-15 21:46)
-    ☐ Reread
-    ☐ Materials & methods @quick
+    ✔ Reread @done (15-11-18 15:26)
+    ✔ Materials & methods @quick @done (15-11-18 15:26)
       ✔ Fly lines @done (15-11-14 16:17)
-      ☐ Bioinformatics 
+      ✔ Bioinformatics  @done (15-11-18 15:26)
         Refer to revised outline
     ✔ Potentially remove data on Gro lof-of-f type @quick @done (15-11-14 23:48)
     ✔ Fig 2-18 axes confusing @comp @quick @done (15-11-14 17:52)
@@ -477,9 +463,9 @@ Weekend:
       ✔ New figure integration @done (15-11-15 19:30)
       ✔ New figure legends @done (15-11-15 18:31)
       ☐ GO for activated genes only @long @low
-    ☐ Discussion rewrite @long
-  ☐ Ch 3
-    ☐ Materials & Methods
+    ✔ Discussion rewrite @long @done (15-11-18 15:26)
+  ✔ Ch 3 @done (15-11-18 15:26)
+    ✔ Materials & Methods @done (15-11-18 15:26)
     ✔ Merge 151113 review into working copy @quick @done (15-11-14 16:12)
     ✔ Insert Ch 2 PolII data @done (15-11-16 01:39)
       ✔ Transfer paragraph @quick @done (15-11-14 16:17)
@@ -489,43 +475,48 @@ Weekend:
         ✔ Search for better figure (up vs down) @quick @done (15-11-15 00:53)
         ✔ Add NS when appropriate @quick @done (15-11-15 00:58)
         ✔ Write legend @quick @done (15-11-16 01:39)
-    ☐ Discussion rewrite @long
+    ✔ Discussion rewrite @long @done (15-11-18 15:26)
     ✔ Scale on metagene plot @quick @done (15-11-16 01:39)
     ✔ Eliminate non-polyA from top nascent:polyA genes and do GO @comp @long @done (15-11-16 01:39)
-  ☐ Ch 4
+  ✔ Ch 4 @done (15-11-18 15:26)
     ✔ Paragraph explaining contributions @long @done (15-11-16 01:54)
-    ☐ Which manuscript to include(?)
+    ✔ Which manuscript to include(?) @done (15-11-18 15:26)
   ☐ Appendices
     ☐ Table(s) of high-confidence groucho targets
-
 Monday:
   ✔ Abstract @done (15-11-17 01:41)
     ✔ Proof @done (15-11-17 01:41)
-  ☐ Ch 1
+  ✔ Ch 1 @done (15-11-18 15:26)
     ☐ mechanism figure
     ✔ Proof @done (15-11-17 01:41)
-  ☐ Ch 2
+  ✔ Ch 2 @done (15-11-18 15:26)
     ✔ M&M @done (15-11-16 14:47)
     ✔ Discussion @done (15-11-16 20:23)
       Need to think about this...
       ✔ Outline @done (15-11-16 21:59)
     ✔ Proof @done (15-11-17 01:41)
-  ☐ Ch 3
+  ✔ Ch 3 @done (15-11-18 15:26)
     ✔ Discussion @done (15-11-16 21:58)
       ✔ Outline @done (15-11-16 21:58)
-    ☐ Proof
-  ☐ Figures
+    ✔ Proof @done (15-11-18 15:26)
+  ✔ Figures @done (15-11-18 15:26)
     ✔ Re-import Ch2 go fig @done (15-11-17 01:41)
     ✔ Clean-up & larger text @done (15-11-17 01:41)
   ✔ Assemble text w/ figures @done (15-11-17 01:41)
-  ☐ Citation format
-  ☐ Combine into single document
-  ☐ Convert to PDF
+  ✔ Citation format @done (15-11-18 15:26)
+  ✔ Combine into single document @done (15-11-18 15:26)
+  ✔ Convert to PDF @done (15-11-18 15:26)
+Formatting:
+  ☐ 2-9 remove all/input
+  ☐ 2-14 legend
+Reserach directions:
+  ☐ 
+Defense:
+  ☐ Outline
+  ☐ Required figures (shouldn't reuse stuff... or should I?)
+  ☐ Rehearse
 
-todo:
-   ☐ 
-   ☐ 2-9 remove all/input
-   ☐ 2-14 legend
+
 
 
 

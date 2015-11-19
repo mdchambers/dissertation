@@ -421,9 +421,6 @@ csl: styles/cell.csl
 
 #### Results
 
-* 
-
-
 * Validation of chromatin-associated RNA isolation
 	* anti-H3/anti-tubulin immunoblot
 	* Bioanalyzer profiles/pseudogels
@@ -435,11 +432,24 @@ csl: styles/cell.csl
 
 #### Discussion
 
-* 
+*
 
 #### Figures & Tables
 #### References
 
-### Appendices
+### Chapter 4:
+Please note that authors must include the following citation when using material that appeared in an ASBMB journal:
+
+"This research was originally published in Journal Name. Author(s). Title. *Journal Name*. Year; Vol:pp-pp. © the American Society for Biochemistry and Molecular Biology."
+
+### Appendices (to include?)
 #### Appendix X: Groucho-regulated gene data
 #### Appendix X: Groucho binding regions by timepoint
+
+
+
+
+
+
+
+

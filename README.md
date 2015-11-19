@@ -1,4 +1,4 @@
-Doctoral Disseration
+Doctoral Dissertation
 
 &copy; Michael Chambers, 2015
 
