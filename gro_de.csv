@@ -1,0 +1,7 @@
+cond,sig,1.5 - 4 hr,4 - 6.5 hr,6.5 - 9 hr
+Gro loss-of-function,Down,1459,2253,2043
+Gro loss-of-function,Up,1437,1837,1632
+Overexpression (2x),Down,698,566,463
+Overexpression (2x),Up,244,599,496
+Overexpression (4x),Down,674,655,1171
+Overexpression (4x),Up,219,490,1204
