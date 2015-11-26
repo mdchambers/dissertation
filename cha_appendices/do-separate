@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# do-separate
+# Separates ch3_nascent.figures.pdf into individual pages
+# Michael Chambers, 2015
+
+pdfseparate "appA_gro_hc_targets.pdf" ppA_gro_hc_targets.split.%d.pdf
