@@ -91,6 +91,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1477,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dissertation_outline.md",
+			"settings":
+			{
+				"buffer_size": 26032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cha_appendices/do-separate",
+			"settings":
+			{
+				"buffer_size": 187,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dissertation.todo",
+			"settings":
+			{
+				"buffer_size": 23780,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "presentations/defense.md",
+			"settings":
+			{
+				"buffer_size": 2531,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -99,10 +139,50 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 181.0,
-		"last_filter": "preview",
+		"height": 375.0,
+		"last_filter": "pan",
 		"selected_items":
 		[
+			[
+				"pan",
+				"Pandoc"
+			],
+			[
+				"pando",
+				"Pandoc"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"academ",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"acad",
+				"Set Syntax: AcademicMarkdown"
+			],
+			[
+				"pand",
+				"Pandoc"
+			],
 			[
 				"preview",
 				"Markdown Preview: Preview in Browser"
@@ -140,23 +220,11 @@
 				"Pandoc"
 			],
 			[
-				"pando",
-				"Pandoc"
-			],
-			[
-				"pand",
-				"Pandoc"
-			],
-			[
 				"pado",
 				"Package Control: Discover Packages"
 			],
 			[
 				"andoc",
-				"Pandoc"
-			],
-			[
-				"pan",
 				"Pandoc"
 			],
 			[
@@ -180,14 +248,6 @@
 				"Set Syntax: R Extended"
 			],
 			[
-				"mark",
-				"Set Syntax: Markdown"
-			],
-			[
-				"markd",
-				"Set Syntax: Markdown"
-			],
-			[
 				"json",
 				"Set Syntax: JSON"
 			],
@@ -196,20 +256,12 @@
 				"Set Syntax: XML"
 			],
 			[
-				"markdo",
-				"Set Syntax: Markdown"
-			],
-			[
 				"spaces",
 				"Indentation: Convert to Spaces"
 			],
 			[
 				"citer",
 				"Citer: Search"
-			],
-			[
-				"academ",
-				"Set Syntax: AcademicMarkdown"
 			],
 			[
 				"search",
@@ -270,10 +322,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"markdown",
-				"Set Syntax: AcademicMarkdown"
 			],
 			[
 				"remove",
@@ -388,10 +436,6 @@
 				"ReadmePlease"
 			],
 			[
-				"package",
-				"Package Control: Upgrade Package"
-			],
-			[
 				"discover",
 				"Package Control: Discover Packages"
 			],
@@ -454,19 +498,31 @@
 	"expanded_folders":
 	[
 		"/Users/mike/Work.bio/projects/dissertation",
-		"/Users/mike/Work.bio/projects/dissertation/tmp"
+		"/Users/mike/Work.bio/projects/dissertation/presentations"
 	],
 	"file_history":
 	[
-		"/Users/mike/Work.bio/projects/dissertation/paper_al_outline.md",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/tmp/subl stdin vXJPQM.txt",
+		"/Users/mike/Work.bio/projects/dissertation/ch4_manuscript.figures/do-separate",
+		"/Users/mike/Work.bio/projects/dissertation/.git/TAG_EDITMSG",
+		"/Users/mike/Work.bio/projects/dissertation/ch2_groucho.figures/do-separate",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/install.txt",
+		"/Users/mike/Work.bio/projects/dissertation/ch2_groucho_scraps.txt",
+		"/Users/mike/Work.bio/projects/dissertation/README.md",
 		"/Users/mike/Work.bio/projects/dissertation/dissertation.todo",
+		"/Users/mike/Work.bio/projects/dissertation/dissertation_outline.md",
+		"/Users/mike/Work.bio/projects/gro.combination/151108.metagene/hoff1_nascent_meta.R",
+		"/Users/mike/Work.bio/projects/mike.nascent/150914.five-three-bias/output/lane01_genome_tophat.metrics",
+		"/Users/mike/Work.bio/projects/dissertation/ch3_nascent.figures/do-separate",
+		"/Users/mike/Work.bio/projects/dissertation/ch1_introduction.figures/do-separate",
+		"/Users/mike/Work.bio/projects/dissertation/paper_al_outline.md",
 		"/Users/mike/Desktop/temp.R",
 		"/Users/mike/Work.bio/projects/gro.combination/data/modencode/fly-2010/fly-2010-supplemental.md",
 		"/Users/mike/OneDrive/Documents/TA/153L - Fall 2015/temp_grades.txt",
 		"/Users/mike/.zshrc",
 		"/Users/mike/Work.bio/projects/dissertation/gro_sequence.txt",
 		"/Users/mike/Work.bio/projects/dissertation/chip_summary.md",
-		"/Users/mike/Work.bio/projects/dissertation/dissertation_outline.md",
 		"/Users/mike/Work.bio/projects/dissertation/literature_notes.md",
 		"/Users/mike/Work.bio/projects/gro.combination/150720.hconf_set_analysis/intermediate/tolloid_promoter.bed",
 		"/Users/mike/bin/do-backup",
@@ -483,7 +539,6 @@
 		"/Users/mike/Downloads/ZeitlingerSuppMat.pdf",
 		"/Users/mike/Work.bio/projects/dissertation/ch2_groucho.figures/ch2_groucho.figures.md",
 		"/Users/mike/Desktop/ame.txt",
-		"/Users/mike/Work.bio/projects/dissertation/README.md",
 		"/Users/mike/Desktop/rsnorm.txt",
 		"/Users/mike/Desktop/rsopen.txt",
 		"/Users/mike/.Rprofile",
@@ -541,7 +596,6 @@
 		"/Users/mike/Downloads/153L - Lab 9 Grades.mdown",
 		"/Users/mike/Work.bio/projects/gro.combination/results/150527_gmeet.md",
 		"/Users/mike/Work.bio/projects/gro.combination/readme.md",
-		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
 		"/Users/mike/Work.dev/dev.todo",
 		"/Users/mike/Work.bio/projects/projects.todo",
 		"/Users/mike/OneDrive/Documents/darknetstuff.txt",
@@ -575,17 +629,7 @@
 		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/dgro_metagene2.txt",
 		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/dgro_metagene_sample_hoffman.txt",
 		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_1_truncate_bam.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_2_metagene.R",
-		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_3_metagene_hoffman.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_5_metaseq_sample_hoffman.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_4_sample_bam.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_3_metagene_hoffman.R",
-		"/Users/mike/Work.bio/projects/gro.combination/150201.dgro_BETA/analysis_6_beta_testing.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/analysis_5_count_by_chr_hoffman.sh",
-		"/Users/mike/temp.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/analysis_4_metagene_hoffman.R",
-		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/analysis_3_bam_trim.sh",
-		"/Users/mike/Work.bio/projects/gro.combination/150209.metagene/analysis_1_metagene.R"
+		"/Users/mike/Work.bio/projects/gro.combination/150215.metagene/analysis_2_metagene.R"
 	],
 	"find":
 	{
@@ -678,8 +722,164 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "markdown",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dissertation_outline.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25724,
+								25893
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "markdown",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "cha_appendices/do-separate",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "shell-unix-generic",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dissertation.todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23776,
+								23776
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "plaintasks",
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "presentations/defense.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "markdown",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],
